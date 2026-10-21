@@ -1,0 +1,124 @@
+<title>Publicar A Chave da Virada</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+/* layout: uma coluna de leitura (~68ch), passos numerados com caixas de "copiar", rodapé de checagem */
+:root{--bg:#F6F1E4;--paper:#FFFFFF;--fg:#1E2430;--mut:#6B6F7A;--line:#D9D2C2;--navy:#1B2A4A;--gold:#C9A227;--ok:#2E7D4F;--warn:#9A5B00;--display:"Cormorant Garamond",Georgia,serif;--body:"DM Sans",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15181F;--paper:#1F232C;--fg:#EEE9DC;--mut:#A6A9B3;--line:#333845;--navy:#C9D4EC;--gold:#E3C766;--ok:#7CC59A;--warn:#E0A95A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15181F;--paper:#1F232C;--fg:#EEE9DC;--mut:#A6A9B3;--line:#333845;--navy:#C9D4EC;--gold:#E3C766;--ok:#7CC59A;--warn:#E0A95A;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);line-height:1.55;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 60px}
+main{max-width:72ch;margin:0 auto}
+h1{font-family:var(--display);font-size:clamp(34px,5vw,50px);line-height:1.05;margin:36px 0 8px;color:var(--navy);text-wrap:balance}
+h2{font-family:var(--display);font-size:28px;margin:40px 0 10px;color:var(--navy)}
+.lead{font-size:18px;color:var(--mut);max-width:60ch}
+.quem{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+.quem span{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:5px 10px;background:var(--paper)}
+.passo{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:12px 0;display:grid;grid-template-columns:40px 1fr;gap:14px;min-width:0}
+.n{width:34px;height:34px;border-radius:50%;background:var(--navy);color:var(--bg);display:grid;place-items:center;font-weight:700;font-family:var(--display);font-size:20px}
+.passo h3{margin:4px 0 6px;font-size:17px}
+.passo p{margin:6px 0}
+.passo ul{margin:6px 0 0;padding-left:18px}
+code,.copy{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px}
+code{background:var(--bg);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
+.copy{display:block;background:var(--bg);border:1px dashed var(--line);border-radius:8px;padding:10px 12px;white-space:pre-wrap;word-break:break-all;margin:8px 0;position:relative}
+.copy button{position:absolute;right:8px;top:8px;font:inherit;font-size:12px;border:1px solid var(--line);background:var(--paper);color:var(--fg);border-radius:6px;padding:3px 8px;cursor:pointer}
+.copy button:focus-visible{outline:2px solid var(--gold)}
+.tag{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
+.ok{color:var(--ok);font-weight:700}.warn{color:var(--warn);font-weight:700}
+.check{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 20px}
+.check label{display:flex;gap:10px;align-items:flex-start;padding:6px 0;border-bottom:1px solid var(--line)}
+.check label:last-child{border:0}
+a{color:var(--navy)}
+@media (max-width:480px){.passo{grid-template-columns:1fr}.n{display:none}}
+</style>
+<main>
+<p class="tag">A Chave da Virada · IASD Nova Esperança · Caxias do Sul</p>
+<h1>Como colocar o site no ar</h1>
+<p class="lead">Nove passos, cerca de 40 minutos, sem programar. Tudo o que é conta, chave ou senha fica com você — nada passa pelo chat. Faça na ordem.</p>
+<div class="quem"><span>Você precisa de</span><span>o arquivo chave-da-virada.zip</span><span>um e-mail</span><span>o domínio igrejaadventista.ia.br (já é seu)</span></div>
+
+<h2>Parte 1 — O banco de dados (Supabase)</h2>
+<div class="passo"><div class="n">1</div><div>
+<h3>Criar o projeto</h3>
+<p>Entre em <a href="https://supabase.com" target="_blank" rel="noopener">supabase.com</a> → <b>Start your project</b> → crie a conta com seu e-mail. Clique em <b>New project</b>:</p>
+<ul><li>Name: <code>chave-da-virada</code></li><li>Database password: invente uma senha forte e <b>anote</b> (não é usada no site, mas o Supabase pede)</li><li>Region: <b>South America (São Paulo)</b></li><li>Plano: <b>Free</b></li></ul>
+<p>Espere 1–2 minutos até o projeto ficar verde.</p>
+</div></div>
+<div class="passo"><div class="n">2</div><div>
+<h3>Criar as tabelas (dois arquivos SQL)</h3>
+<p>No menu da esquerda, <b>SQL Editor</b> → <b>New query</b>. Abra, no seu computador, o arquivo <code>supabase/migrations/0001_fundacao.sql</code> (está dentro do zip), copie <b>todo</b> o conteúdo, cole no editor e clique <b>Run</b>. Deve aparecer <span class="ok">Success</span>.</p>
+<p>Repita com <code>supabase/migrations/0002_licoes.sql</code> (ele carrega as 20 lições, a função de pontos e a coluna da sessão do site).</p>
+<p class="warn">Se der erro em 0001 dizendo que algo "already exists", é porque rodou duas vezes — pode seguir.</p>
+</div></div>
+<div class="passo"><div class="n">3</div><div>
+<h3>Copiar as três chaves</h3>
+<p><b>Project Settings</b> (engrenagem) → <b>API</b>. Deixe esta aba aberta; você vai colar na Vercel:</p>
+<ul><li><b>Project URL</b> → vira <code>NEXT_PUBLIC_SUPABASE_URL</code></li><li><b>anon public</b> → <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code></li><li><b>service_role</b> (clique em Reveal) → <code>SUPABASE_SERVICE_ROLE_KEY</code> — <span class="warn">esta é secreta: nunca cole no chat, em grupo ou no Framer.</span></li></ul>
+</div></div>
+
+<h2>Parte 2 — O código (GitHub)</h2>
+<div class="passo"><div class="n">4</div><div>
+<h3>Subir o projeto para um repositório</h3>
+<p>Entre em <a href="https://github.com" target="_blank" rel="noopener">github.com</a> → crie a conta se não tiver → <b>New repository</b>: nome <code>chave-da-virada</code>, <b>Private</b>, <b>Create repository</b>.</p>
+<p>Descompacte o zip numa pasta. Na página do repositório vazio, clique em <b>uploading an existing file</b>, arraste <b>todo o conteúdo da pasta</b> (inclusive as pastas <code>src</code>, <code>supabase</code>, <code>public</code>, <code>scripts</code>, <code>docs</code> e os arquivos soltos) e clique <b>Commit changes</b>.</p>
+<p>Mais fácil ainda: instale o <a href="https://desktop.github.com" target="_blank" rel="noopener">GitHub Desktop</a>, <b>Add local repository</b> apontando para a pasta, e <b>Publish repository</b>.</p>
+<p class="warn">Não suba a pasta <code>node_modules</code> nem um arquivo <code>.env</code> com chaves (o zip não tem nenhum dos dois).</p>
+</div></div>
+
+<h2>Parte 3 — O site no ar (Vercel)</h2>
+<div class="passo"><div class="n">5</div><div>
+<h3>Importar e configurar</h3>
+<p>Entre em <a href="https://vercel.com" target="_blank" rel="noopener">vercel.com</a> → <b>Sign up with GitHub</b> → <b>Add New… → Project</b> → escolha <code>chave-da-virada</code> → <b>Import</b>. Antes de clicar em Deploy, abra <b>Environment Variables</b> e adicione, uma por uma (nome à esquerda, valor à direita):</p>
+<div class="copy"><button data-copy>Copiar</button>NEXT_PUBLIC_SITE_URL = https://igrejaadventista.ia.br
+NEXT_PUBLIC_WHATSAPP_NUMERO = 5554999773000
+NEXT_PUBLIC_SUPABASE_URL = (Project URL do passo 3)
+NEXT_PUBLIC_SUPABASE_ANON_KEY = (anon public do passo 3)
+SUPABASE_SERVICE_ROLE_KEY = (service_role do passo 3)
+CRON_SECRET = (invente 30 letras e números, ex.: senha gerada)
+AVISO_WHATSAPP = 5554999773000
+AVISO_WEBHOOK_URL = (deixe vazio por enquanto; ver passo 7)</div>
+<p>Clique <b>Deploy</b>. Em 2 minutos aparece <span class="ok">Congratulations</span> com um endereço do tipo <code>chave-da-virada.vercel.app</code>. Abra e teste: a página inicial, a lição 1, o chat com a Esperança, o pedido de oração e <code>/certificado/CV-DEMO</code>.</p>
+<p>Enquanto o domínio não estiver pronto, troque <code>NEXT_PUBLIC_SITE_URL</code> pelo endereço <code>.vercel.app</code> (Settings → Environment Variables → editar → <b>Redeploy</b>).</p>
+</div></div>
+<div class="passo"><div class="n">6</div><div>
+<h3>Domínio igrejaadventista.ia.br (já é seu)</h3>
+<p>Na Vercel: <b>Settings → Domains → Add</b> → digite <code>igrejaadventista.ia.br</code> e, em seguida, <code>www.igrejaadventista.ia.br</code> (marque para redirecionar o www para o principal). A Vercel mostra dois registros DNS:</p>
+<ul><li>Tipo <b>A</b>, nome <code>@</code>, valor <code>76.76.21.21</code></li><li>Tipo <b>CNAME</b>, nome <code>www</code>, valor <code>cname.vercel-dns.com</code></li></ul>
+<p>Domínios <code>.ia.br</code> são do <a href="https://registro.br" target="_blank" rel="noopener">registro.br</a>: entre com sua conta → o domínio → <b>Editar zona DNS → Modo avançado</b>, crie esses dois registros, salve. Se o domínio hoje aponta para outro lugar (um site antigo), esses registros substituem os antigos de <code>@</code> e <code>www</code>. Entre 10 minutos e algumas horas o site responde no domínio com cadeado (HTTPS automático). Então volte à Vercel e deixe <code>NEXT_PUBLIC_SITE_URL = https://igrejaadventista.ia.br</code> → Redeploy.</p>
+</div></div>
+<div class="passo"><div class="n">7</div><div>
+<h3>Receber os pedidos de visita por e-mail (até o WhatsApp oficial existir)</h3>
+<p>O site avisa a igreja quando alguém pede visita. Sem a API do WhatsApp, o jeito gratuito é um webhook que vira e-mail:</p>
+<ul><li>Crie conta em <a href="https://make.com" target="_blank" rel="noopener">make.com</a> (plano Free) → <b>Create a new scenario</b>.</li><li>Primeiro módulo: <b>Webhooks → Custom webhook</b> → Add → copie a URL gerada.</li><li>Segundo módulo: <b>Email → Send an email</b> (ou Gmail) para o e-mail da coordenação; no assunto use <code>{{assunto}}</code> e no corpo <code>{{texto}}</code>.</li><li>Ative o cenário (botão ON) e cole a URL em <code>AVISO_WEBHOOK_URL</code> na Vercel → Redeploy.</li></ul>
+<p>Teste: no site, peça uma visita pela Esperança. O e-mail deve chegar em segundos.</p>
+</div></div>
+
+<h2>Parte 4 — Depois (quando houver tempo)</h2>
+<div class="passo"><div class="n">8</div><div>
+<h3>WhatsApp oficial da Esperança (Meta Cloud API)</h3>
+<p>Precisa do número da igreja (um chip que não esteja em nenhum WhatsApp) e de uma conta Meta Business. Em <a href="https://developers.facebook.com" target="_blank" rel="noopener">developers.facebook.com</a>: <b>Create App → Business → WhatsApp</b>. Em <b>API Setup</b>: adicione o número, copie o <b>Phone number ID</b> e gere um <b>token permanente</b> (System User). Em <b>Configuration → Webhook</b>:</p>
+<div class="copy"><button data-copy>Copiar</button>Callback URL: https://igrejaadventista.ia.br/api/whatsapp/webhook
+Verify token: (a mesma string que você colocar em WHATSAPP_VERIFY_TOKEN)
+Campo a assinar: messages</div>
+<p>Na Vercel, adicione <code>WHATSAPP_PHONE_NUMBER_ID</code>, <code>WHATSAPP_ACCESS_TOKEN</code>, <code>WHATSAPP_VERIFY_TOKEN</code> e <code>WHATSAPP_APP_SECRET</code> (App Settings → Basic → App Secret) → Redeploy. A partir daí a Esperança responde no WhatsApp e os avisos de visita chegam no número de <code>AVISO_WHATSAPP</code>.</p>
+</div></div>
+<div class="passo"><div class="n">9</div><div>
+<h3>Vitrine no Framer</h3>
+<p>No site do Framer (gold-baguette-236875.framer.app), aponte os botões para o app: <b>Quero conversar</b> → <code>https://igrejaadventista.ia.br/conversar</code>; <b>curso</b> → <code>/curso</code>; <b>oração</b> → <code>/oracao</code>. Ou use o próprio app como site principal e esqueça o Framer — ele já tem a página inicial completa.</p>
+</div></div>
+
+<h2>Checagem final</h2>
+<div class="check">
+<label><input type="checkbox"> Página inicial abre com cadeado (HTTPS) e mostra o 188</label>
+<label><input type="checkbox"> Lição 1 joga até o fim e mostra o vídeo com a capa</label>
+<label><input type="checkbox"> Chat: a Esperança pergunta o nome e "como você está"; "visita" pede bairro e horário</label>
+<label><input type="checkbox"> Pedido de visita chegou por e-mail (passo 7)</label>
+<label><input type="checkbox"> No Supabase, Table Editor → <code>pessoas</code> mostra a sessão criada e <code>tarefas</code> mostra a visita</label>
+<label><input type="checkbox"> <code>/certificado/CV-DEMO</code> abre; após 20 lições, o certificado real é emitido com código CV-2026-00001</label>
+<label><input type="checkbox"> Escrever "não aguento mais" no chat responde com 188/192 e oferece visita</label>
+</div>
+<p style="margin-top:28px;color:var(--mut);font-size:14px">Problemas comuns: <b>"Supabase não configurado"</b> = faltou uma das três chaves ou não fez Redeploy. <b>Erro 500 no chat</b> = o SQL 0002 não foi rodado (falta a coluna <code>sessao_site</code>). <b>Build falhou na Vercel</b> = subiu a pasta <code>node_modules</code>; apague do repositório.</p>
+</main>
+<script>
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',async()=>{const t=b.parentElement.textContent.replace('Copiar','').trim();try{await navigator.clipboard.writeText(t);b.textContent='Copiado';}catch{const r=document.createRange();r.selectNodeContents(b.parentElement);getSelection().removeAllRanges();getSelection().addRange(r);b.textContent='Selecionado';}setTimeout(()=>b.textContent='Copiar',1500);}));
+</script>

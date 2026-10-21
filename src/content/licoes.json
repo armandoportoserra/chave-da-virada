@@ -1,0 +1,1578 @@
+[
+  {
+    "numero": 1,
+    "bloco": 1,
+    "bloco_nome": "Esperança",
+    "slug": "voce-nao-esta-sozinho",
+    "titulo": "Você não está sozinho",
+    "necessidade": "Solidão",
+    "fonte": "Estudo 2 \"Jesus e o Amor Divino\" (Lucas 15:11-24; Salmo 103:13-14; Romanos 8:38-39)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Oi, [nome]. Esta é a primeira de 20 conversas. Não é aula, não tem nota. São 5 minutos. Pode ler agora ou mais tarde — eu espero."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Jesus contou a história de um filho que pegou a herança do pai, foi embora e perdeu tudo. Quando a fome apertou, ele pensou: \"vou voltar, mas só como empregado — não mereço mais ser filho.\""
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A parte que mais importa está em Lucas 15:20:\n*\"Vinha ele ainda longe, quando seu pai o avistou, e, compadecido dele, correndo, o abraçou e o beijou.\"*\nO pai não esperou o filho chegar. Correu. Antes de qualquer explicação."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Talvez hoje você se sinta como esse filho longe de casa: cansado, sem valor, achando que ninguém correria por você. A Bíblia diz o contrário:\n*\"Como um pai se compadece de seus filhos, assim o Senhor se compadece dos que o temem.\"* (Salmo 103:13)"
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E tem uma promessa que vale para a noite mais escura:\n*\"Nem a morte, nem a vida, nem o presente, nem o futuro, nem altura, nem profundidade, nem qualquer outra criatura poderá separar-nos do amor de Deus.\"* (Romanos 8:38-39)\nNada. Nem o que você fez, nem o que você sente."
+      },
+      {
+        "n": 6,
+        "tipo": "reflexao",
+        "rotulo": "para pensar (sem resposta certa)",
+        "texto": "Se Deus corre na sua direção antes de você explicar qualquer coisa — o que muda em como você se vê hoje?"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Um pastor da Novo Tempo explica em 5 minutos por que o amor de Deus é o antídoto para a ansiedade:\nhttps://www.youtube.com/watch?v=KRteaA6iRPo\n*(Pr. Kléber Gonçalves — Rede Novo Tempo)*\n\nOração de hoje, se quiser dizer com suas palavras: \"Deus, se o Senhor corre na minha direção, eu deixo. Vem me buscar onde eu estou.\"",
+        "opcoes": [
+          "Quero a lição 2 amanhã",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": null,
+    "exercicio": null,
+    "oracao": "Deus, se o Senhor corre na minha direção, eu deixo. Vem me buscar onde eu estou.",
+    "videos": [
+      "https://www.youtube.com/watch?v=KRteaA6iRPo"
+    ],
+    "botoes": [
+      "Quero a lição 2 amanhã",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 0,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 2,
+    "bloco": 1,
+    "bloco_nome": "Esperança",
+    "slug": "vale-a-pena-continuar-a-vida-tem-dono-e-tem-sentido",
+    "titulo": "Vale a pena continuar: a vida tem dono e tem sentido",
+    "necessidade": "Sem vontade de viver",
+    "fonte": "Estudo 2 (João 3:16; Miqueias 7:18; Mateus 7:9-11) + Estudo 5 \"Jesus e a Salvação\" (Romanos 6:23)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], ontem falamos do Pai que corre. Hoje é sobre uma pergunta que muita gente faz baixinho: *\"e se eu simplesmente não valer a pena?\"*"
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A resposta da Bíblia é um preço. Deus não deu uma coisa qualquer por você:\n*\"Porque Deus amou ao mundo de tal maneira que deu o seu Filho unigênito, para que todo o que nele crê não pereça, mas tenha a vida eterna.\"* (João 3:16)\nNinguém paga tanto por algo sem valor."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E não é um amor que cobra a conta depois. Miqueias 7:18 diz que Deus *\"se compraz na misericórdia\"* — ou seja, Ele tem *prazer* em perdoar. Não faz de má vontade."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Jesus usou uma imagem simples: *\"Se vós, que sois maus, sabeis dar boas dádivas aos vossos filhos, quanto mais vosso Pai, que está nos céus, dará boas coisas aos que lhe pedirem?\"* (Mateus 7:11)\nSe até pais imperfeitos querem o bem dos filhos, imagine o Pai perfeito."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A frase mais honesta da Bíblia sobre a vida está em Romanos 6:23: *\"o salário do pecado é a morte, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus.\"*\nSalário é o que a gente ganha. Dom é o que a gente recebe de graça. Deus escolheu te dar o segundo."
+      },
+      {
+        "n": 6,
+        "tipo": "reflexao",
+        "rotulo": "para pensar",
+        "texto": "Alguém pagou o preço mais alto que existe por você. Isso não resolve o que você está vivendo hoje — mas muda quanto você vale. Consegue guardar essa frase por um dia?"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 2 minutos sobre o amor de Deus, da Novo Tempo (Igreja Adventista):\nhttps://www.youtube.com/watch?v=AVFVbg86kdM\n\nOração: \"Deus, eu não entendo por que o Senhor pagou tanto por mim. Mas eu aceito. Me ajuda a continuar.\"",
+        "opcoes": [
+          "Quero a lição 3",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": null,
+    "exercicio": null,
+    "oracao": "Deus, eu não entendo por que o Senhor pagou tanto por mim. Mas eu aceito. Me ajuda a continuar.",
+    "videos": [
+      "https://www.youtube.com/watch?v=AVFVbg86kdM"
+    ],
+    "botoes": [
+      "Quero a lição 3",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 0,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 3,
+    "bloco": 1,
+    "bloco_nome": "Esperança",
+    "slug": "quando-a-vida-doi-deus-na-dor",
+    "titulo": "Quando a vida dói: Deus na dor",
+    "necessidade": "Sofrimento, luto",
+    "fonte": "Estudo 3 \"Jesus e a Restauração do Bem\" (Mateus 13:24-30; Apocalipse 12:7-10; Romanos 6:23) + Isaías 53:3-4; Salmo 34:18",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], hoje a pergunta é difícil: *se Deus me ama, por que dói tanto?* Não vou te dar uma resposta de para-choque. Vou te mostrar o que a Bíblia diz de verdade."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Jesus contou sobre um fazendeiro que semeou trigo bom. De noite, um inimigo semeou erva daninha no mesmo campo (Mateus 13:24-30). Os empregados perguntaram: *\"não semeaste boa semente? De onde vem o joio?\"* E o dono respondeu: *\"um inimigo fez isso.\"*"
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A Bíblia é clara: o mal não veio de Deus. Começou numa rebelião no céu (Apocalipse 12:7-9) e entrou no mundo quando o ser humano escolheu desconfiar de Deus (Gênesis 3). O sofrimento é o joio. *Você não é o joio.* Você é o trigo que está crescendo num campo invadido."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E Deus não ficou assistindo de longe. Ele entrou no campo. Isaías 53:3-4 descreve Jesus assim: *\"homem de dores e que sabe o que é padecer… certamente ele tomou sobre si as nossas enfermidades e as nossas dores levou sobre si.\"*\nEle sabe o que é padecer. Não é teoria."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Por isso o Salmo 34:18 pode prometer: *\"Perto está o Senhor dos que têm o coração quebrantado e salva os de espírito oprimido.\"*\nPerto. Não \"quando você melhorar\". Agora, quebrantado."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz leve (vale 100 pontos; pode errar)",
+        "texto": "De onde veio o joio, na história de Jesus?\nA) Da semente ruim do fazendeiro\nB) De um inimigo que semeou de noite ✅\nC) Da falta de chuva\n*(Explicação: o mal tem um autor, e não é Deus nem você.)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Consultório de Família (Novo Tempo) — \"Como entender a ansiedade e a depressão\", com psicólogos e base bíblica, 56 min. Assista aos poucos:\nhttps://www.youtube.com/watch?v=OWKz1bQsw2I\n\nOração: \"Deus, a vida dói. O Senhor sabe o que é isso. Fica perto de mim hoje.\"",
+        "opcoes": [
+          "Quero a lição 4",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "De onde veio o joio, na história de Jesus?",
+      "alternativas": [
+        "Da semente ruim do fazendeiro",
+        "De um inimigo que semeou de noite",
+        "Da falta de chuva"
+      ],
+      "correta": 1,
+      "explicacao": "o mal tem um autor, e não é Deus nem você."
+    },
+    "exercicio": null,
+    "oracao": "Deus, a vida dói. O Senhor sabe o que é isso. Fica perto de mim hoje.",
+    "videos": [
+      "https://www.youtube.com/watch?v=OWKz1bQsw2I"
+    ],
+    "botoes": [
+      "Quero a lição 4",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 4,
+    "bloco": 1,
+    "bloco_nome": "Esperança",
+    "slug": "paz-para-a-mente-cansada-ansiedade-medo-e-descanso",
+    "titulo": "Paz para a mente cansada: ansiedade, medo e descanso",
+    "necessidade": "Ansiedade, exaustão",
+    "fonte": "Estudo 4 \"Jesus e a Oração\" (Salmo 62:8; Mateus 6:6; Mateus 7:7-8; Atos 16:25) + Mateus 11:28; Filipenses 4:6-7",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], última conversa do primeiro bloco. Tema: a cabeça que não desliga. A Bíblia tem um remédio que não é mágica — é um lugar para despejar o peso."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*\"Confiai nele, ó povo, em todo tempo; derramai perante ele o vosso coração; Deus é o nosso refúgio.\"* (Salmo 62:8)\n\"Derramar\" é a palavra. Não é fazer uma oração bonita. É virar o balde."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Jesus ensinou a orar escondido: *\"entra no teu quarto e, fechada a porta, orarás a teu Pai, que está em secreto.\"* (Mateus 6:6)\nNão precisa de igreja, de palavras certas nem de alguém ouvindo. Precisa de um quarto e de uma porta."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E o que acontece depois de derramar? Filipenses 4:6-7 promete: *\"não andeis ansiosos de coisa alguma; em tudo, porém, sejam conhecidas, diante de Deus, as vossas petições… e a paz de Deus, que excede todo o entendimento, guardará o vosso coração e a vossa mente.\"*\nA paz não vem de resolver tudo. Vem de entregar tudo."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Paulo e Silas oraram e cantaram presos, à meia-noite, com as costas abertas de açoite (Atos 16:25). Não porque estava tudo bem. Porque tinham onde despejar. E Jesus convida: *\"Vinde a mim, todos os que estais cansados e sobrecarregados, e eu vos aliviarei.\"* (Mateus 11:28)"
+      },
+      {
+        "n": 6,
+        "tipo": "exercicio",
+        "rotulo": "exercício de 2 minutos (vale 100 pontos)",
+        "texto": "Hoje à noite: porta fechada, 2 minutos, diga a Deus em voz baixa as três coisas que mais pesam. Sem enfeitar. Depois me conte só uma palavra de como ficou.",
+        "opcoes": [
+          "Fiz",
+          "Vou fazer",
+          "Não consegui"
+        ]
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Consultório de Família (Novo Tempo) — \"Como diminuir a ansiedade e a angústia\":\nhttps://www.youtube.com/watch?v=8zea0OBzehs\n\nVocê concluiu o Bloco I — *Esperança*. 🌱 Ganhou o selo \"Esperança\" e 400 pontos. O próximo bloco é \"Você e Deus\": quem é esse Pai que corre, ouve e fica perto.",
+        "opcoes": [
+          "Quero começar o Bloco II",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": null,
+    "exercicio": "Hoje à noite: porta fechada, 2 minutos, diga a Deus em voz baixa as três coisas que mais pesam. Sem enfeitar. Depois me conte só uma palavra de como ficou.",
+    "oracao": null,
+    "videos": [
+      "https://www.youtube.com/watch?v=8zea0OBzehs"
+    ],
+    "botoes": [
+      "Quero começar o Bloco II",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 5,
+    "bloco": 2,
+    "bloco_nome": "Você e Deus",
+    "slug": "deus-ama-voce-e-sabe-o-seu-nome",
+    "titulo": "Deus ama você — e sabe o seu nome",
+    "necessidade": "Valor próprio",
+    "fonte": "Estudo 2 \"Jesus e o Amor Divino\" (1 João 4:8; Mateus 28:19-20; Salmo 103:13-14) + Isaías 43:1; Salmo 139:1-4, 13-16",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], bem-vindo(a) ao Bloco II. No primeiro bloco falamos de esperança. Agora vamos conhecer de perto quem é esse Deus — começando por uma coisa simples: Ele sabe o seu nome."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*\"Não temas, porque eu te remi; chamei-te pelo teu nome, tu és meu.\"* (Isaías 43:1)\nNão \"ei, você\". Pelo nome. Num mundo onde a gente vira número, senha e protocolo, Deus chama pelo nome."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "O Salmo 139 diz que Deus conhece quando você se senta e quando se levanta, e que *\"ainda a palavra me não chegou à língua, e tu, Senhor, já a conheces toda\"* (v. 4). Ele sabe o que você não consegue dizer para ninguém."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E não é um Deus que ama porque você rende. A Bíblia resume assim: *\"Deus é amor.\"* (1 João 4:8) Não \"Deus tem amor\" — Ele *é*. Amar você não é o que Ele faz quando está de bom humor. É quem Ele é."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Esse amor tem um jeito: *\"Como um pai se compadece de seus filhos, assim o Senhor se compadece dos que o temem. Pois ele conhece a nossa estrutura e sabe que somos pó.\"* (Salmo 103:13-14)\nEle sabe do que você é feito. Não espera que você seja de ferro."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "Como Deus chama você, segundo Isaías 43:1?\nA) Pelo número de inscrição\nB) Pelo nome ✅\nC) Só quando você acerta\n*(Explicação: \"chamei-te pelo teu nome, tu és meu\".)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Está Escrito (TV Novo Tempo) — \"Eu tenho medo de Deus\": por que tanta gente tem medo de um Deus que é amor?\nhttps://www.youtube.com/watch?v=x9jlwtHXBAk\n\nOração: \"Deus, se o Senhor sabe meu nome, eu respondo: estou aqui. Me ensina a confiar que isso é verdade.\"",
+        "opcoes": [
+          "Quero a lição 6 amanhã",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "Como Deus chama você, segundo Isaías 43:1?",
+      "alternativas": [
+        "Pelo número de inscrição",
+        "Pelo nome",
+        "Só quando você acerta"
+      ],
+      "correta": 1,
+      "explicacao": "\"chamei-te pelo teu nome, tu és meu\"."
+    },
+    "exercicio": null,
+    "oracao": "Deus, se o Senhor sabe meu nome, eu respondo: estou aqui. Me ensina a confiar que isso é verdade.",
+    "videos": [
+      "https://www.youtube.com/watch?v=x9jlwtHXBAk"
+    ],
+    "botoes": [
+      "Quero a lição 6 amanhã",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 6,
+    "bloco": 2,
+    "bloco_nome": "Você e Deus",
+    "slug": "a-oracao-falar-com-alguem-que-ouve",
+    "titulo": "A oração: falar com Alguém que ouve",
+    "necessidade": "Não ter com quem falar",
+    "fonte": "Estudo 4 \"Jesus e a Oração\" (Lucas 18:9-14; Mateus 6:6; João 14:13-14; Salmo 62:8; Daniel 6:10; Mateus 7:7-8; Marcos 14:36; Tiago 5:16)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], na lição 4 você experimentou \"virar o balde\" com Deus. Hoje vamos entender o que é oração de verdade — porque muita gente acha que é coisa de gente certinha, com palavras certas."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Jesus contou sobre dois homens no templo (Lucas 18:9-14). Um orou listando as próprias qualidades. O outro nem levantava os olhos: *\"Ó Deus, sê propício a mim, pecador!\"* Jesus disse que foi *esse* que voltou para casa em paz com Deus.\nOração não é discurso. É honestidade."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E não precisa de lugar especial. *\"Entra no teu quarto e, fechada a porta, orarás a teu Pai, que está em secreto.\"* (Mateus 6:6)\nDaniel orava três vezes por dia, de janela aberta, mesmo quando isso podia custar a vida dele (Daniel 6:10). Oração vira hábito quando vira refúgio."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Até Jesus orou com medo. Na noite antes da cruz: *\"Aba, Pai, tudo te é possível; passa de mim este cálice; contudo, não seja o que eu quero, e sim o que tu queres.\"* (Marcos 14:36)\nVocê pode dizer a Deus que não quer passar pelo que está passando. Jesus disse."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A promessa: *\"Pedi, e dar-se-vos-á; buscai e achareis; batei, e abrir-se-vos-á.\"* (Mateus 7:7)\nNem sempre a resposta é a que a gente pediu. Mas a porta nunca é fechada na cara de quem bate."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "Dos dois homens no templo, qual voltou em paz com Deus?\nA) O que listou as qualidades\nB) O que só disse \"tem misericórdia de mim\" ✅\nC) Nenhum dos dois\n*(Explicação: Deus ouve honestidade, não currículo.)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Oração\":\nhttps://www.youtube.com/watch?v=OUKfVkkKcVw\n\nOração: \"Pai, eu não sei orar direito. Mas estou falando. Isso conta?\" (Conta.)",
+        "opcoes": [
+          "Quero a lição 7",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "Dos dois homens no templo, qual voltou em paz com Deus?",
+      "alternativas": [
+        "O que listou as qualidades",
+        "O que só disse \"tem misericórdia de mim\"",
+        "Nenhum dos dois"
+      ],
+      "correta": 1,
+      "explicacao": "Deus ouve honestidade, não currículo."
+    },
+    "exercicio": null,
+    "oracao": "Pai, eu não sei orar direito. Mas estou falando. Isso conta?",
+    "videos": [
+      "https://www.youtube.com/watch?v=OUKfVkkKcVw"
+    ],
+    "botoes": [
+      "Quero a lição 7",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 7,
+    "bloco": 2,
+    "bloco_nome": "Você e Deus",
+    "slug": "a-biblia-um-livro-para-dias-dificeis",
+    "titulo": "A Bíblia: um livro para dias difíceis",
+    "necessidade": "Onde buscar respostas",
+    "fonte": "Estudo 1 \"Jesus e as Escrituras Sagradas\" (Atos 8:26-40; 2 Pedro 1:21; 2 Timóteo 3:16; João 5:39; Lucas 24:27; João 8:32; João 17:17)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], você já leu seis lições cheias de versículos. Hoje a pergunta é: de onde vem esse livro, e por que dá para confiar nele quando a vida aperta?"
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Um homem importante da Etiópia voltava de Jerusalém lendo a Bíblia no carro, sem entender nada. Filipe se aproximou e perguntou: *\"Compreendes o que vens lendo?\"* Ele respondeu: *\"Como poderei entender, se alguém não me explicar?\"* (Atos 8:30-31)\nNão entender de primeira é normal. Por isso você não está lendo sozinho(a)."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "De onde ela vem? *\"Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção, para a educação na justiça.\"* (2 Timóteo 3:16)\n*\"Homens santos falaram da parte de Deus, movidos pelo Espírito Santo.\"* (2 Pedro 1:21) Não é um livro sobre Deus. É Deus falando."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E ela tem um assunto central. Jesus, depois de ressuscitar, caminhou com dois discípulos e *\"começando por Moisés, discorrendo por todos os Profetas, expunha-lhes o que a seu respeito constava em todas as Escrituras.\"* (Lucas 24:27)\nA Bíblia inteira aponta para uma pessoa."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "O que ela faz com quem lê? *\"Conhecereis a verdade, e a verdade vos libertará.\"* (João 8:32)\nLiberta de mentiras que a gente conta para si mesmo: \"não tenho valor\", \"ninguém se importa\", \"não tem saída\". Cada lição deste curso é a Bíblia desmontando uma dessas."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "Segundo Lucas 24:27, sobre quem fala a Bíblia inteira?\nA) Sobre regras\nB) Sobre Jesus ✅\nC) Sobre o povo de Israel apenas\n*(Explicação: \"o que a seu respeito constava em todas as Escrituras\".)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Escrituras\":\nhttps://www.youtube.com/watch?v=Q7IRoiiI5z8\n\n📖 Desafio opcional para a semana: ler Mateus 5, 6 e 7 (o Sermão do Monte), um capítulo por dia. Se quiser, me conta uma frase que te chamou a atenção.\n\nOração: \"Deus, me ajuda a entender o que leio. E se eu não entender, me manda um Filipe.\"",
+        "opcoes": [
+          "Quero a lição 8",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "Segundo Lucas 24:27, sobre quem fala a Bíblia inteira?",
+      "alternativas": [
+        "Sobre regras",
+        "Sobre Jesus",
+        "Sobre o povo de Israel apenas"
+      ],
+      "correta": 1,
+      "explicacao": "\"o que a seu respeito constava em todas as Escrituras\"."
+    },
+    "exercicio": null,
+    "oracao": "Deus, me ajuda a entender o que leio. E se eu não entender, me manda um Filipe.",
+    "videos": [
+      "https://www.youtube.com/watch?v=Q7IRoiiI5z8"
+    ],
+    "botoes": [
+      "Quero a lição 8",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 8,
+    "bloco": 2,
+    "bloco_nome": "Você e Deus",
+    "slug": "perdao-receber-e-dar",
+    "titulo": "Perdão: receber e dar",
+    "necessidade": "Culpa, mágoa",
+    "fonte": "Estudo 5 \"Jesus e a Salvação\" (Atos 3:19; Romanos 5:1) + Estudo 6 \"Jesus e a Intercessão\" (1 João 1:9; 1 João 2:1-2) + Mateus 18:21-22; Efésios 4:32",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], última lição do Bloco II. Tema pesado e necessário: culpa e mágoa. As duas coisas que mais fazem a gente achar que não merece recomeçar."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Primeiro, o perdão que a gente *recebe*. *\"Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar os pecados e nos purificar de toda injustiça.\"* (1 João 1:9)\nFiel e justo. Não \"talvez\", não \"se você compensar\". Confessou, está perdoado."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E se você errar de novo? *\"Se alguém pecar, temos Advogado junto ao Pai, Jesus Cristo, o Justo.\"* (1 João 2:1)\nAdvogado. Alguém do seu lado quando a sua própria consciência te acusa."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "O resultado: *\"Justificados, pois, mediante a fé, temos paz com Deus por meio de nosso Senhor Jesus Cristo.\"* (Romanos 5:1)\nPaz com Deus não é sentir-se bem. É saber que a conta está fechada."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Agora, o perdão que a gente *dá*. Pedro perguntou se devia perdoar até sete vezes. Jesus: *\"Não te digo que até sete vezes, mas até setenta vezes sete.\"* (Mateus 18:22)\nPerdoar não é dizer que não doeu. É soltar a corda que te prende a quem te feriu. *\"Perdoando-vos uns aos outros, como também Deus, em Cristo, vos perdoou.\"* (Efésios 4:32)"
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "O que 1 João 1:9 diz que acontece quando confessamos?\nA) Deus pensa a respeito\nB) Deus perdoa e purifica ✅\nC) Precisamos compensar primeiro\n*(Explicação: \"ele é fiel e justo para nos perdoar\".)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Perdão\":\nhttps://www.youtube.com/watch?v=C-ISNiWuB5M\n\nVocê concluiu o Bloco II — *Você e Deus*. 🌱 Ganhou o selo \"Você e Deus\" e mais 400 pontos. O próximo bloco é \"Jesus\": quem Ele é, o que fez e por que isso muda tudo.\n\nOração: \"Deus, eu entrego o que fiz e o que fizeram comigo. Me perdoa. E me ajuda a soltar.\"",
+        "opcoes": [
+          "Quero começar o Bloco III",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "O que 1 João 1:9 diz que acontece quando confessamos?",
+      "alternativas": [
+        "Deus pensa a respeito",
+        "Deus perdoa e purifica",
+        "Precisamos compensar primeiro"
+      ],
+      "correta": 1,
+      "explicacao": "\"ele é fiel e justo para nos perdoar\"."
+    },
+    "exercicio": null,
+    "oracao": "Deus, eu entrego o que fiz e o que fizeram comigo. Me perdoa. E me ajuda a soltar.",
+    "videos": [
+      "https://www.youtube.com/watch?v=C-ISNiWuB5M"
+    ],
+    "botoes": [
+      "Quero começar o Bloco III",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 9,
+    "bloco": 3,
+    "bloco_nome": "Jesus",
+    "slug": "jesus-quem-ele-e",
+    "titulo": "Jesus: quem Ele é",
+    "necessidade": "Curiosidade",
+    "fonte": "Estudo 1 (João 1:1-4, 14; Mateus 8:8-10) + Estudo 5 (João 14:27; Lucas 15:3-7) + Hebreus 4:15",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], Bloco III. Todo mundo tem uma opinião sobre Jesus: profeta, mestre, homem bom. A Bíblia diz algo maior — e mais próximo."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*\"No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus… E o Verbo se fez carne e habitou entre nós.\"* (João 1:1, 14)\nDeus não mandou um recado. Veio pessoalmente. Nasceu, teve fome, cansou, chorou."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Por isso Ele entende. *\"Não temos sumo sacerdote que não possa compadecer-se das nossas fraquezas; antes, foi ele tentado em todas as coisas, à nossa semelhança, mas sem pecado.\"* (Hebreus 4:15)\nEle sabe o que é ser traído, ficar sozinho, ter medo de morrer."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E o que Ele faz com quem está perdido? Contou a história do pastor que deixa 99 ovelhas para buscar *uma* — e quando acha, *\"põe-na sobre os ombros, cheio de júbilo\"* (Lucas 15:5).\nEle não manda a ovelha voltar andando. Carrega."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "O que Ele oferece: *\"Deixo-vos a paz, a minha paz vos dou; não vo-la dou como a dá o mundo. Não se turbe o vosso coração, nem se atemorize.\"* (João 14:27)\nA paz do mundo depende de tudo dar certo. A dEle, não."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "O que o pastor faz quando encontra a ovelha perdida (Lucas 15:5)?\nA) Manda ela voltar sozinha\nB) Põe nos ombros e carrega ✅\nC) Dá bronca\n*(Explicação: \"cheio de júbilo\" — Ele fica feliz em carregar você.)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Está Escrito Adoração (Rede Novo Tempo) — \"A solidão de Jesus\": Ele conhece a solidão por dentro.\nhttps://www.youtube.com/watch?v=g5aerZXYFvc\n\nOração: \"Jesus, se o Senhor carrega quem não consegue andar, me carrega hoje.\"",
+        "opcoes": [
+          "Quero a lição 10",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "O que o pastor faz quando encontra a ovelha perdida (Lucas 15:5)?",
+      "alternativas": [
+        "Manda ela voltar sozinha",
+        "Põe nos ombros e carrega",
+        "Dá bronca"
+      ],
+      "correta": 1,
+      "explicacao": "\"cheio de júbilo\" — Ele fica feliz em carregar você."
+    },
+    "exercicio": null,
+    "oracao": "Jesus, se o Senhor carrega quem não consegue andar, me carrega hoje.",
+    "videos": [
+      "https://www.youtube.com/watch?v=g5aerZXYFvc"
+    ],
+    "botoes": [
+      "Quero a lição 10",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 10,
+    "bloco": 3,
+    "bloco_nome": "Jesus",
+    "slug": "a-cruz-o-preco-do-amor",
+    "titulo": "A cruz: o preço do amor",
+    "necessidade": "Culpa",
+    "fonte": "Estudo 5 \"Jesus e a Salvação\" (Romanos 5:12; Jeremias 2:22; Romanos 5:17-19; Efésios 2:8; Atos 3:19; Romanos 3:23; 2 Coríntios 5:17)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], hoje é o centro de tudo. Se você só guardar uma lição do curso inteiro, que seja esta."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "O problema: *\"Todos pecaram e carecem da glória de Deus.\"* (Romanos 3:23) Todos. Não é sobre ser pior que os outros. É sobre ser humano. E a gente não consegue se limpar sozinho: *\"Ainda que te laves com salitre e amontoes sabão, a mancha da tua iniquidade está diante de mim.\"* (Jeremias 2:22)"
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A solução não veio de nós: *\"Assim como, por uma só ofensa, veio o juízo sobre todos os homens para condenação, assim também, por um só ato de justiça, veio a graça sobre todos os homens para a justificação que dá vida.\"* (Romanos 5:18)\nUm ato. Uma cruz. Para todos."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E como se recebe? *\"Pela graça sois salvos, mediante a fé; e isto não vem de vós; é dom de Deus.\"* (Efésios 2:8)\nDom = presente. Presente não se paga, não se merece, não se ganha por bom comportamento. Se aceita."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A resposta nossa é simples: *\"Arrependei-vos, pois, e convertei-vos para serem cancelados os vossos pecados.\"* (Atos 3:19)\nArrepender é virar o rosto para Deus. E o resultado: *\"Se alguém está em Cristo, é nova criatura; as coisas antigas já passaram; eis que se fizeram novas.\"* (2 Coríntios 5:17)\nNova criatura. Não \"versão melhorada\". Nova."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "Segundo Efésios 2:8, a salvação é:\nA) Um salário por bom comportamento\nB) Um presente, recebido pela fé ✅\nC) Para quem nunca errou\n*(Explicação: \"é dom de Deus\" — presente.)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Salvação\":\nhttps://www.youtube.com/watch?v=O9Hy-k3whtI\n\n💛 Se quiser, hoje é um bom dia para dizer: \"Jesus, eu aceito o Senhor como meu Salvador.\" Não precisa de cerimônia. Se disser, me conta — eu oro com você. Se ainda não, tudo bem. Vamos continuar.",
+        "opcoes": [
+          "Eu aceitei",
+          "Quero a lição 11",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "Segundo Efésios 2:8, a salvação é:",
+      "alternativas": [
+        "Um salário por bom comportamento",
+        "Um presente, recebido pela fé",
+        "Para quem nunca errou"
+      ],
+      "correta": 1,
+      "explicacao": "\"é dom de Deus\" — presente."
+    },
+    "exercicio": null,
+    "oracao": null,
+    "videos": [
+      "https://www.youtube.com/watch?v=O9Hy-k3whtI"
+    ],
+    "botoes": [
+      "Eu aceitei",
+      "Quero a lição 11",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 11,
+    "bloco": 3,
+    "bloco_nome": "Jesus",
+    "slug": "a-ressurreicao-e-a-vida-que-vence-a-morte",
+    "titulo": "A ressurreição e a vida que vence a morte",
+    "necessidade": "Medo da morte",
+    "fonte": "Estudo 8 \"Jesus e a Vida Eterna\" (João 11:1-45; João 11:25; 1 Coríntios 15:20-22) + Estudo 5 (1 Coríntios 15:20-22; João 8:51)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], Jesus tinha um amigo chamado Lázaro. Lázaro morreu. Jesus chegou quatro dias depois — e a Bíblia registra o versículo mais curto e mais humano: *\"Jesus chorou.\"* (João 11:35)"
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Antes de fazer qualquer milagre, Ele chorou com as irmãs. Deus não pula o luto. Ele entra nele."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Depois disse a Marta: *\"Eu sou a ressurreição e a vida. Quem crê em mim, ainda que morra, viverá.\"* (João 11:25)\nE chamou Lázaro pelo nome. E Lázaro saiu."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Isso não foi um caso isolado. Foi um ensaio. *\"Cristo ressuscitou dentre os mortos, sendo ele as primícias dos que dormem… Pois assim como, em Adão, todos morrem, assim também todos serão vivificados em Cristo.\"* (1 Coríntios 15:20, 22)\nPrimícias = o primeiro de uma colheita. Se Ele voltou, os dEle voltam."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Por isso o cristão pode olhar para a morte sem desespero. Não porque ela não dói. Porque ela não tem a última palavra. *\"Se alguém guardar a minha palavra, nunca verá a morte.\"* (João 8:51)"
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "O que Jesus fez antes de ressuscitar Lázaro?\nA) Repreendeu as irmãs por chorar\nB) Chorou com elas ✅\nC) Foi embora\n*(Explicação: Deus não pula o luto.)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Ressurreição\":\nhttps://www.youtube.com/watch?v=p8Wszj7kUXA\n\nSe você perdeu alguém, eu sinto muito. Se quiser, me conta o nome — eu oro com você por essa pessoa.",
+        "opcoes": [
+          "Quero a lição 12",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "O que Jesus fez antes de ressuscitar Lázaro?",
+      "alternativas": [
+        "Repreendeu as irmãs por chorar",
+        "Chorou com elas",
+        "Foi embora"
+      ],
+      "correta": 1,
+      "explicacao": "Deus não pula o luto."
+    },
+    "exercicio": null,
+    "oracao": null,
+    "videos": [
+      "https://www.youtube.com/watch?v=p8Wszj7kUXA"
+    ],
+    "botoes": [
+      "Quero a lição 12",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 12,
+    "bloco": 3,
+    "bloco_nome": "Jesus",
+    "slug": "a-graca-que-transforma",
+    "titulo": "A graça que transforma",
+    "necessidade": "Vergonha, recomeço",
+    "fonte": "Estudo 13 \"Jesus e o Crescimento Espiritual\" (João 15:1-14; Colossenses 1:13-14; 2 Coríntios 5:17; Gálatas 5:22-23; Efésios 6:12-17)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], última lição do Bloco III. Pergunta comum: \"eu aceitei Jesus, mas continuo o mesmo. E agora?\" A Bíblia tem uma imagem para isso."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*\"Eu sou a videira, vós, os ramos. Quem permanece em mim, e eu, nele, esse dá muito fruto; porque sem mim nada podeis fazer.\"* (João 15:5)\nO ramo não se esforça para dar uva. Fica ligado. A seiva faz o resto."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A mudança é obra dEle: *\"Ele nos libertou do império das trevas e nos transportou para o reino do Filho do seu amor.\"* (Colossenses 1:13)\nTransportou. Você não atravessou a pé. Foi levado."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E o fruto aparece devagar: *\"O fruto do Espírito é: amor, alegria, paz, longanimidade, benignidade, bondade, fidelidade, mansidão, domínio próprio.\"* (Gálatas 5:22-23)\nFruto não aparece no dia seguinte ao plantio. Mas aparece."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Vai ter luta. *\"A nossa luta não é contra o sangue e a carne, e sim contra… as forças espirituais do mal.\"* (Efésios 6:12) Por isso Deus dá armadura: verdade, justiça, fé, salvação, a Palavra (Efésios 6:14-17). Você não briga desarmado(a)."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "Como o ramo dá fruto, segundo João 15:5?\nA) Se esforçando muito\nB) Permanecendo ligado à videira ✅\nC) Sozinho\n*(Explicação: \"sem mim nada podeis fazer\".)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Consultório de Família (Novo Tempo) — \"Quando o outro não quer mudar\": sobre transformação que não se força.\nhttps://www.youtube.com/watch?v=A7PgC6nQByw\n\nVocê concluiu o Bloco III — *Jesus*. 🌱 Selo \"Jesus\" + 400 pontos. Faltam dois blocos. O próximo, \"Uma vida inteira\", é sobre corpo, descanso, família e pertencer a algum lugar.\n\nOração: \"Jesus, me mantém ligado(a) ao Senhor. Eu não dou conta de produzir fruto sozinho(a).\"",
+        "opcoes": [
+          "Quero começar o Bloco IV",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "Como o ramo dá fruto, segundo João 15:5?",
+      "alternativas": [
+        "Se esforçando muito",
+        "Permanecendo ligado à videira",
+        "Sozinho"
+      ],
+      "correta": 1,
+      "explicacao": "\"sem mim nada podeis fazer\"."
+    },
+    "exercicio": null,
+    "oracao": "Jesus, me mantém ligado(a) ao Senhor. Eu não dou conta de produzir fruto sozinho(a).",
+    "videos": [
+      "https://www.youtube.com/watch?v=A7PgC6nQByw"
+    ],
+    "botoes": [
+      "Quero começar o Bloco IV",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 13,
+    "bloco": 4,
+    "bloco_nome": "Uma vida inteira",
+    "slug": "corpo-mente-e-espirito-o-cuidado-de-deus-com-a-pessoa-inteir",
+    "titulo": "Corpo, mente e espírito: o cuidado de Deus com a pessoa inteira",
+    "necessidade": "Saúde, vícios",
+    "fonte": "Estudo 16 \"Jesus e o Estilo de Vida Cristão\" (Mateus 6:25-34; 1 Coríntios 10:31; 1 Coríntios 6:19-20; Filipenses 4:8; Gênesis 1:29; 1 Coríntios 3:16-17)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], Bloco IV. Deus não se interessa só pela sua \"alma\". Ele se interessa pelo seu sono, pelo que você come, pelo que passa na sua cabeça às 3 da manhã."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*\"Não sabeis que o vosso corpo é santuário do Espírito Santo, que está em vós?… Glorificai, pois, a Deus no vosso corpo.\"* (1 Coríntios 6:19-20)\nSantuário. Não uma casca descartável. Cuidar do corpo é cuidar de algo que Deus habita."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Jesus falou de ansiedade antes de qualquer psicólogo: *\"Não andeis ansiosos pela vossa vida, quanto ao que haveis de comer ou beber… Olhai para as aves do céu… vosso Pai celeste as sustenta. Porventura não valeis vós muito mais do que as aves?\"* (Mateus 6:25-26)"
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Para a mente, uma dieta: *\"Tudo o que é verdadeiro, tudo o que é respeitável, tudo o que é justo, tudo o que é puro, tudo o que é amável… seja isso o que ocupe o vosso pensamento.\"* (Filipenses 4:8)\nO que a gente consome de madrugada no celular também alimenta — ou envenena."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Por isso a igreja adventista fala de água, sono, ar puro, comida de verdade (Gênesis 1:29), movimento, e de ficar longe do que escraviza — álcool, cigarro, drogas (1 Coríntios 3:16-17). Não é regra para ganhar o céu. É cuidado com o santuário. O princípio: *\"Fazei tudo para a glória de Deus.\"* (1 Coríntios 10:31)"
+      },
+      {
+        "n": 6,
+        "tipo": "exercicio",
+        "rotulo": "exercício (100 pontos)",
+        "texto": "Escolha UMA coisa pequena para esta semana: dormir 30 min mais cedo · caminhar 15 min · trocar um refrigerante por água · deixar o celular fora do quarto. Me diz qual.",
+        "opcoes": [
+          "Sono",
+          "Caminhada",
+          "Água",
+          "Celular"
+        ]
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Cuidado com o Corpo\":\nhttps://www.youtube.com/watch?v=vTXkFycYxao\n🎥 Consultório de Família — \"Superando uma doença emocional\":\nhttps://www.youtube.com/watch?v=swPyOIc-DxE\n\nSe você luta com álcool ou outra dependência, não está sozinho(a) nisso também: me escreva e escreva *visita* que a igreja te procura.",
+        "opcoes": [
+          "Quero a lição 14",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": null,
+    "exercicio": "Escolha UMA coisa pequena para esta semana: dormir 30 min mais cedo · caminhar 15 min · trocar um refrigerante por água · deixar o celular fora do quarto. Me diz qual.",
+    "oracao": null,
+    "videos": [
+      "https://www.youtube.com/watch?v=vTXkFycYxao",
+      "https://www.youtube.com/watch?v=swPyOIc-DxE"
+    ],
+    "botoes": [
+      "Quero a lição 14",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 14,
+    "bloco": 4,
+    "bloco_nome": "Uma vida inteira",
+    "slug": "o-sabado-o-descanso-que-cura",
+    "titulo": "O sábado: o descanso que cura",
+    "necessidade": "Sobrecarga",
+    "fonte": "Estudo 11 \"Jesus e o Sábado\" (Mateus 12:9-14; Mateus 12:8, 12; Marcos 2:27; Lucas 4:16; Lucas 23:52-56; Atos 17:2; Isaías 66:22-23) + Gênesis 2:2-3; Êxodo 20:8-11",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], você vive cansado(a)? Deus previu isso. Antes de existir pecado, trabalho pesado ou boleto, Ele criou uma coisa: um dia inteiro para parar."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*\"E, havendo Deus terminado no dia sétimo a sua obra… descansou… E abençoou Deus o dia sétimo e o santificou.\"* (Gênesis 2:2-3)\nDeus não estava cansado. Estava dando o exemplo: parar faz parte de viver."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Jesus explicou para que serve: *\"O sábado foi estabelecido por causa do homem, e não o homem por causa do sábado.\"* (Marcos 2:27)\nNão é uma prova de obediência. É um presente. Feito para você."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E Ele mostrou como se usa. Num sábado, curou um homem com a mão seca enquanto os religiosos reclamavam. Resposta: *\"É lícito, nos sábados, fazer o bem.\"* (Mateus 12:12) Sábado é dia de cura, de gente, de Deus. Era o costume de Jesus ir à sinagoga (Lucas 4:16); Seus discípulos guardaram o sábado mesmo depois da cruz (Lucas 23:56); Paulo também (Atos 17:2)."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Por que a igreja adventista guarda o sábado (do pôr do sol de sexta ao pôr do sol de sábado)? Porque é o dia que Deus abençoou, o quarto mandamento (Êxodo 20:8-11), e o dia que Jesus chamou de Seu: *\"O Filho do Homem é senhor do sábado.\"* (Mateus 12:8) E vai existir na eternidade (Isaías 66:23). Para quem vive exausto, é o remédio mais antigo do mundo: 24 horas sem ter que produzir nada."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "Para quem o sábado foi feito, segundo Marcos 2:27?\nA) Para os religiosos\nB) Para o ser humano ✅\nC) Para Deus descansar\n*(Explicação: \"por causa do homem\" — é presente para você.)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Sábado\":\nhttps://www.youtube.com/watch?v=_XTfOtCGsFg\n🎧 Rádio Novo Tempo — \"O que Jesus ensinou sobre o sábado\":\nhttps://www.youtube.com/watch?v=rWAj1u7ZoAs\n\nConvite sem pressão: a igreja Nova Esperança se reúne aos sábados pela manhã. Se um dia quiser conhecer, escreva *visita* e a gente te busca. Se não quiser, continua aqui comigo.",
+        "opcoes": [
+          "Quero a lição 15",
+          "Quero conhecer a igreja",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "Para quem o sábado foi feito, segundo Marcos 2:27?",
+      "alternativas": [
+        "Para os religiosos",
+        "Para o ser humano",
+        "Para Deus descansar"
+      ],
+      "correta": 1,
+      "explicacao": "\"por causa do homem\" — é presente para você."
+    },
+    "exercicio": null,
+    "oracao": null,
+    "videos": [
+      "https://www.youtube.com/watch?v=_XTfOtCGsFg",
+      "https://www.youtube.com/watch?v=rWAj1u7ZoAs"
+    ],
+    "botoes": [
+      "Quero a lição 15",
+      "Quero conhecer a igreja",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 15,
+    "bloco": 4,
+    "bloco_nome": "Uma vida inteira",
+    "slug": "familia-relacionamentos-e-dinheiro-a-luz-da-biblia",
+    "titulo": "Família, relacionamentos e dinheiro à luz da Bíblia",
+    "necessidade": "Conflitos, pressão",
+    "fonte": "Estudo 14 \"Jesus e a Fidelidade\" (Lucas 19:11-27; Mateus 6:33; Deuteronômio 8:17-18; Malaquias 3:10; 2 Coríntios 9:7; Marcos 12:41-44) + Estudo 16 (Efésios 5:22-25; Efésios 4:25; Gálatas 6:1)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], as três coisas que mais tiram o sono: família, relacionamentos e dinheiro. A Bíblia fala das três sem rodeio."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*Relacionamentos.* *\"Falai a verdade cada um com o seu próximo.\"* (Efésios 4:25) *\"Se alguém for surpreendido nalguma falta, vós, que sois espirituais, corrigi-o com espírito de brandura.\"* (Gálatas 6:1) Verdade com brandura. A maioria das brigas falha em um dos dois."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*Família.* O modelo bíblico de casamento é amor que se entrega: *\"Maridos, amai vossa mulher, como também Cristo amou a igreja e a si mesmo se entregou por ela.\"* (Efésios 5:25) Não é sobre quem manda. É sobre quem serve primeiro."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*Dinheiro.* Jesus contou de um senhor que confiou recursos a servos e esperou fidelidade (Lucas 19:11-27). O princípio: *\"Buscai, pois, em primeiro lugar, o seu reino e a sua justiça, e todas estas coisas vos serão acrescentadas.\"* (Mateus 6:33) E a lembrança: *\"É o Senhor, teu Deus, que te dá força para adquirires riquezas.\"* (Deuteronômio 8:18)"
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Por isso o cristão devolve a Deus o dízimo (10%) e dá ofertas — não para comprar bênção, mas como quem reconhece de onde tudo vem: *\"Trazei todos os dízimos à casa do Tesouro… e provai-me nisto, diz o Senhor dos Exércitos.\"* (Malaquias 3:10) *\"Deus ama a quem dá com alegria.\"* (2 Coríntios 9:7) Jesus elogiou uma viúva que deu duas moedinhas — porque deu com o coração (Marcos 12:41-44). O valor é o coração, não a cifra."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "O que Jesus mais valorizou na oferta da viúva (Marcos 12:41-44)?\nA) O valor em dinheiro\nB) O coração com que ela deu ✅\nC) O fato de todos verem\n*(Explicação: ela deu \"tudo quanto possuía\".)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Dinheiro\":\nhttps://www.youtube.com/watch?v=NozIcqBLWPs\n🎧 Consultório de Família (rádio Novo Tempo) — programa diário sobre casamento, filhos e relacionamentos, com psicólogos e pastores:\nhttps://www.novotempo.com/programa/consultoriodefamiliaradio/\n\nSe a sua casa está em crise, me conta. Se quiser uma visita, é só escrever *visita*.",
+        "opcoes": [
+          "Quero a lição 16",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "O que Jesus mais valorizou na oferta da viúva (Marcos 12:41-44)?",
+      "alternativas": [
+        "O valor em dinheiro",
+        "O coração com que ela deu",
+        "O fato de todos verem"
+      ],
+      "correta": 1,
+      "explicacao": "ela deu \"tudo quanto possuía\"."
+    },
+    "exercicio": null,
+    "oracao": null,
+    "videos": [
+      "https://www.youtube.com/watch?v=NozIcqBLWPs",
+      "https://www.novotempo.com/programa/consultoriodefamiliaradio/"
+    ],
+    "botoes": [
+      "Quero a lição 16",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 16,
+    "bloco": 4,
+    "bloco_nome": "Uma vida inteira",
+    "slug": "a-igreja-uma-familia-para-quem-nao-tem",
+    "titulo": "A igreja: uma família para quem não tem",
+    "necessidade": "Pertencimento",
+    "fonte": "Estudo 12 \"Jesus e a Igreja\" (Lucas 13:22-30; Mateus 16:16-18; Efésios 2:19-20; 1 Pedro 2:9; 1 Coríntios 12:12-13, 20; Apocalipse 14:12; Mateus 28:18-20) + Estudo 17 \"Jesus e a Missão\" (Lucas 5:1-11; Atos 1:8; João 13:34-35)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], última lição do Bloco IV. Muita gente diz: \"eu creio em Deus, mas igreja não é para mim.\" Entendo. Mas deixa eu te mostrar o que a Bíblia chama de igreja — não é o prédio."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*\"Assim, já não sois estrangeiros e peregrinos, mas concidadãos dos santos, e sois da família de Deus.\"* (Efésios 2:19)\nFamília. Para quem a família de sangue falhou, Deus oferece outra. Com fundamento em Cristo (Efésios 2:20) — não em pessoas, que erram."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A imagem de Paulo: *\"Assim como o corpo é um e tem muitos membros… assim também com respeito a Cristo.\"* (1 Coríntios 12:12) Um corpo. Ninguém é sobra. Ninguém é só espectador."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Para que serve? *\"Vós, porém, sois raça eleita… povo de propriedade exclusiva de Deus, a fim de proclamardes as virtudes daquele que vos chamou das trevas para a sua maravilhosa luz.\"* (1 Pedro 2:9)\nQuem saiu do escuro conta para quem ainda está lá. Esse projeto — A Chave da Virada — é exatamente isso."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A marca da igreja de Deus nos últimos dias: *\"Aqui está a perseverança dos santos, os que guardam os mandamentos de Deus e a fé em Jesus.\"* (Apocalipse 14:12) E a marca de quem é dEle: *\"Nisto conhecerão todos que sois meus discípulos: se tiverdes amor uns aos outros.\"* (João 13:35)\nIgreja é hospital, não vitrine. Chega quem está machucado."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "Segundo João 13:35, como se reconhece um discípulo de Jesus?\nA) Pela roupa\nB) Pelo amor uns aos outros ✅\nC) Pelo prédio que frequenta\n*(Explicação: \"nisto conhecerão todos\".)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Igreja\":\nhttps://www.youtube.com/watch?v=N-pRH0PHZB4\n\nVocê concluiu o Bloco IV — *Uma vida inteira*. 🌱 Selo \"Vida Inteira\" + 400 pontos. Último bloco: \"O futuro\" — os Dez Mandamentos, a morte, a volta de Jesus e a decisão.\n\nConvite: no próximo sábado tem culto na Nova Esperança. Se quiser ir, escreva *visita* e a igreja combina de te buscar. Sem ter que fazer nada.",
+        "opcoes": [
+          "Quero começar o Bloco V",
+          "Quero ir no sábado",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "Segundo João 13:35, como se reconhece um discípulo de Jesus?",
+      "alternativas": [
+        "Pela roupa",
+        "Pelo amor uns aos outros",
+        "Pelo prédio que frequenta"
+      ],
+      "correta": 1,
+      "explicacao": "\"nisto conhecerão todos\"."
+    },
+    "exercicio": null,
+    "oracao": null,
+    "videos": [
+      "https://www.youtube.com/watch?v=N-pRH0PHZB4"
+    ],
+    "botoes": [
+      "Quero começar o Bloco V",
+      "Quero ir no sábado",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 17,
+    "bloco": 5,
+    "bloco_nome": "O futuro",
+    "slug": "os-dez-mandamentos-o-amor-em-dez-frases",
+    "titulo": "Os Dez Mandamentos: o amor em dez frases",
+    "necessidade": "Direção",
+    "fonte": "Estudo 10 \"Jesus e a Lei de Deus\" (Mateus 7:24-27; Mateus 22:36-40; João 15:10; Gálatas 3:24; João 14:15; Mateus 5:18-19; 1 João 3:4; Tiago 2:10; Romanos 3:23-24) + Êxodo 20:3-17",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], Bloco V, o último. Começamos pela pergunta: a lei de Deus é um conjunto de proibições ou um mapa? Jesus respondeu com uma casa."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "*\"Todo aquele que ouve estas minhas palavras e as pratica será comparado a um homem prudente que edificou a sua casa sobre a rocha.\"* (Mateus 7:24) Veio chuva, vento, enchente — a casa ficou. A lei de Deus é a rocha debaixo da sua vida, não a grade em volta dela."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Perguntaram a Jesus qual o maior mandamento. Ele resumiu os dez em dois: *\"Amarás o Senhor, teu Deus, de todo o teu coração… Amarás o teu próximo como a ti mesmo.\"* (Mateus 22:37-39) Os quatro primeiros (Êxodo 20:3-11) são sobre amar a Deus. Os seis últimos (20:12-17), sobre amar gente. É amor em dez frases."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Jesus não aboliu nada: *\"Até que o céu e a terra passem, nem um i ou um til jamais passará da Lei.\"* (Mateus 5:18) E ligou obediência a amor, não a medo: *\"Se me amais, guardareis os meus mandamentos.\"* (João 14:15)"
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Mas atenção: a lei não salva. Ela mostra o problema — *\"o pecado é a transgressão da lei\"* (1 João 3:4) — e aponta para quem resolve: *\"A lei nos serviu de aio para nos conduzir a Cristo.\"* (Gálatas 3:24) Somos *\"justificados gratuitamente, por sua graça\"* (Romanos 3:24). Guardar a lei é a resposta de quem já foi salvo, não o preço para ser."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "Em que Jesus resumiu os Dez Mandamentos (Mateus 22:37-39)?\nA) Em muitas regras novas\nB) Em amar a Deus e amar o próximo ✅\nC) Em não fazer nada no sábado\n*(Explicação: amor em dez frases.)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Lei\":\nhttps://www.youtube.com/watch?v=wcBQx9gcnp0\n\nOração: \"Deus, eu quero construir na rocha. Me ensina a amar o Senhor e as pessoas do jeito que a Sua lei descreve.\"",
+        "opcoes": [
+          "Quero a lição 18",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "Em que Jesus resumiu os Dez Mandamentos (Mateus 22:37-39)?",
+      "alternativas": [
+        "Em muitas regras novas",
+        "Em amar a Deus e amar o próximo",
+        "Em não fazer nada no sábado"
+      ],
+      "correta": 1,
+      "explicacao": "amor em dez frases."
+    },
+    "exercicio": null,
+    "oracao": "Deus, eu quero construir na rocha. Me ensina a amar o Senhor e as pessoas do jeito que a Sua lei descreve.",
+    "videos": [
+      "https://www.youtube.com/watch?v=wcBQx9gcnp0"
+    ],
+    "botoes": [
+      "Quero a lição 18",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 18,
+    "bloco": 5,
+    "bloco_nome": "O futuro",
+    "slug": "o-que-acontece-quando-morremos",
+    "titulo": "O que acontece quando morremos",
+    "necessidade": "Esperança frente à perda",
+    "fonte": "Estudo 8 \"Jesus e a Vida Eterna\" (Gênesis 2:7; Eclesiastes 12:7; Eclesiastes 9:5-6, 10; Ezequiel 18:4, 20; Deuteronômio 18:10-11; 1 Tessalonicenses 4:13-18) + Estudo 9 \"Jesus e o Juízo\" (João 5:22, 24, 28-29; 2 Coríntios 5:10; 1 João 2:1)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], este é um tema que todo mundo pensa e quase ninguém fala. Vou te mostrar o que a Bíblia diz — e é mais tranquilizador do que a maioria imagina."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Como Deus fez a vida: *\"Formou o Senhor Deus ao homem do pó da terra e lhe soprou nas narinas o fôlego de vida, e o homem passou a ser alma vivente.\"* (Gênesis 2:7) Pó + fôlego = pessoa viva. Na morte, o processo se desfaz: *\"O pó volte à terra, como o era, e o espírito volte a Deus, que o deu.\"* (Eclesiastes 12:7)"
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E a pessoa? *\"Os mortos não sabem coisa nenhuma… não há obra, nem projetos, nem conhecimento, nem sabedoria alguma na sepultura.\"* (Eclesiastes 9:5, 10) A Bíblia chama isso de *sono*. Jesus disse de Lázaro: \"nosso amigo dorme\" (João 11:11). Quem morreu não está sofrendo, não está vagando, não está vendo você de longe. Está descansando — até Jesus chamar."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Por isso a Bíblia proíbe tentar falar com os mortos (Deuteronômio 18:10-11): quem responde não é quem você perdeu. E por isso a esperança é concreta: *\"O Senhor mesmo… descerá dos céus, e os mortos em Cristo ressuscitarão primeiro… e, assim, estaremos para sempre com o Senhor. Consolai-vos, pois, uns aos outros com estas palavras.\"* (1 Tessalonicenses 4:16-18)"
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E o juízo? Não é para dar medo. *\"O Pai… ao Filho confiou todo julgamento.\"* (João 5:22) Quem julga é quem morreu por você. *\"Quem ouve a minha palavra e crê naquele que me enviou tem a vida eterna, não entra em juízo, mas passou da morte para a vida.\"* (João 5:24) E se você cair: *\"temos Advogado junto ao Pai.\"* (1 João 2:1) O juiz é o seu advogado."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "Como a Bíblia descreve a morte de quem crê?\nA) Um sono até Jesus voltar ✅\nB) Uma viagem para ver os vivos de longe\nC) Um sofrimento sem fim\n*(Explicação: \"os mortos não sabem coisa nenhuma\"; \"os mortos em Cristo ressuscitarão\".)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Morte\":\nhttps://www.youtube.com/watch?v=EBbO669O6Sw\n\nSe esta lição mexeu com alguma perda sua, me escreva. Eu fico aqui com você.",
+        "opcoes": [
+          "Quero a lição 19",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "Como a Bíblia descreve a morte de quem crê?",
+      "alternativas": [
+        "Um sono até Jesus voltar",
+        "Uma viagem para ver os vivos de longe",
+        "Um sofrimento sem fim"
+      ],
+      "correta": 0,
+      "explicacao": "\"os mortos não sabem coisa nenhuma\"; \"os mortos em Cristo ressuscitarão\"."
+    },
+    "exercicio": null,
+    "oracao": null,
+    "videos": [
+      "https://www.youtube.com/watch?v=EBbO669O6Sw"
+    ],
+    "botoes": [
+      "Quero a lição 19",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 19,
+    "bloco": 5,
+    "bloco_nome": "O futuro",
+    "slug": "profecia-e-a-volta-de-jesus-a-esperanca-que-nao-falha",
+    "titulo": "Profecia e a volta de Jesus: a esperança que não falha",
+    "necessidade": "Futuro",
+    "fonte": "Estudo 7 \"Jesus e o Destino do Mundo\" (Mateus 25:1-13; João 14:1-3; Tito 2:13; Mateus 24:30; Apocalipse 1:7; 1 Tessalonicenses 4:16-17; 2 Pedro 3:8-10; sinais: 2 Timóteo 3:1-5; Lucas 21:11, 26; Mateus 24:3-14) + Estudo 18 \"Jesus e o Dom de Profecia\" (Lucas 20:9-18; Amós 3:7; Apocalipse 12:17; 19:10; 1 Tessalonicenses 5:20-21; Isaías 8:20 — referências clássicas da IASD; ver nota no topo)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], olhe o noticiário: guerra, doença, violência, gente com medo. Jesus previu tudo isso — e disse o que vem depois."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "A promessa central: *\"Não se turbe o vosso coração… Vou preparar-vos lugar. E, quando eu for e vos preparar lugar, voltarei e vos receberei para mim mesmo, para que, onde eu estou, estejais vós também.\"* (João 14:1-3) Ele não disse \"talvez\". Disse \"voltarei\"."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Como vai ser? Visível, para todos: *\"Eis que vem com as nuvens, e todo olho o verá.\"* (Apocalipse 1:7) *\"Verão o Filho do Homem vindo sobre as nuvens do céu, com poder e muita glória.\"* (Mateus 24:30) Não é secreto, não é simbólico, não é só para alguns."
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Os sinais: *\"Nos últimos dias, sobrevirão tempos difíceis, pois os homens serão egoístas, avarentos… sem afeição natural.\"* (2 Timóteo 3:1-3) *\"Haverá… pestes e fomes… homens desmaiando de terror.\"* (Lucas 21:11, 26) Jesus não escondeu que ia piorar. Mas disse: *\"Quando estas coisas começarem a suceder, exultai e erguei a vossa cabeça; porque a vossa redenção se aproxima.\"* (Lucas 21:28)"
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Como saber que dá para confiar? Porque Deus sempre avisou antes: *\"Certamente, o Senhor Deus não fará coisa alguma, sem primeiro revelar o seu segredo aos seus servos, os profetas.\"* (Amós 3:7) A Bíblia testa qualquer profecia (*\"julgai todas as coisas, retende o que é bom\"*, 1 Tessalonicenses 5:21; *\"à lei e ao testemunho!\"*, Isaías 8:20). E a igreja do fim é descrita com *\"o testemunho de Jesus\"*, que *\"é o espírito da profecia\"* (Apocalipse 12:17; 19:10). Não é horóscopo. É Deus avisando porque ama."
+      },
+      {
+        "n": 6,
+        "tipo": "quiz",
+        "rotulo": "quiz (100 pontos)",
+        "texto": "Como será a volta de Jesus, segundo Apocalipse 1:7?\nA) Secreta, só para alguns\nB) Visível, \"todo olho o verá\" ✅\nC) Simbólica\n*(Explicação: a parábola das dez virgens (Mateus 25) diz: esteja pronto, com óleo na lâmpada.)*"
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Sua Volta\":\nhttps://www.youtube.com/watch?v=POuIydWrHNU\n🎥 Bíblia Fácil — tema \"Profetas\":\nhttps://www.youtube.com/watch?v=qeF9b562wiQ\n\nOração: \"Jesus, o mundo está pesado. Mas o Senhor disse que volta. Eu quero estar pronto(a). Me prepara.\"",
+        "opcoes": [
+          "Quero a última lição",
+          "Quero que orem por mim",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": {
+      "pergunta": "Como será a volta de Jesus, segundo Apocalipse 1:7?",
+      "alternativas": [
+        "Secreta, só para alguns",
+        "Visível, \"todo olho o verá\"",
+        "Simbólica"
+      ],
+      "correta": 1,
+      "explicacao": "a parábola das dez virgens (Mateus 25) diz: esteja pronto, com óleo na lâmpada."
+    },
+    "exercicio": null,
+    "oracao": "Jesus, o mundo está pesado. Mas o Senhor disse que volta. Eu quero estar pronto(a). Me prepara.",
+    "videos": [
+      "https://www.youtube.com/watch?v=POuIydWrHNU",
+      "https://www.youtube.com/watch?v=qeF9b562wiQ"
+    ],
+    "botoes": [
+      "Quero a última lição",
+      "Quero que orem por mim",
+      "Quero uma visita"
+    ],
+    "pontos": 100,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 20,
+    "bloco": 5,
+    "bloco_nome": "O futuro",
+    "slug": "a-decisao-batismo-nova-vida-e-o-proximo-passo",
+    "titulo": "A decisão: batismo, nova vida e o próximo passo",
+    "necessidade": "Compromisso",
+    "fonte": "Estudo 15 \"Jesus e o Batismo\" (João 3:1-15; Atos 15:11; Mateus 3:16; Romanos 6:3-5; Gálatas 3:26-27; João 3:5; Atos 10:47-48; 2 Coríntios 6:2) + Estudo 19 \"Jesus e o Espírito Santo\" (João 14:16-17, 26; João 16:13; Atos 1:8 — clássicas) + Estudo 20 \"Jesus e a Nova Terra\" (Apocalipse 21:1-5; 2 Pedro 3:13; Isaías 65:17-25 — clássicas; ver nota)",
+    "mensagens": [
+      {
+        "n": 1,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "[nome], chegamos à lição 20. Você começou este curso num ponto da vida em que talvez nem quisesse continuar. Olha onde está. Hoje falamos de recomeço oficial."
+      },
+      {
+        "n": 2,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Um homem religioso e importante, Nicodemos, procurou Jesus de noite. Jesus foi direto: *\"Quem não nascer de novo não pode ver o reino de Deus… quem não nascer da água e do Espírito não pode entrar no reino de Deus.\"* (João 3:3, 5) Nascer de novo. Recomeçar do zero — com Deus."
+      },
+      {
+        "n": 3,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "O batismo é isso em forma visível. Jesus foi batizado por imersão (Mateus 3:16 — \"saiu logo da água\"). O significado: *\"Fomos sepultados com ele na morte pelo batismo; para que, como Cristo foi ressuscitado… assim também andemos nós em novidade de vida.\"* (Romanos 6:4) Entra na água a vida antiga. Sai uma nova. *\"Todos quantos fostes batizados em Cristo de Cristo vos revestistes.\"* (Gálatas 3:27)"
+      },
+      {
+        "n": 4,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "Ninguém faz isso sozinho. Jesus prometeu: *\"Eu rogarei ao Pai, e ele vos dará outro Consolador, a fim de que esteja para sempre convosco, o Espírito da verdade.\"* (João 14:16-17) O Espírito Santo é quem convence, ensina (João 14:26), guia (João 16:13) e dá força para viver e contar (Atos 1:8). Você vai continuar fraco(a) em alguns dias. Ele não."
+      },
+      {
+        "n": 5,
+        "tipo": "texto",
+        "rotulo": "",
+        "texto": "E para onde isso tudo vai? *\"Vi novo céu e nova terra… Deus enxugará dos olhos toda lágrima, e a morte já não existirá, já não haverá luto, nem pranto, nem dor.\"* (Apocalipse 21:1, 4) Não é nuvem e harpa. É terra nova, casa, gente, sem a dor que você conhece hoje. *\"Eis que faço novas todas as coisas.\"* (Apocalipse 21:5)"
+      },
+      {
+        "n": 6,
+        "tipo": "decisao",
+        "rotulo": "a decisão (sem pontos; é sua)",
+        "texto": "A Bíblia diz: *\"Eis, agora, o tempo sobremodo oportuno, eis, agora, o dia da salvação.\"* (2 Coríntios 6:2) Quando Pedro viu pessoas crendo, perguntou: quem pode impedir que sejam batizadas? (Atos 10:47). Então eu pergunto, sem pressão:",
+        "opcoes": [
+          "Quero me preparar para o batismo",
+          "Quero uma visita do pastor",
+          "Ainda não, mas quero continuar perto"
+        ]
+      },
+      {
+        "n": 7,
+        "tipo": "fechamento",
+        "rotulo": "vídeo e fechamento",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Batismo\":\nhttps://www.youtube.com/watch?v=I2Jhrvy_w5E\n🎥 Escola Bíblica NT — \"A Nova Terra\":\nhttps://www.youtube.com/watch?v=u1ZM0Ixo6Kg\n\n🎓 *Você concluiu o curso A Chave da Virada.* Selo \"O Futuro\" + 400 pontos. Seu certificado, com seu nome e aproveitamento, chega em instantes aqui no WhatsApp — e se quiser a versão impressa entregue em casa, é só pedir uma *visita*.\n\nOração final: \"Deus, eu comecei sem esperança. O Senhor me chamou pelo nome, correu na minha direção, pagou meu preço e prometeu voltar. Eu aceito. Faz novas todas as coisas em mim.\"",
+        "opcoes": [
+          "Quero meu certificado",
+          "Quero me preparar para o batismo",
+          "Quero uma visita"
+        ]
+      }
+    ],
+    "quiz": null,
+    "exercicio": null,
+    "oracao": null,
+    "videos": [
+      "https://www.youtube.com/watch?v=I2Jhrvy_w5E",
+      "https://www.youtube.com/watch?v=u1ZM0Ixo6Kg"
+    ],
+    "botoes": [
+      "Quero meu certificado",
+      "Quero me preparar para o batismo",
+      "Quero uma visita"
+    ],
+    "pontos": 0,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  }
+]

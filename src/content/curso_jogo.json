@@ -1,0 +1,2270 @@
+[
+  {
+    "numero": 1,
+    "bloco": 1,
+    "titulo": "Você não está sozinho",
+    "figurinha": "🏃‍♂️💛",
+    "gancho": "Uma história de 5 minutos sobre um pai que corre. Vamos jogar?",
+    "perguntas": [
+      {
+        "p": "O filho mais novo pediu o quê ao pai?",
+        "o": [
+          "Um conselho",
+          "A herança",
+          "Um emprego"
+        ],
+        "c": 1,
+        "v": "Pai, dá-me a parte dos bens que me cabe.",
+        "r": "Lucas 15:12"
+      },
+      {
+        "p": "Quando o dinheiro acabou, ele foi cuidar de…",
+        "o": [
+          "Ovelhas",
+          "Porcos",
+          "Vinhas"
+        ],
+        "c": 1,
+        "v": "Mandou-o para os seus campos a guardar porcos.",
+        "r": "Lucas 15:15"
+      },
+      {
+        "p": "O que ele planejou dizer ao voltar?",
+        "o": [
+          "Me dá mais",
+          "Já não sou digno de ser teu filho",
+          "A culpa foi sua"
+        ],
+        "c": 1,
+        "v": "Já não sou digno de ser chamado teu filho.",
+        "r": "Lucas 15:19"
+      },
+      {
+        "p": "Quem viu quem primeiro?",
+        "o": [
+          "O filho viu o pai",
+          "O pai viu o filho ainda longe",
+          "Um empregado"
+        ],
+        "c": 1,
+        "v": "Vinha ele ainda longe, quando seu pai o avistou.",
+        "r": "Lucas 15:20"
+      },
+      {
+        "p": "O que o pai fez?",
+        "o": [
+          "Esperou na porta",
+          "Correu e o abraçou",
+          "Mandou um recado"
+        ],
+        "c": 1,
+        "v": "Compadecido dele, correndo, o abraçou e o beijou.",
+        "r": "Lucas 15:20"
+      },
+      {
+        "p": "O pai deixou o filho terminar o discurso?",
+        "o": [
+          "Sim",
+          "Não — mandou trazer a melhor roupa",
+          "Pediu explicações"
+        ],
+        "c": 1,
+        "v": "Trazei depressa a melhor roupa, vesti-o.",
+        "r": "Lucas 15:22"
+      },
+      {
+        "p": "Como Deus se compadece de você?",
+        "o": [
+          "Como um juiz",
+          "Como um pai",
+          "Como um patrão"
+        ],
+        "c": 1,
+        "v": "Como um pai se compadece de seus filhos, assim o Senhor se compadece.",
+        "r": "Salmo 103:13"
+      },
+      {
+        "p": "O que pode te separar do amor de Deus?",
+        "o": [
+          "Seus erros",
+          "O que você sente",
+          "Nada"
+        ],
+        "c": 2,
+        "v": "Nem a morte, nem a vida… poderá separar-nos do amor de Deus.",
+        "r": "Romanos 8:38-39"
+      }
+    ],
+    "oracao": "Deus, se o Senhor corre na minha direção, eu deixo. Vem me buscar onde eu estou.",
+    "videos": [
+      {
+        "id": "KRteaA6iRPo",
+        "titulo": "Por que o amor de Deus é o antídoto para a ansiedade? — Pr. Kléber Gonçalves",
+        "programa": "Rede Novo Tempo",
+        "url": "https://www.youtube.com/watch?v=KRteaA6iRPo",
+        "capa": "https://img.youtube.com/vi/KRteaA6iRPo/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Esperança",
+    "cor": "#E8923A",
+    "fundo": "#FFF4E8",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 2,
+    "bloco": 1,
+    "titulo": "Vale a pena continuar",
+    "figurinha": "💎",
+    "gancho": "E se você simplesmente não valer a pena? A Bíblia responde com um preço.",
+    "perguntas": [
+      {
+        "p": "Deus amou o mundo 'de tal maneira' que…",
+        "o": [
+          "Mandou regras",
+          "Deu o seu Filho",
+          "Ficou assistindo"
+        ],
+        "c": 1,
+        "v": "Deus amou ao mundo de tal maneira que deu o seu Filho unigênito.",
+        "r": "João 3:16"
+      },
+      {
+        "p": "Para quem é essa promessa?",
+        "o": [
+          "Para os religiosos",
+          "Para todo o que nele crê",
+          "Para os perfeitos"
+        ],
+        "c": 1,
+        "v": "Para que todo o que nele crê não pereça, mas tenha a vida eterna.",
+        "r": "João 3:16"
+      },
+      {
+        "p": "Deus perdoa de má vontade?",
+        "o": [
+          "Sim",
+          "Não — Ele tem prazer em perdoar",
+          "Só às vezes"
+        ],
+        "c": 1,
+        "v": "Porque ele se compraz na misericórdia.",
+        "r": "Miqueias 7:18"
+      },
+      {
+        "p": "Se pais imperfeitos dão boas coisas, o Pai do céu dá…",
+        "o": [
+          "Menos",
+          "Quanto mais",
+          "Igual"
+        ],
+        "c": 1,
+        "v": "Quanto mais vosso Pai, que está nos céus, dará boas coisas aos que lhe pedirem?",
+        "r": "Mateus 7:11"
+      },
+      {
+        "p": "O 'salário' do pecado é…",
+        "o": [
+          "Morte",
+          "Cansaço",
+          "Multa"
+        ],
+        "c": 0,
+        "v": "O salário do pecado é a morte.",
+        "r": "Romanos 6:23"
+      },
+      {
+        "p": "O 'dom gratuito' de Deus é…",
+        "o": [
+          "Saúde",
+          "Vida eterna",
+          "Dinheiro"
+        ],
+        "c": 1,
+        "v": "Mas o dom gratuito de Deus é a vida eterna em Cristo Jesus.",
+        "r": "Romanos 6:23"
+      },
+      {
+        "p": "Salário se ganha. Dom se…",
+        "o": [
+          "Compra",
+          "Recebe de graça",
+          "Merece"
+        ],
+        "c": 1,
+        "v": "Isto não vem de vós; é dom de Deus.",
+        "r": "Efésios 2:8"
+      },
+      {
+        "p": "Jesus veio para que você tenha vida…",
+        "o": [
+          "Difícil",
+          "Em abundância",
+          "Curta"
+        ],
+        "c": 1,
+        "v": "Eu vim para que tenham vida e a tenham em abundância.",
+        "r": "João 10:10"
+      }
+    ],
+    "oracao": "Deus, eu não entendo por que o Senhor pagou tanto por mim. Mas eu aceito. Me ajuda a continuar.",
+    "videos": [
+      {
+        "id": "AVFVbg86kdM",
+        "titulo": "O amor de Deus (2 min)",
+        "programa": "Novo Tempo",
+        "url": "https://www.youtube.com/watch?v=AVFVbg86kdM",
+        "capa": "https://img.youtube.com/vi/AVFVbg86kdM/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Esperança",
+    "cor": "#E8923A",
+    "fundo": "#FFF4E8",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 3,
+    "bloco": 1,
+    "titulo": "Quando a vida dói",
+    "figurinha": "🌧️🌱",
+    "gancho": "Se Deus me ama, por que dói tanto? Jesus respondeu com uma história de campo.",
+    "perguntas": [
+      {
+        "p": "Na parábola, quem semeou o joio?",
+        "o": [
+          "O fazendeiro",
+          "Um inimigo",
+          "A chuva"
+        ],
+        "c": 1,
+        "v": "Um inimigo fez isso.",
+        "r": "Mateus 13:28"
+      },
+      {
+        "p": "Quando o inimigo semeou?",
+        "o": [
+          "De dia",
+          "Enquanto os homens dormiam",
+          "Na colheita"
+        ],
+        "c": 1,
+        "v": "Enquanto os homens dormiam, veio o inimigo dele, semeou o joio.",
+        "r": "Mateus 13:25"
+      },
+      {
+        "p": "Onde o mal começou?",
+        "o": [
+          "Na terra",
+          "Numa guerra no céu",
+          "Em Roma"
+        ],
+        "c": 1,
+        "v": "Houve peleja no céu.",
+        "r": "Apocalipse 12:7"
+      },
+      {
+        "p": "Quem foi expulso do céu?",
+        "o": [
+          "Miguel",
+          "O dragão, Satanás",
+          "Adão"
+        ],
+        "c": 1,
+        "v": "Foi expulso o grande dragão, a antiga serpente, que se chama diabo e Satanás.",
+        "r": "Apocalipse 12:9"
+      },
+      {
+        "p": "Jesus é chamado de…",
+        "o": [
+          "Homem de vitórias",
+          "Homem de dores",
+          "Homem de festas"
+        ],
+        "c": 1,
+        "v": "Homem de dores e que sabe o que é padecer.",
+        "r": "Isaías 53:3"
+      },
+      {
+        "p": "O que Jesus tomou sobre si?",
+        "o": [
+          "Nossas riquezas",
+          "Nossas dores",
+          "Nossas férias"
+        ],
+        "c": 1,
+        "v": "Ele tomou sobre si as nossas enfermidades e as nossas dores levou sobre si.",
+        "r": "Isaías 53:4"
+      },
+      {
+        "p": "O Senhor está perto de quem…",
+        "o": [
+          "Está bem",
+          "Tem o coração quebrantado",
+          "Nunca chorou"
+        ],
+        "c": 1,
+        "v": "Perto está o Senhor dos que têm o coração quebrantado.",
+        "r": "Salmo 34:18"
+      },
+      {
+        "p": "Jesus prometeu vida sem aflição?",
+        "o": [
+          "Sim",
+          "Não — mas Ele venceu o mundo",
+          "Só aos fortes"
+        ],
+        "c": 1,
+        "v": "No mundo, passais por aflições; mas tende bom ânimo; eu venci o mundo.",
+        "r": "João 16:33"
+      }
+    ],
+    "oracao": "Deus, a vida dói. O Senhor sabe o que é isso. Fica perto de mim hoje.",
+    "videos": [
+      {
+        "id": "OWKz1bQsw2I",
+        "titulo": "Como entender a ansiedade e a depressão",
+        "programa": "Consultório de Família (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=OWKz1bQsw2I",
+        "capa": "https://img.youtube.com/vi/OWKz1bQsw2I/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Esperança",
+    "cor": "#E8923A",
+    "fundo": "#FFF4E8",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 4,
+    "bloco": 1,
+    "titulo": "Paz para a mente cansada",
+    "figurinha": "🕊️😮‍💨",
+    "gancho": "A cabeça que não desliga. A Bíblia tem um lugar para despejar o peso.",
+    "perguntas": [
+      {
+        "p": "O Salmo manda fazer o quê com o coração?",
+        "o": [
+          "Esconder",
+          "Derramar diante de Deus",
+          "Endurecer"
+        ],
+        "c": 1,
+        "v": "Derramai perante ele o vosso coração; Deus é o nosso refúgio.",
+        "r": "Salmo 62:8"
+      },
+      {
+        "p": "Onde Jesus mandou orar?",
+        "o": [
+          "Na praça",
+          "No quarto, com a porta fechada",
+          "Só no templo"
+        ],
+        "c": 1,
+        "v": "Entra no teu quarto e, fechada a porta, orarás a teu Pai.",
+        "r": "Mateus 6:6"
+      },
+      {
+        "p": "'Não andeis ansiosos de…'",
+        "o": [
+          "Algumas coisas",
+          "Coisa alguma",
+          "Dinheiro"
+        ],
+        "c": 1,
+        "v": "Não andeis ansiosos de coisa alguma.",
+        "r": "Filipenses 4:6"
+      },
+      {
+        "p": "O que guarda o coração e a mente?",
+        "o": [
+          "O silêncio",
+          "A paz de Deus",
+          "O sono"
+        ],
+        "c": 1,
+        "v": "A paz de Deus… guardará o vosso coração e a vossa mente.",
+        "r": "Filipenses 4:7"
+      },
+      {
+        "p": "Onde Paulo e Silas cantaram à meia-noite?",
+        "o": [
+          "Numa festa",
+          "Na prisão",
+          "Num barco"
+        ],
+        "c": 1,
+        "v": "Por volta da meia-noite, Paulo e Silas oravam e cantavam louvores.",
+        "r": "Atos 16:25"
+      },
+      {
+        "p": "Quem Jesus convida a vir a Ele?",
+        "o": [
+          "Os descansados",
+          "Os cansados e sobrecarregados",
+          "Os perfeitos"
+        ],
+        "c": 1,
+        "v": "Vinde a mim, todos os que estais cansados e sobrecarregados.",
+        "r": "Mateus 11:28"
+      },
+      {
+        "p": "E o que Ele promete?",
+        "o": [
+          "Mais tarefas",
+          "Alívio",
+          "Silêncio"
+        ],
+        "c": 1,
+        "v": "E eu vos aliviarei.",
+        "r": "Mateus 11:28"
+      },
+      {
+        "p": "Lance sobre Ele…",
+        "o": [
+          "Suas ideias",
+          "Toda a sua ansiedade",
+          "Só o que é grave"
+        ],
+        "c": 1,
+        "v": "Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós.",
+        "r": "1 Pedro 5:7"
+      }
+    ],
+    "oracao": "Deus, aqui estão as três coisas que mais pesam. Eu entrego. Guarda a minha mente esta noite.",
+    "videos": [
+      {
+        "id": "8zea0OBzehs",
+        "titulo": "Como diminuir a ansiedade e a angústia",
+        "programa": "Consultório de Família (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=8zea0OBzehs",
+        "capa": "https://img.youtube.com/vi/8zea0OBzehs/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Esperança",
+    "cor": "#E8923A",
+    "fundo": "#FFF4E8",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 5,
+    "bloco": 2,
+    "titulo": "Deus sabe o seu nome",
+    "figurinha": "🏷️❤️",
+    "gancho": "Num mundo de senhas e protocolos, Deus chama pelo nome.",
+    "perguntas": [
+      {
+        "p": "'Chamei-te pelo teu…'",
+        "o": [
+          "Número",
+          "Nome",
+          "Apelido"
+        ],
+        "c": 1,
+        "v": "Chamei-te pelo teu nome, tu és meu.",
+        "r": "Isaías 43:1"
+      },
+      {
+        "p": "Deus conhece a palavra antes de ela…",
+        "o": [
+          "Ser escrita",
+          "Chegar à sua língua",
+          "Ser pensada"
+        ],
+        "c": 1,
+        "v": "Ainda a palavra me não chegou à língua, e tu, Senhor, já a conheces toda.",
+        "r": "Salmo 139:4"
+      },
+      {
+        "p": "'Deus é…'",
+        "o": [
+          "Só justo",
+          "Amor",
+          "Distante"
+        ],
+        "c": 1,
+        "v": "Deus é amor.",
+        "r": "1 João 4:8"
+      },
+      {
+        "p": "Deus sabe que somos…",
+        "o": [
+          "Ferro",
+          "Pó",
+          "Pedra"
+        ],
+        "c": 1,
+        "v": "Ele conhece a nossa estrutura e sabe que somos pó.",
+        "r": "Salmo 103:14"
+      },
+      {
+        "p": "Quem amou primeiro?",
+        "o": [
+          "Nós",
+          "Ele",
+          "Ninguém"
+        ],
+        "c": 1,
+        "v": "Nós amamos porque ele nos amou primeiro.",
+        "r": "1 João 4:19"
+      },
+      {
+        "p": "Os cabelos da sua cabeça estão…",
+        "o": [
+          "Soltos",
+          "Todos contados",
+          "Esquecidos"
+        ],
+        "c": 1,
+        "v": "Até os cabelos todos da cabeça estão contados.",
+        "r": "Mateus 10:30"
+      },
+      {
+        "p": "Você vale mais que…",
+        "o": [
+          "Muitos pardais",
+          "Um pardal",
+          "Nada"
+        ],
+        "c": 0,
+        "v": "Bem mais valeis vós do que muitos pardais.",
+        "r": "Mateus 10:31"
+      },
+      {
+        "p": "O amor de Deus por você é…",
+        "o": [
+          "Temporário",
+          "Eterno",
+          "Condicional"
+        ],
+        "c": 1,
+        "v": "Com amor eterno eu te amei.",
+        "r": "Jeremias 31:3"
+      }
+    ],
+    "oracao": "Deus, se o Senhor sabe meu nome, eu respondo: estou aqui.",
+    "videos": [
+      {
+        "id": "x9jlwtHXBAk",
+        "titulo": "Eu tenho medo de Deus",
+        "programa": "Está Escrito (Rede Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=x9jlwtHXBAk",
+        "capa": "https://img.youtube.com/vi/x9jlwtHXBAk/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Você e Deus",
+    "cor": "#2F80C9",
+    "fundo": "#EAF3FC",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 6,
+    "bloco": 2,
+    "titulo": "Falar com Alguém que ouve",
+    "figurinha": "🙏🚪",
+    "gancho": "Oração não é discurso bonito. É honestidade. Dois homens no templo provam isso.",
+    "perguntas": [
+      {
+        "p": "Dos dois homens no templo, quem voltou em paz com Deus?",
+        "o": [
+          "O fariseu",
+          "O publicano",
+          "Os dois"
+        ],
+        "c": 1,
+        "v": "Este desceu justificado para sua casa, e não aquele.",
+        "r": "Lucas 18:14"
+      },
+      {
+        "p": "O que o publicano disse?",
+        "o": [
+          "Sou melhor que os outros",
+          "Sê propício a mim, pecador",
+          "Nada"
+        ],
+        "c": 1,
+        "v": "Ó Deus, sê propício a mim, pecador!",
+        "r": "Lucas 18:13"
+      },
+      {
+        "p": "Daniel orava quantas vezes por dia?",
+        "o": [
+          "Uma",
+          "Três",
+          "Sete"
+        ],
+        "c": 1,
+        "v": "Três vezes por dia se punha de joelhos, e orava.",
+        "r": "Daniel 6:10"
+      },
+      {
+        "p": "Jesus orou com medo no Getsêmani?",
+        "o": [
+          "Não",
+          "Sim — pediu para passar o cálice",
+          "Só cantou"
+        ],
+        "c": 1,
+        "v": "Aba, Pai… passa de mim este cálice; contudo, não seja o que eu quero.",
+        "r": "Marcos 14:36"
+      },
+      {
+        "p": "Como Jesus chamou o Pai ali?",
+        "o": [
+          "Senhor",
+          "Aba (papai)",
+          "Mestre"
+        ],
+        "c": 1,
+        "v": "Aba, Pai, tudo te é possível.",
+        "r": "Marcos 14:36"
+      },
+      {
+        "p": "'Pedi, e…'",
+        "o": [
+          "Esperem",
+          "Dar-se-vos-á",
+          "Talvez"
+        ],
+        "c": 1,
+        "v": "Pedi, e dar-se-vos-á; buscai e achareis; batei, e abrir-se-vos-á.",
+        "r": "Mateus 7:7"
+      },
+      {
+        "p": "A oração de quem 'pode muito'?",
+        "o": [
+          "Do sacerdote",
+          "Do justo",
+          "Do rico"
+        ],
+        "c": 1,
+        "v": "Muito pode, por sua eficácia, a súplica do justo.",
+        "r": "Tiago 5:16"
+      },
+      {
+        "p": "Deus responde quando?",
+        "o": [
+          "Só depois",
+          "Antes mesmo de terminarmos",
+          "Nunca"
+        ],
+        "c": 1,
+        "v": "Antes que clamem, eu responderei.",
+        "r": "Isaías 65:24"
+      }
+    ],
+    "oracao": "Pai, eu não sei orar direito. Mas estou falando. Isso conta.",
+    "videos": [
+      {
+        "id": "OUKfVkkKcVw",
+        "titulo": "Ensinos de Jesus — Oração",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=OUKfVkkKcVw",
+        "capa": "https://img.youtube.com/vi/OUKfVkkKcVw/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Você e Deus",
+    "cor": "#2F80C9",
+    "fundo": "#EAF3FC",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 7,
+    "bloco": 2,
+    "titulo": "Um livro para dias difíceis",
+    "figurinha": "📖💡",
+    "gancho": "De onde vem a Bíblia e por que dá para confiar nela quando a vida aperta?",
+    "perguntas": [
+      {
+        "p": "O etíope entendia o que lia?",
+        "o": [
+          "Sim",
+          "Não — precisava de alguém para explicar",
+          "Fingia"
+        ],
+        "c": 1,
+        "v": "Como poderei entender, se alguém não me explicar?",
+        "r": "Atos 8:31"
+      },
+      {
+        "p": "Quem Deus mandou para explicar?",
+        "o": [
+          "Pedro",
+          "Filipe",
+          "Paulo"
+        ],
+        "c": 1,
+        "v": "Correndo, Filipe… perguntou: Compreendes o que vens lendo?",
+        "r": "Atos 8:30"
+      },
+      {
+        "p": "'Toda a Escritura é…'",
+        "o": [
+          "Antiga",
+          "Inspirada por Deus",
+          "Difícil"
+        ],
+        "c": 1,
+        "v": "Toda a Escritura é inspirada por Deus e útil para o ensino.",
+        "r": "2 Timóteo 3:16"
+      },
+      {
+        "p": "Quem moveu os profetas?",
+        "o": [
+          "Reis",
+          "O Espírito Santo",
+          "O povo"
+        ],
+        "c": 1,
+        "v": "Homens santos falaram da parte de Deus, movidos pelo Espírito Santo.",
+        "r": "2 Pedro 1:21"
+      },
+      {
+        "p": "A Bíblia inteira fala de quem?",
+        "o": [
+          "De Israel",
+          "De Jesus",
+          "De Moisés"
+        ],
+        "c": 1,
+        "v": "Expunha-lhes o que a seu respeito constava em todas as Escrituras.",
+        "r": "Lucas 24:27"
+      },
+      {
+        "p": "A verdade faz o quê?",
+        "o": [
+          "Prende",
+          "Liberta",
+          "Assusta"
+        ],
+        "c": 1,
+        "v": "Conhecereis a verdade, e a verdade vos libertará.",
+        "r": "João 8:32"
+      },
+      {
+        "p": "A Palavra é o quê para os meus pés?",
+        "o": [
+          "Pedra",
+          "Lâmpada",
+          "Muro"
+        ],
+        "c": 1,
+        "v": "Lâmpada para os meus pés é a tua palavra e luz para os meus caminhos.",
+        "r": "Salmo 119:105"
+      },
+      {
+        "p": "Quem guarda a Palavra no coração…",
+        "o": [
+          "Esquece",
+          "Não peca contra Deus",
+          "Fica triste"
+        ],
+        "c": 1,
+        "v": "Guardo no coração as tuas palavras, para não pecar contra ti.",
+        "r": "Salmo 119:11"
+      }
+    ],
+    "oracao": "Deus, me ajuda a entender o que leio. E se eu não entender, me manda um Filipe.",
+    "videos": [
+      {
+        "id": "Q7IRoiiI5z8",
+        "titulo": "Ensinos de Jesus — Escrituras",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=Q7IRoiiI5z8",
+        "capa": "https://img.youtube.com/vi/Q7IRoiiI5z8/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Você e Deus",
+    "cor": "#2F80C9",
+    "fundo": "#EAF3FC",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 8,
+    "bloco": 2,
+    "titulo": "Perdão: receber e dar",
+    "figurinha": "🧹🤍",
+    "gancho": "Culpa e mágoa: as duas coisas que mais fazem a gente achar que não merece recomeçar.",
+    "perguntas": [
+      {
+        "p": "Se confessarmos, Deus é…",
+        "o": [
+          "Lento",
+          "Fiel e justo para perdoar",
+          "Indeciso"
+        ],
+        "c": 1,
+        "v": "Ele é fiel e justo para nos perdoar os pecados.",
+        "r": "1 João 1:9"
+      },
+      {
+        "p": "Se pecarmos, temos um … junto ao Pai",
+        "o": [
+          "Juiz",
+          "Advogado",
+          "Fiscal"
+        ],
+        "c": 1,
+        "v": "Temos Advogado junto ao Pai, Jesus Cristo, o Justo.",
+        "r": "1 João 2:1"
+      },
+      {
+        "p": "Justificados pela fé, temos…",
+        "o": [
+          "Medo",
+          "Paz com Deus",
+          "Dívida"
+        ],
+        "c": 1,
+        "v": "Justificados, pois, mediante a fé, temos paz com Deus.",
+        "r": "Romanos 5:1"
+      },
+      {
+        "p": "Perdoar quantas vezes?",
+        "o": [
+          "Sete",
+          "Setenta vezes sete",
+          "Uma"
+        ],
+        "c": 1,
+        "v": "Não te digo que até sete vezes, mas até setenta vezes sete.",
+        "r": "Mateus 18:22"
+      },
+      {
+        "p": "Perdoem 'como também Deus, em Cristo…'",
+        "o": [
+          "Exigiu",
+          "Vos perdoou",
+          "Cobrou"
+        ],
+        "c": 1,
+        "v": "Perdoando-vos uns aos outros, como também Deus, em Cristo, vos perdoou.",
+        "r": "Efésios 4:32"
+      },
+      {
+        "p": "Para onde Deus lança nossos pecados?",
+        "o": [
+          "Numa lista",
+          "Nas profundezas do mar",
+          "Num arquivo"
+        ],
+        "c": 1,
+        "v": "Lançará todos os nossos pecados nas profundezas do mar.",
+        "r": "Miqueias 7:19"
+      },
+      {
+        "p": "Quão longe Ele os afasta?",
+        "o": [
+          "Um pouco",
+          "Quanto o oriente do ocidente",
+          "Um dia"
+        ],
+        "c": 1,
+        "v": "Quanto dista o Oriente do Ocidente, assim afasta de nós as nossas transgressões.",
+        "r": "Salmo 103:12"
+      },
+      {
+        "p": "Pecados vermelhos como escarlate ficam…",
+        "o": [
+          "Rosa",
+          "Brancos como a neve",
+          "Iguais"
+        ],
+        "c": 1,
+        "v": "Ainda que os vossos pecados sejam como a escarlata, eles se tornarão brancos como a neve.",
+        "r": "Isaías 1:18"
+      }
+    ],
+    "oracao": "Deus, eu entrego o que fiz e o que fizeram comigo. Me perdoa. E me ajuda a soltar.",
+    "videos": [
+      {
+        "id": "C-ISNiWuB5M",
+        "titulo": "Ensinos de Jesus — Perdão",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=C-ISNiWuB5M",
+        "capa": "https://img.youtube.com/vi/C-ISNiWuB5M/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Você e Deus",
+    "cor": "#2F80C9",
+    "fundo": "#EAF3FC",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 9,
+    "bloco": 3,
+    "titulo": "Jesus: quem Ele é",
+    "figurinha": "✝️🐑",
+    "gancho": "Profeta? Mestre? Homem bom? A Bíblia diz algo maior — e mais próximo.",
+    "perguntas": [
+      {
+        "p": "'No princípio era o…'",
+        "o": [
+          "Mundo",
+          "Verbo",
+          "Templo"
+        ],
+        "c": 1,
+        "v": "No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.",
+        "r": "João 1:1"
+      },
+      {
+        "p": "O Verbo se fez…",
+        "o": [
+          "Anjo",
+          "Carne",
+          "Livro"
+        ],
+        "c": 1,
+        "v": "E o Verbo se fez carne e habitou entre nós.",
+        "r": "João 1:14"
+      },
+      {
+        "p": "Jesus foi tentado como nós?",
+        "o": [
+          "Não",
+          "Sim, em tudo, mas sem pecado",
+          "Só uma vez"
+        ],
+        "c": 1,
+        "v": "Foi ele tentado em todas as coisas, à nossa semelhança, mas sem pecado.",
+        "r": "Hebreus 4:15"
+      },
+      {
+        "p": "O pastor deixa 99 ovelhas para buscar…",
+        "o": [
+          "Dez",
+          "Uma",
+          "Nenhuma"
+        ],
+        "c": 1,
+        "v": "Não deixa no deserto as noventa e nove e vai em busca da que se perdeu?",
+        "r": "Lucas 15:4"
+      },
+      {
+        "p": "Ao achar a ovelha, ele…",
+        "o": [
+          "Dá bronca",
+          "Põe nos ombros, com alegria",
+          "Manda voltar sozinha"
+        ],
+        "c": 1,
+        "v": "Achando-a, põe-na sobre os ombros, cheio de júbilo.",
+        "r": "Lucas 15:5"
+      },
+      {
+        "p": "A paz de Jesus é igual à do mundo?",
+        "o": [
+          "Igual",
+          "Não — é outra",
+          "Menor"
+        ],
+        "c": 1,
+        "v": "A minha paz vos dou; não vo-la dou como a dá o mundo.",
+        "r": "João 14:27"
+      },
+      {
+        "p": "Jesus chorou?",
+        "o": [
+          "Nunca",
+          "Sim",
+          "Só na cruz"
+        ],
+        "c": 1,
+        "v": "Jesus chorou.",
+        "r": "João 11:35"
+      },
+      {
+        "p": "Jesus veio buscar e salvar…",
+        "o": [
+          "Os bons",
+          "O que se havia perdido",
+          "Os religiosos"
+        ],
+        "c": 1,
+        "v": "O Filho do Homem veio buscar e salvar o perdido.",
+        "r": "Lucas 19:10"
+      }
+    ],
+    "oracao": "Jesus, se o Senhor carrega quem não consegue andar, me carrega hoje.",
+    "videos": [
+      {
+        "id": "g5aerZXYFvc",
+        "titulo": "A solidão de Jesus",
+        "programa": "Está Escrito (Rede Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=g5aerZXYFvc",
+        "capa": "https://img.youtube.com/vi/g5aerZXYFvc/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Jesus",
+    "cor": "#B5343F",
+    "fundo": "#FCEBEC",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 10,
+    "bloco": 3,
+    "titulo": "A cruz: o preço do amor",
+    "figurinha": "🩸🎁",
+    "gancho": "Se você guardar uma lição do curso inteiro, que seja esta.",
+    "perguntas": [
+      {
+        "p": "Quantos pecaram?",
+        "o": [
+          "Alguns",
+          "Todos",
+          "Ninguém"
+        ],
+        "c": 1,
+        "v": "Todos pecaram e carecem da glória de Deus.",
+        "r": "Romanos 3:23"
+      },
+      {
+        "p": "Dá para se limpar com salitre e sabão?",
+        "o": [
+          "Sim",
+          "Não",
+          "Um pouco"
+        ],
+        "c": 1,
+        "v": "Ainda que te laves com salitre… a mancha da tua iniquidade está diante de mim.",
+        "r": "Jeremias 2:22"
+      },
+      {
+        "p": "Por 'um só ato de justiça' veio…",
+        "o": [
+          "Castigo",
+          "Graça para todos",
+          "Mais lei"
+        ],
+        "c": 1,
+        "v": "Por um só ato de justiça, veio a graça sobre todos os homens.",
+        "r": "Romanos 5:18"
+      },
+      {
+        "p": "Somos salvos pela graça, mediante…",
+        "o": [
+          "Obras",
+          "Fé",
+          "Dinheiro"
+        ],
+        "c": 1,
+        "v": "Pela graça sois salvos, mediante a fé.",
+        "r": "Efésios 2:8"
+      },
+      {
+        "p": "'Isto não vem de vós; é…'",
+        "o": [
+          "Salário",
+          "Dom de Deus",
+          "Sorte"
+        ],
+        "c": 1,
+        "v": "Isto não vem de vós; é dom de Deus.",
+        "r": "Efésios 2:8"
+      },
+      {
+        "p": "O que Deus pede de nós?",
+        "o": [
+          "Perfeição",
+          "Arrependimento e conversão",
+          "Uma taxa"
+        ],
+        "c": 1,
+        "v": "Arrependei-vos, pois, e convertei-vos para serem cancelados os vossos pecados.",
+        "r": "Atos 3:19"
+      },
+      {
+        "p": "Quem está em Cristo é…",
+        "o": [
+          "O mesmo",
+          "Nova criatura",
+          "Melhorado"
+        ],
+        "c": 1,
+        "v": "Se alguém está em Cristo, é nova criatura.",
+        "r": "2 Coríntios 5:17"
+      },
+      {
+        "p": "Cristo morreu por nós sendo nós ainda…",
+        "o": [
+          "Bons",
+          "Pecadores",
+          "Santos"
+        ],
+        "c": 1,
+        "v": "Cristo morreu por nós, sendo nós ainda pecadores.",
+        "r": "Romanos 5:8"
+      }
+    ],
+    "oracao": "Jesus, eu aceito o Senhor como meu Salvador.",
+    "videos": [
+      {
+        "id": "O9Hy-k3whtI",
+        "titulo": "Ensinos de Jesus — Salvação",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=O9Hy-k3whtI",
+        "capa": "https://img.youtube.com/vi/O9Hy-k3whtI/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Jesus",
+    "cor": "#B5343F",
+    "fundo": "#FCEBEC",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 11,
+    "bloco": 3,
+    "titulo": "A vida que vence a morte",
+    "figurinha": "⚰️➡️🌅",
+    "gancho": "Jesus tinha um amigo chamado Lázaro. Lázaro morreu. E então…",
+    "perguntas": [
+      {
+        "p": "O versículo mais curto da Bíblia diz:",
+        "o": [
+          "Jesus riu",
+          "Jesus chorou",
+          "Jesus dormiu"
+        ],
+        "c": 1,
+        "v": "Jesus chorou.",
+        "r": "João 11:35"
+      },
+      {
+        "p": "'Eu sou a ressurreição e…'",
+        "o": [
+          "O fim",
+          "A vida",
+          "O juiz"
+        ],
+        "c": 1,
+        "v": "Eu sou a ressurreição e a vida. Quem crê em mim, ainda que morra, viverá.",
+        "r": "João 11:25"
+      },
+      {
+        "p": "Há quantos dias Lázaro estava morto?",
+        "o": [
+          "Um",
+          "Quatro",
+          "Dez"
+        ],
+        "c": 1,
+        "v": "Já cheira mal, porque já é de quatro dias.",
+        "r": "João 11:39"
+      },
+      {
+        "p": "Jesus chamou Lázaro…",
+        "o": [
+          "Baixinho",
+          "Em alta voz, pelo nome",
+          "Por bilhete"
+        ],
+        "c": 1,
+        "v": "Clamou em alta voz: Lázaro, vem para fora!",
+        "r": "João 11:43"
+      },
+      {
+        "p": "Cristo é 'as primícias' dos que…",
+        "o": [
+          "Cantam",
+          "Dormem",
+          "Trabalham"
+        ],
+        "c": 1,
+        "v": "Cristo ressuscitou dentre os mortos, sendo ele as primícias dos que dormem.",
+        "r": "1 Coríntios 15:20"
+      },
+      {
+        "p": "Em Cristo todos serão…",
+        "o": [
+          "Apenas julgados",
+          "Vivificados",
+          "Esquecidos"
+        ],
+        "c": 1,
+        "v": "Assim também todos serão vivificados em Cristo.",
+        "r": "1 Coríntios 15:22"
+      },
+      {
+        "p": "Quem guarda a Palavra 'nunca verá…'",
+        "o": [
+          "A morte",
+          "A luz",
+          "O templo"
+        ],
+        "c": 0,
+        "v": "Se alguém guardar a minha palavra, nunca verá a morte.",
+        "r": "João 8:51"
+      },
+      {
+        "p": "O último inimigo a ser destruído é…",
+        "o": [
+          "O medo",
+          "A morte",
+          "A dor"
+        ],
+        "c": 1,
+        "v": "O último inimigo a ser destruído é a morte.",
+        "r": "1 Coríntios 15:26"
+      }
+    ],
+    "oracao": "Jesus, o Senhor chorou com Marta e Maria. Chora comigo hoje — e me lembra que a morte não tem a última palavra.",
+    "videos": [
+      {
+        "id": "p8Wszj7kUXA",
+        "titulo": "Ensinos de Jesus — Ressurreição",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=p8Wszj7kUXA",
+        "capa": "https://img.youtube.com/vi/p8Wszj7kUXA/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Jesus",
+    "cor": "#B5343F",
+    "fundo": "#FCEBEC",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 12,
+    "bloco": 3,
+    "titulo": "A graça que transforma",
+    "figurinha": "🍇🌿",
+    "gancho": "'Aceitei Jesus, mas continuo o mesmo. E agora?' A Bíblia responde com uma videira.",
+    "perguntas": [
+      {
+        "p": "'Eu sou a videira, vós…'",
+        "o": [
+          "Os frutos",
+          "Os ramos",
+          "O jardineiro"
+        ],
+        "c": 1,
+        "v": "Eu sou a videira, vós, os ramos.",
+        "r": "João 15:5"
+      },
+      {
+        "p": "Sem Ele podemos fazer…",
+        "o": [
+          "Pouco",
+          "Nada",
+          "Tudo"
+        ],
+        "c": 1,
+        "v": "Sem mim nada podeis fazer.",
+        "r": "João 15:5"
+      },
+      {
+        "p": "Deus nos 'transportou' para…",
+        "o": [
+          "Outra cidade",
+          "O reino do Filho",
+          "O deserto"
+        ],
+        "c": 1,
+        "v": "Nos transportou para o reino do Filho do seu amor.",
+        "r": "Colossenses 1:13"
+      },
+      {
+        "p": "O primeiro fruto do Espírito é…",
+        "o": [
+          "Força",
+          "Amor",
+          "Riqueza"
+        ],
+        "c": 1,
+        "v": "O fruto do Espírito é: amor, alegria, paz…",
+        "r": "Gálatas 5:22"
+      },
+      {
+        "p": "Nossa luta é contra…",
+        "o": [
+          "Pessoas",
+          "Forças espirituais do mal",
+          "Vizinhos"
+        ],
+        "c": 1,
+        "v": "A nossa luta não é contra o sangue e a carne.",
+        "r": "Efésios 6:12"
+      },
+      {
+        "p": "A 'espada do Espírito' é…",
+        "o": [
+          "A fé",
+          "A Palavra de Deus",
+          "A oração"
+        ],
+        "c": 1,
+        "v": "A espada do Espírito, que é a palavra de Deus.",
+        "r": "Efésios 6:17"
+      },
+      {
+        "p": "Quem começou a boa obra em você…",
+        "o": [
+          "Desiste",
+          "Há de completá-la",
+          "Espera"
+        ],
+        "c": 1,
+        "v": "Aquele que começou boa obra em vós há de completá-la.",
+        "r": "Filipenses 1:6"
+      },
+      {
+        "p": "Somos transformados 'de glória em glória' por…",
+        "o": [
+          "Esforço",
+          "O Espírito do Senhor",
+          "O tempo"
+        ],
+        "c": 1,
+        "v": "Somos transformados, de glória em glória… como pelo Senhor, o Espírito.",
+        "r": "2 Coríntios 3:18"
+      }
+    ],
+    "oracao": "Jesus, me mantém ligado(a) ao Senhor. Eu não dou conta de produzir fruto sozinho(a).",
+    "videos": [
+      {
+        "id": "A7PgC6nQByw",
+        "titulo": "Quando o outro não quer mudar",
+        "programa": "Consultório de Família (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=A7PgC6nQByw",
+        "capa": "https://img.youtube.com/vi/A7PgC6nQByw/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Jesus",
+    "cor": "#B5343F",
+    "fundo": "#FCEBEC",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 13,
+    "bloco": 4,
+    "titulo": "Corpo, mente e espírito",
+    "figurinha": "💪🥗😴",
+    "gancho": "Deus se interessa pelo seu sono, pelo que você come e pelo que passa na sua cabeça às 3 da manhã.",
+    "perguntas": [
+      {
+        "p": "Seu corpo é…",
+        "o": [
+          "Descartável",
+          "Santuário do Espírito Santo",
+          "Só biologia"
+        ],
+        "c": 1,
+        "v": "O vosso corpo é santuário do Espírito Santo.",
+        "r": "1 Coríntios 6:19"
+      },
+      {
+        "p": "'Olhai para as…'",
+        "o": [
+          "Estrelas",
+          "Aves do céu",
+          "Cidades"
+        ],
+        "c": 1,
+        "v": "Olhai para as aves do céu… vosso Pai celeste as sustenta.",
+        "r": "Mateus 6:26"
+      },
+      {
+        "p": "Você vale mais que…",
+        "o": [
+          "As aves",
+          "Nada",
+          "Só os lírios"
+        ],
+        "c": 0,
+        "v": "Porventura não valeis vós muito mais do que as aves?",
+        "r": "Mateus 6:26"
+      },
+      {
+        "p": "Ocupe o pensamento com o que é…",
+        "o": [
+          "Urgente",
+          "Verdadeiro, justo, puro, amável",
+          "Viral"
+        ],
+        "c": 1,
+        "v": "Tudo o que é verdadeiro… seja isso o que ocupe o vosso pensamento.",
+        "r": "Filipenses 4:8"
+      },
+      {
+        "p": "Alimento original dado por Deus:",
+        "o": [
+          "Carne",
+          "Ervas e frutos",
+          "Pão"
+        ],
+        "c": 1,
+        "v": "Dou-vos todas as ervas que dão semente… e todas as árvores em que há fruto.",
+        "r": "Gênesis 1:29"
+      },
+      {
+        "p": "Quem destrói o santuário de Deus…",
+        "o": [
+          "Lucra",
+          "Deus o destruirá",
+          "É elogiado"
+        ],
+        "c": 1,
+        "v": "Se alguém destruir o santuário de Deus, Deus o destruirá.",
+        "r": "1 Coríntios 3:17"
+      },
+      {
+        "p": "'Fazei tudo para…'",
+        "o": [
+          "Vocês",
+          "A glória de Deus",
+          "O patrão"
+        ],
+        "c": 1,
+        "v": "Fazei tudo para a glória de Deus.",
+        "r": "1 Coríntios 10:31"
+      },
+      {
+        "p": "Deus deseja que você tenha saúde e…",
+        "o": [
+          "Fama",
+          "Prospere em tudo",
+          "Pressa"
+        ],
+        "c": 1,
+        "v": "Faço votos por tua prosperidade e saúde.",
+        "r": "3 João 2"
+      }
+    ],
+    "oracao": "Deus, meu corpo é o Seu santuário. Me ajuda a cuidar dele esta semana — uma coisa pequena de cada vez.",
+    "videos": [
+      {
+        "id": "vTXkFycYxao",
+        "titulo": "Ensinos de Jesus — Cuidado com o corpo",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=vTXkFycYxao",
+        "capa": "https://img.youtube.com/vi/vTXkFycYxao/hqdefault.jpg"
+      },
+      {
+        "id": "swPyOIc-DxE",
+        "titulo": "Superando uma doença emocional",
+        "programa": "Consultório de Família (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=swPyOIc-DxE",
+        "capa": "https://img.youtube.com/vi/swPyOIc-DxE/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Uma vida inteira",
+    "cor": "#2E9E63",
+    "fundo": "#E9F7EF",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 14,
+    "bloco": 4,
+    "titulo": "O descanso que cura",
+    "figurinha": "🌅🛌",
+    "gancho": "Você vive cansado? Antes de existir boleto, Deus criou um dia inteiro para parar.",
+    "perguntas": [
+      {
+        "p": "Deus 'descansou' no dia…",
+        "o": [
+          "Primeiro",
+          "Sétimo",
+          "Décimo"
+        ],
+        "c": 1,
+        "v": "Havendo Deus terminado no dia sétimo a sua obra… descansou.",
+        "r": "Gênesis 2:2"
+      },
+      {
+        "p": "O que Deus fez com o sétimo dia?",
+        "o": [
+          "Esqueceu",
+          "Abençoou e santificou",
+          "Vendeu"
+        ],
+        "c": 1,
+        "v": "Abençoou Deus o dia sétimo e o santificou.",
+        "r": "Gênesis 2:3"
+      },
+      {
+        "p": "O sábado foi feito por causa…",
+        "o": [
+          "Da lei",
+          "Do homem",
+          "Dos sacerdotes"
+        ],
+        "c": 1,
+        "v": "O sábado foi estabelecido por causa do homem, e não o homem por causa do sábado.",
+        "r": "Marcos 2:27"
+      },
+      {
+        "p": "No sábado 'é lícito…'",
+        "o": [
+          "Nada",
+          "Fazer o bem",
+          "Só dormir"
+        ],
+        "c": 1,
+        "v": "É lícito, nos sábados, fazer o bem.",
+        "r": "Mateus 12:12"
+      },
+      {
+        "p": "Costume de Jesus no sábado:",
+        "o": [
+          "Pescar",
+          "Ir à sinagoga",
+          "Viajar"
+        ],
+        "c": 1,
+        "v": "Entrou, num sábado, na sinagoga, segundo o seu costume.",
+        "r": "Lucas 4:16"
+      },
+      {
+        "p": "Quem é 'senhor do sábado'?",
+        "o": [
+          "Moisés",
+          "O Filho do Homem",
+          "O rabino"
+        ],
+        "c": 1,
+        "v": "O Filho do Homem é senhor do sábado.",
+        "r": "Mateus 12:8"
+      },
+      {
+        "p": "Depois da cruz, no sábado, as mulheres…",
+        "o": [
+          "Trabalharam",
+          "Descansaram segundo o mandamento",
+          "Viajaram"
+        ],
+        "c": 1,
+        "v": "No sábado, descansaram, segundo o mandamento.",
+        "r": "Lucas 23:56"
+      },
+      {
+        "p": "Na nova terra, 'de um sábado a outro…'",
+        "o": [
+          "Ninguém vem",
+          "Toda carne virá adorar",
+          "Acaba"
+        ],
+        "c": 1,
+        "v": "De um sábado a outro, virá toda a carne a adorar perante mim.",
+        "r": "Isaías 66:23"
+      }
+    ],
+    "oracao": "Deus, eu não sei parar. Me ensina a descansar no dia que o Senhor fez para mim.",
+    "videos": [
+      {
+        "id": "_XTfOtCGsFg",
+        "titulo": "Ensinos de Jesus — Sábado",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=_XTfOtCGsFg",
+        "capa": "https://img.youtube.com/vi/_XTfOtCGsFg/hqdefault.jpg"
+      },
+      {
+        "id": "rWAj1u7ZoAs",
+        "titulo": "O que Jesus ensinou sobre o sábado",
+        "programa": "Rádio Novo Tempo",
+        "url": "https://www.youtube.com/watch?v=rWAj1u7ZoAs",
+        "capa": "https://img.youtube.com/vi/rWAj1u7ZoAs/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Uma vida inteira",
+    "cor": "#2E9E63",
+    "fundo": "#E9F7EF",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 15,
+    "bloco": 4,
+    "titulo": "Família, amor e dinheiro",
+    "figurinha": "🏠💰🤝",
+    "gancho": "As três coisas que mais tiram o sono. A Bíblia fala das três sem rodeio.",
+    "perguntas": [
+      {
+        "p": "'Falai…'",
+        "o": [
+          "A metade",
+          "A verdade cada um com o próximo",
+          "O que convém"
+        ],
+        "c": 1,
+        "v": "Falai a verdade cada um com o seu próximo.",
+        "r": "Efésios 4:25"
+      },
+      {
+        "p": "Corrigir quem erra com…",
+        "o": [
+          "Dureza",
+          "Espírito de brandura",
+          "Silêncio"
+        ],
+        "c": 1,
+        "v": "Corrigi-o com espírito de brandura.",
+        "r": "Gálatas 6:1"
+      },
+      {
+        "p": "Maridos, amai como Cristo amou…",
+        "o": [
+          "A lei",
+          "A igreja",
+          "O templo"
+        ],
+        "c": 1,
+        "v": "Maridos, amai vossa mulher, como também Cristo amou a igreja.",
+        "r": "Efésios 5:25"
+      },
+      {
+        "p": "Busque primeiro…",
+        "o": [
+          "Dinheiro",
+          "O reino de Deus",
+          "Segurança"
+        ],
+        "c": 1,
+        "v": "Buscai, pois, em primeiro lugar, o seu reino e a sua justiça.",
+        "r": "Mateus 6:33"
+      },
+      {
+        "p": "Quem dá força para adquirir riquezas?",
+        "o": [
+          "A sorte",
+          "O Senhor, teu Deus",
+          "O banco"
+        ],
+        "c": 1,
+        "v": "É o Senhor, teu Deus, que te dá força para adquirires riquezas.",
+        "r": "Deuteronômio 8:18"
+      },
+      {
+        "p": "'Trazei todos os dízimos…' e Deus diz:",
+        "o": [
+          "Esqueçam",
+          "Provai-me nisto",
+          "Depois"
+        ],
+        "c": 1,
+        "v": "Trazei todos os dízimos à casa do Tesouro… e provai-me nisto.",
+        "r": "Malaquias 3:10"
+      },
+      {
+        "p": "Deus ama quem dá…",
+        "o": [
+          "Muito",
+          "Com alegria",
+          "Com medo"
+        ],
+        "c": 1,
+        "v": "Deus ama a quem dá com alegria.",
+        "r": "2 Coríntios 9:7"
+      },
+      {
+        "p": "A viúva deu duas moedas, e Jesus disse que ela deu…",
+        "o": [
+          "Pouco",
+          "Mais que todos",
+          "Igual"
+        ],
+        "c": 1,
+        "v": "Esta viúva pobre depositou mais do que todos.",
+        "r": "Marcos 12:43"
+      }
+    ],
+    "oracao": "Deus, cuida da minha casa. Me ensina a falar a verdade com brandura e a confiar o Senhor com o que eu tenho.",
+    "videos": [
+      {
+        "id": "NozIcqBLWPs",
+        "titulo": "Ensinos de Jesus — Dinheiro",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=NozIcqBLWPs",
+        "capa": "https://img.youtube.com/vi/NozIcqBLWPs/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Uma vida inteira",
+    "cor": "#2E9E63",
+    "fundo": "#E9F7EF",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 16,
+    "bloco": 4,
+    "titulo": "Uma família para quem não tem",
+    "figurinha": "👨‍👩‍👧‍👦⛪",
+    "gancho": "'Creio em Deus, mas igreja não é para mim.' Entendo. Mas igreja não é o prédio.",
+    "perguntas": [
+      {
+        "p": "'Já não sois estrangeiros… mas…'",
+        "o": [
+          "Clientes",
+          "Da família de Deus",
+          "Visitantes"
+        ],
+        "c": 1,
+        "v": "Sois concidadãos dos santos, e sois da família de Deus.",
+        "r": "Efésios 2:19"
+      },
+      {
+        "p": "O fundamento da igreja é…",
+        "o": [
+          "O prédio",
+          "Cristo",
+          "O pastor"
+        ],
+        "c": 1,
+        "v": "Sendo ele mesmo, Cristo Jesus, a pedra angular.",
+        "r": "Efésios 2:20"
+      },
+      {
+        "p": "A igreja é comparada a…",
+        "o": [
+          "Uma empresa",
+          "Um corpo",
+          "Um clube"
+        ],
+        "c": 1,
+        "v": "Assim como o corpo é um e tem muitos membros… assim também com respeito a Cristo.",
+        "r": "1 Coríntios 12:12"
+      },
+      {
+        "p": "Para que Deus chamou seu povo?",
+        "o": [
+          "Para se isolar",
+          "Para proclamar as virtudes dEle",
+          "Para julgar"
+        ],
+        "c": 1,
+        "v": "A fim de proclamardes as virtudes daquele que vos chamou das trevas.",
+        "r": "1 Pedro 2:9"
+      },
+      {
+        "p": "Discípulos são reconhecidos por…",
+        "o": [
+          "Roupa",
+          "Amor uns aos outros",
+          "Cantos"
+        ],
+        "c": 1,
+        "v": "Nisto conhecerão todos que sois meus discípulos: se tiverdes amor uns aos outros.",
+        "r": "João 13:35"
+      },
+      {
+        "p": "'Não deixemos de…'",
+        "o": [
+          "Discutir",
+          "Congregar-nos",
+          "Viajar"
+        ],
+        "c": 1,
+        "v": "Não deixemos de congregar-nos, como é costume de alguns.",
+        "r": "Hebreus 10:25"
+      },
+      {
+        "p": "Missão: 'Ide, fazei…'",
+        "o": [
+          "Prédios",
+          "Discípulos de todas as nações",
+          "Regras"
+        ],
+        "c": 1,
+        "v": "Ide, portanto, fazei discípulos de todas as nações.",
+        "r": "Mateus 28:19"
+      },
+      {
+        "p": "Marca do povo de Deus no fim:",
+        "o": [
+          "Fama",
+          "Guardam os mandamentos e a fé em Jesus",
+          "Riqueza"
+        ],
+        "c": 1,
+        "v": "Os que guardam os mandamentos de Deus e a fé em Jesus.",
+        "r": "Apocalipse 14:12"
+      }
+    ],
+    "oracao": "Deus, se a minha família falhou, me mostra a família que o Senhor tem para mim.",
+    "videos": [
+      {
+        "id": "N-pRH0PHZB4",
+        "titulo": "Ensinos de Jesus — Igreja",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=N-pRH0PHZB4",
+        "capa": "https://img.youtube.com/vi/N-pRH0PHZB4/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "Uma vida inteira",
+    "cor": "#2E9E63",
+    "fundo": "#E9F7EF",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 17,
+    "bloco": 5,
+    "titulo": "O amor em dez frases",
+    "figurinha": "📜🪨",
+    "gancho": "A lei de Deus é uma grade ou um mapa? Jesus respondeu com uma casa.",
+    "perguntas": [
+      {
+        "p": "Quem ouve e pratica é como quem constrói sobre…",
+        "o": [
+          "Areia",
+          "A rocha",
+          "Água"
+        ],
+        "c": 1,
+        "v": "Edificou a sua casa sobre a rocha.",
+        "r": "Mateus 7:24"
+      },
+      {
+        "p": "O maior mandamento é…",
+        "o": [
+          "Não roubar",
+          "Amar a Deus de todo o coração",
+          "Dizimar"
+        ],
+        "c": 1,
+        "v": "Amarás o Senhor, teu Deus, de todo o teu coração.",
+        "r": "Mateus 22:37"
+      },
+      {
+        "p": "O segundo: amar o próximo como…",
+        "o": [
+          "Um estranho",
+          "A ti mesmo",
+          "Um chefe"
+        ],
+        "c": 1,
+        "v": "Amarás o teu próximo como a ti mesmo.",
+        "r": "Mateus 22:39"
+      },
+      {
+        "p": "Jesus aboliu a lei?",
+        "o": [
+          "Sim",
+          "Não — nem um til passará",
+          "Metade"
+        ],
+        "c": 1,
+        "v": "Nem um i ou um til jamais passará da Lei.",
+        "r": "Mateus 5:18"
+      },
+      {
+        "p": "'Se me amais…'",
+        "o": [
+          "Pagai",
+          "Guardareis os meus mandamentos",
+          "Cantai"
+        ],
+        "c": 1,
+        "v": "Se me amais, guardareis os meus mandamentos.",
+        "r": "João 14:15"
+      },
+      {
+        "p": "Pecado é…",
+        "o": [
+          "Erro de cálculo",
+          "Transgressão da lei",
+          "Azar"
+        ],
+        "c": 1,
+        "v": "O pecado é a transgressão da lei.",
+        "r": "1 João 3:4"
+      },
+      {
+        "p": "A lei nos conduz a…",
+        "o": [
+          "Roma",
+          "Cristo",
+          "Moisés"
+        ],
+        "c": 1,
+        "v": "A lei nos serviu de aio para nos conduzir a Cristo.",
+        "r": "Gálatas 3:24"
+      },
+      {
+        "p": "Somos justificados…",
+        "o": [
+          "Pela lei",
+          "Gratuitamente, pela graça",
+          "Por esforço"
+        ],
+        "c": 1,
+        "v": "Sendo justificados gratuitamente, por sua graça.",
+        "r": "Romanos 3:24"
+      }
+    ],
+    "oracao": "Deus, eu quero construir na rocha. Me ensina a amar do jeito que a Sua lei descreve.",
+    "videos": [
+      {
+        "id": "wcBQx9gcnp0",
+        "titulo": "Ensinos de Jesus — Lei",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=wcBQx9gcnp0",
+        "capa": "https://img.youtube.com/vi/wcBQx9gcnp0/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "O futuro",
+    "cor": "#7A4FBF",
+    "fundo": "#F1EBFA",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 18,
+    "bloco": 5,
+    "titulo": "O que acontece quando morremos",
+    "figurinha": "😴🌄",
+    "gancho": "Todo mundo pensa, quase ninguém fala. A resposta da Bíblia é mais tranquila do que parece.",
+    "perguntas": [
+      {
+        "p": "Deus fez o homem do pó e soprou…",
+        "o": [
+          "Vento",
+          "O fôlego de vida",
+          "Fogo"
+        ],
+        "c": 1,
+        "v": "Soprou-lhe nas narinas o fôlego de vida, e o homem passou a ser alma vivente.",
+        "r": "Gênesis 2:7"
+      },
+      {
+        "p": "Na morte, o pó volta à terra e o fôlego…",
+        "o": [
+          "Vaga por aí",
+          "Volta a Deus",
+          "Fica no corpo"
+        ],
+        "c": 1,
+        "v": "O pó volte à terra… e o espírito volte a Deus, que o deu.",
+        "r": "Eclesiastes 12:7"
+      },
+      {
+        "p": "Os mortos sabem…",
+        "o": [
+          "Tudo",
+          "Coisa nenhuma",
+          "Um pouco"
+        ],
+        "c": 1,
+        "v": "Os mortos não sabem coisa nenhuma.",
+        "r": "Eclesiastes 9:5"
+      },
+      {
+        "p": "Jesus chamou a morte de Lázaro de…",
+        "o": [
+          "Fim",
+          "Sono",
+          "Viagem"
+        ],
+        "c": 1,
+        "v": "Lázaro, o nosso amigo, adormeceu.",
+        "r": "João 11:11"
+      },
+      {
+        "p": "Consultar os mortos é…",
+        "o": [
+          "Permitido",
+          "Abominação ao Senhor",
+          "Neutro"
+        ],
+        "c": 1,
+        "v": "Nem quem consulte os mortos; pois todo aquele que faz tal coisa é abominável ao Senhor.",
+        "r": "Deuteronômio 18:11-12"
+      },
+      {
+        "p": "'Os mortos em Cristo ressuscitarão…'",
+        "o": [
+          "Nunca",
+          "Primeiro",
+          "Por último"
+        ],
+        "c": 1,
+        "v": "Os mortos em Cristo ressuscitarão primeiro.",
+        "r": "1 Tessalonicenses 4:16"
+      },
+      {
+        "p": "A quem o Pai confiou o julgamento?",
+        "o": [
+          "Aos anjos",
+          "Ao Filho",
+          "Ao povo"
+        ],
+        "c": 1,
+        "v": "O Pai… ao Filho confiou todo julgamento.",
+        "r": "João 5:22"
+      },
+      {
+        "p": "Quem crê 'não entra em juízo, mas passou da morte para…'",
+        "o": [
+          "O sono",
+          "A vida",
+          "O medo"
+        ],
+        "c": 1,
+        "v": "Não entra em juízo, mas passou da morte para a vida.",
+        "r": "João 5:24"
+      }
+    ],
+    "oracao": "Deus, obrigado porque a morte é um sono e o Senhor acorda quem é Seu. Cuida de quem eu perdi.",
+    "videos": [
+      {
+        "id": "EBbO669O6Sw",
+        "titulo": "Ensinos de Jesus — Morte",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=EBbO669O6Sw",
+        "capa": "https://img.youtube.com/vi/EBbO669O6Sw/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "O futuro",
+    "cor": "#7A4FBF",
+    "fundo": "#F1EBFA",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 19,
+    "bloco": 5,
+    "titulo": "A esperança que não falha",
+    "figurinha": "☁️👑",
+    "gancho": "Guerra, doença, medo. Jesus previu tudo — e disse o que vem depois.",
+    "perguntas": [
+      {
+        "p": "'Voltarei e vos…'",
+        "o": [
+          "Julgarei",
+          "Receberei para mim mesmo",
+          "Esquecerei"
+        ],
+        "c": 1,
+        "v": "Voltarei e vos receberei para mim mesmo.",
+        "r": "João 14:3"
+      },
+      {
+        "p": "Quantos verão a volta de Jesus?",
+        "o": [
+          "Poucos",
+          "Todo olho",
+          "Só os bons"
+        ],
+        "c": 1,
+        "v": "Eis que vem com as nuvens, e todo olho o verá.",
+        "r": "Apocalipse 1:7"
+      },
+      {
+        "p": "Jesus virá…",
+        "o": [
+          "Em segredo",
+          "Sobre as nuvens, com poder e glória",
+          "Como bebê"
+        ],
+        "c": 1,
+        "v": "Vindo sobre as nuvens do céu, com poder e muita glória.",
+        "r": "Mateus 24:30"
+      },
+      {
+        "p": "Nos últimos dias os homens serão…",
+        "o": [
+          "Melhores",
+          "Egoístas, sem afeição natural",
+          "Iguais"
+        ],
+        "c": 1,
+        "v": "Os homens serão egoístas, avarentos… sem afeição natural.",
+        "r": "2 Timóteo 3:2-3"
+      },
+      {
+        "p": "Quando isso começar, 'erguei a cabeça' porque…",
+        "o": [
+          "Acabou tudo",
+          "A redenção se aproxima",
+          "Devem fugir"
+        ],
+        "c": 1,
+        "v": "Exultai e erguei a vossa cabeça; porque a vossa redenção se aproxima.",
+        "r": "Lucas 21:28"
+      },
+      {
+        "p": "Deus não faz nada sem antes revelar aos…",
+        "o": [
+          "Reis",
+          "Profetas",
+          "Anjos"
+        ],
+        "c": 1,
+        "v": "Não fará coisa alguma, sem primeiro revelar o seu segredo aos seus servos, os profetas.",
+        "r": "Amós 3:7"
+      },
+      {
+        "p": "'Julgai todas as coisas, retende…'",
+        "o": [
+          "Tudo",
+          "O que é bom",
+          "O novo"
+        ],
+        "c": 1,
+        "v": "Julgai todas as coisas, retende o que é bom.",
+        "r": "1 Tessalonicenses 5:21"
+      },
+      {
+        "p": "O testemunho de Jesus é…",
+        "o": [
+          "Um livro",
+          "O espírito da profecia",
+          "Um sonho"
+        ],
+        "c": 1,
+        "v": "O testemunho de Jesus é o espírito da profecia.",
+        "r": "Apocalipse 19:10"
+      }
+    ],
+    "oracao": "Jesus, o mundo está pesado. Mas o Senhor disse que volta. Me prepara.",
+    "videos": [
+      {
+        "id": "POuIydWrHNU",
+        "titulo": "Ensinos de Jesus — Sua volta",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=POuIydWrHNU",
+        "capa": "https://img.youtube.com/vi/POuIydWrHNU/hqdefault.jpg"
+      },
+      {
+        "id": "qeF9b562wiQ",
+        "titulo": "Ensinos de Jesus — Profetas",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=qeF9b562wiQ",
+        "capa": "https://img.youtube.com/vi/qeF9b562wiQ/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "O futuro",
+    "cor": "#7A4FBF",
+    "fundo": "#F1EBFA",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  },
+  {
+    "numero": 20,
+    "bloco": 5,
+    "titulo": "A decisão: recomeço oficial",
+    "figurinha": "💧🌍✨",
+    "gancho": "Você começou sem vontade de continuar. Olha onde está. Hoje é sobre recomeçar — oficialmente.",
+    "perguntas": [
+      {
+        "p": "Nicodemos procurou Jesus…",
+        "o": [
+          "De dia",
+          "De noite",
+          "Na sinagoga"
+        ],
+        "c": 1,
+        "v": "Este, de noite, foi ter com Jesus.",
+        "r": "João 3:2"
+      },
+      {
+        "p": "'Quem não nascer de novo não pode…'",
+        "o": [
+          "Ler",
+          "Ver o reino de Deus",
+          "Orar"
+        ],
+        "c": 1,
+        "v": "Se alguém não nascer de novo, não pode ver o reino de Deus.",
+        "r": "João 3:3"
+      },
+      {
+        "p": "Jesus foi batizado e 'saiu logo da…'",
+        "o": [
+          "Cidade",
+          "Água",
+          "Barca"
+        ],
+        "c": 1,
+        "v": "Batizado Jesus, saiu logo da água.",
+        "r": "Mateus 3:16"
+      },
+      {
+        "p": "Batismo: sepultados com Cristo para…",
+        "o": [
+          "Chorar",
+          "Andar em novidade de vida",
+          "Repetir"
+        ],
+        "c": 1,
+        "v": "Assim também andemos nós em novidade de vida.",
+        "r": "Romanos 6:4"
+      },
+      {
+        "p": "Batizados em Cristo, 'de Cristo vos…'",
+        "o": [
+          "Esquecestes",
+          "Revestistes",
+          "Afastastes"
+        ],
+        "c": 1,
+        "v": "Todos quantos fostes batizados em Cristo de Cristo vos revestistes.",
+        "r": "Gálatas 3:27"
+      },
+      {
+        "p": "O Consolador prometido é…",
+        "o": [
+          "Um anjo",
+          "O Espírito da verdade",
+          "Pedro"
+        ],
+        "c": 1,
+        "v": "Ele vos dará outro Consolador… o Espírito da verdade.",
+        "r": "João 14:16-17"
+      },
+      {
+        "p": "Na nova terra Deus enxugará…",
+        "o": [
+          "O chão",
+          "Toda lágrima",
+          "Só algumas"
+        ],
+        "c": 1,
+        "v": "Deus enxugará dos olhos toda lágrima, e a morte já não existirá.",
+        "r": "Apocalipse 21:4"
+      },
+      {
+        "p": "'Eis, agora, o dia da…'",
+        "o": [
+          "Dúvida",
+          "Salvação",
+          "Festa"
+        ],
+        "c": 1,
+        "v": "Eis, agora, o dia da salvação.",
+        "r": "2 Coríntios 6:2"
+      }
+    ],
+    "oracao": "Deus, eu comecei sem esperança. O Senhor me chamou pelo nome. Eu aceito. Faz novas todas as coisas em mim.",
+    "videos": [
+      {
+        "id": "I2Jhrvy_w5E",
+        "titulo": "Ensinos de Jesus — Batismo",
+        "programa": "Bíblia Fácil (Novo Tempo)",
+        "url": "https://www.youtube.com/watch?v=I2Jhrvy_w5E",
+        "capa": "https://img.youtube.com/vi/I2Jhrvy_w5E/hqdefault.jpg"
+      },
+      {
+        "id": "u1ZM0Ixo6Kg",
+        "titulo": "A nova Terra",
+        "programa": "Escola Bíblica Novo Tempo",
+        "url": "https://www.youtube.com/watch?v=u1ZM0Ixo6Kg",
+        "capa": "https://img.youtube.com/vi/u1ZM0Ixo6Kg/hqdefault.jpg"
+      }
+    ],
+    "bloco_nome": "O futuro",
+    "cor": "#7A4FBF",
+    "fundo": "#F1EBFA",
+    "pontos_por_pergunta": 10,
+    "cvv": "Se estiver pensando em desistir da vida, ligue 188 (CVV, 24h, gratuito) ou me escreva agora."
+  }
+]

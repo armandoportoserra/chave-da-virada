@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #1b2a4a;
+  --navy-deep: #0d1321;
+  --navy-light: #2e4272;
+  --gold: #c9a227;
+  --gold-light: #e3c766;
+  --cream: #f6f1e4;
+  --cream-dark: #ede5cf;
+  --ink: #1e2430;
+  --muted: #6b7280;
+  --line: #d6d0c0;
+  --background: var(--cream);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+  --color-navy-light: var(--navy-light);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+.serif {
+  font-family: var(--font-serif);
+}
+
+.btn-gold {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-gold px-6 py-3 font-semibold text-navy-deep transition hover:bg-gold-light focus:outline-none focus:ring-2 focus:ring-gold-light focus:ring-offset-2;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-gold px-6 py-3 font-semibold text-gold transition hover:bg-gold/10;
+}
+
+.card {
+  @apply rounded-2xl border border-line bg-white p-6 shadow-sm;
+}
+
+.field {
+  @apply w-full rounded-xl border border-line bg-white px-4 py-3 text-ink placeholder:text-muted focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30;
+}
