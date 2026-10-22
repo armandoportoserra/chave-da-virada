@@ -64,3 +64,12 @@ h3,
 .field {
   @apply w-full rounded-xl border border-line bg-white px-4 py-3 text-ink placeholder:text-muted focus:border-gold focus:outline-none focus:ring-2 focus:ring-gold/30;
 }
+
+/* Modo embutido (dentro do site Framer): sem cabeçalho e rodapé duplicados */
+html.embed header,
+html.embed footer {
+  display: none;
+}
+html.embed body {
+  background: #fff;
+}
