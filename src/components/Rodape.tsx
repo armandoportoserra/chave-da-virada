@@ -5,7 +5,8 @@ export default function Rodape() {
     <footer className="mt-auto bg-navy-deep text-cream">
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-12 md:grid-cols-3">
         <div>
-          <p className="serif text-2xl font-semibold text-gold">A Chave da Virada</p>
+          <p className="serif text-2xl font-semibold text-gold">Igreja Adventista Nova Esperança</p>
+          <p className="text-sm text-cream/90">A Chave da Virada</p>
           <p className="mt-2 text-sm text-cream/80">Um projeto missionário da Igreja Adventista do Sétimo Dia Nova Esperança, Caxias do Sul/RS.</p>
         </div>
         <div className="text-sm text-cream/80">
@@ -16,6 +17,7 @@ export default function Rodape() {
         <div className="text-sm text-cream/80">
           <p className="font-semibold text-cream">Links</p>
           <ul className="mt-2 space-y-1">
+            <li><a href="https://igrejanovaesperanca.framer.website" className="hover:text-gold">Site da igreja</a></li>
             <li><Link href="/curso" className="hover:text-gold">Curso bíblico</Link></li>
             <li><Link href="/livro" className="hover:text-gold">Livro gratuito</Link></li>
             <li><Link href="/oracao" className="hover:text-gold">Pedido de oração</Link></li>
