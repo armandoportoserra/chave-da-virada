@@ -25,6 +25,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="stylesheet" href={GOOGLE_FONTS} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{var q=new URLSearchParams(location.search);if(q.get('embed')==='1'){sessionStorage.setItem('embed','1')}if(sessionStorage.getItem('embed')==='1'||window.self!==window.top){document.documentElement.classList.add('embed')}}catch(e){}",
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
