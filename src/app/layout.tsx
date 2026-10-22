@@ -6,12 +6,12 @@ const GOOGLE_FONTS =
   "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap";
 
 export const metadata: Metadata = {
-  title: "A Chave da Virada — esperança para você, sem compromisso",
+  title: "Igreja Adventista Nova Esperança — A Chave da Virada",
   description:
     "Um livro gratuito, um curso bíblico no seu ritmo e alguém para orar por você. Sem pressão, sem cobrança. Só esperança.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
   openGraph: {
-    title: "A Chave da Virada",
+    title: "Igreja Adventista Nova Esperança — A Chave da Virada",
     description: "Esperança para você, sem compromisso.",
     locale: "pt_BR",
     type: "website",
