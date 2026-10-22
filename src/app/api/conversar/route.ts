@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
   try {
     const r = await atenderSite(sessao, parsed.data.texto, parsed.data.botaoId, parsed.data.concluidas ?? []);
     const res = NextResponse.json(r);
-    if (nova) res.cookies.set(COOKIE, sessao, { httpOnly: true, sameSite: "lax", secure: process.env.NODE_ENV === "production", maxAge: 60 * 60 * 24 * 365, path: "/" });
+    if (nova) res.cookies.set(COOKIE, sessao, { httpOnly: true, sameSite: "none", secure: true, maxAge: 60 * 60 * 24 * 365, path: "/" });
     return res;
   } catch (e) {
     console.error("[conversar]", e);
