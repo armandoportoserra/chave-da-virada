@@ -23,7 +23,7 @@ export default function Jogo({ licao, total }: { licao: LicaoJogo; total: number
   const [prog, setProg] = useState<Progresso>({ concluidas: {} });
   const [salvo, setSalvo] = useState(false);
   const [prazo, setPrazo] = useState<number | null>(null);  // instante em que o avanço automático dispara
-  const [agora, setAgora] = useState(() => Date.now());
+  const [agora, setAgora] = useState(0); // só é lido quando há prazo (definido junto, nos manipuladores)
   const [auto, setAuto] = useState(true);                   // a pessoa pode pausar o avanço automático
 
   useEffect(() => {
