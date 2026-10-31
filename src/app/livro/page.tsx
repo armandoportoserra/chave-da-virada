@@ -4,7 +4,7 @@ import Cabecalho from "@/components/Cabecalho";
 import Rodape from "@/components/Rodape";
 import FormCadastro from "@/components/FormCadastro";
 export const metadata = { title: "Um livro gratuito — A Chave da Virada" };
-const LIVRO = "/livro/a-chave-da-virada.pdf";
+const LIVRO = "/livro/livro%20a%20chave%20da%20virada.pdf";
 export default function Livro() {
   return (
     <>
