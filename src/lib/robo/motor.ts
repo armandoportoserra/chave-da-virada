@@ -11,7 +11,7 @@ export const LICOES: Licao[] = licoesJson as Licao[];
 export const licao = (n: number): Licao => LICOES[n - 1];
 export const TOTAL = LICOES.length;
 
-const LIVRO_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "") + "/livro/a-chave-da-virada.pdf";
+const LIVRO_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "") + "/livro/livro%20a%20chave%20da%20virada.pdf";
 const CVV = "Se estiver pensando em desistir da vida, ligue *188* (CVV, 24h, gratuito) ou acesse cvv.org.br. E, se quiser que alguém da igreja te visite, escreva *visita*.";
 const SELO_BLOCO: Record<number, string> = { 1: "bloco1", 2: "bloco2", 3: "bloco3", 4: "bloco4", 5: "bloco5" };
 const NOME_BLOCO: Record<number, string> = { 1: "Esperança", 2: "Você e Deus", 3: "Jesus", 4: "Uma vida inteira", 5: "O futuro" };
