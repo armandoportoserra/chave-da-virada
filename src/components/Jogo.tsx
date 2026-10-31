@@ -1,14 +1,20 @@
 "use client";
 // Uma lição em formato jogo: gancho → 8 perguntas (uma por vez, verso acende) → oração → vídeo → 188 → próxima.
+// Avança sozinho: cada pergunta respondida segue em alguns segundos (o verso fica na tela); no fim, a próxima lição
+// abre com uma contagem regressiva que a pessoa pode cancelar. Nada sai do site: o vídeo toca aqui mesmo.
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import type { LicaoJogo } from "@/lib/jogo";
 import { ROM } from "@/lib/jogo";
 import { lerProgresso, salvarProgresso, totalPontos, type Progresso } from "@/lib/progresso-local";
 
 const L = ["A", "B", "C", "D"];
+const SEG_PERGUNTA = 4;   // segundos lendo o verso antes de seguir
+const SEG_LICAO = 30;     // segundos no fim (oração + vídeo) antes de abrir a próxima lição; clicar no vídeo pausa
 
 export default function Jogo({ licao, total }: { licao: LicaoJogo; total: number }) {
+  const router = useRouter();
   const [etapa, setEtapa] = useState<"inicio" | "jogo" | "fim">("inicio");
   const [i, setI] = useState(0);
   const [escolha, setEscolha] = useState<number | null>(null);
@@ -16,26 +22,60 @@ export default function Jogo({ licao, total }: { licao: LicaoJogo; total: number
   const [acertos, setAcertos] = useState(0);
   const [prog, setProg] = useState<Progresso>({ concluidas: {} });
   const [salvo, setSalvo] = useState(false);
+  const [prazo, setPrazo] = useState<number | null>(null);  // instante em que o avanço automático dispara
+  const [agora, setAgora] = useState(() => Date.now());
+  const [auto, setAuto] = useState(true);                   // a pessoa pode pausar o avanço automático
 
-  useEffect(() => { setProg(lerProgresso()); }, []);
+  useEffect(() => {
+    const p = lerProgresso();
+    const t = setTimeout(() => setProg(p), 0);
+    return () => clearTimeout(t);
+  }, []);
 
   const q = licao.perguntas[i];
   const ultima = i === licao.perguntas.length - 1;
+  const proximaHref = licao.numero < total ? `/curso/${licao.numero + 1}` : "/curso/certificado";
+  const resta = auto && prazo !== null ? Math.max(0, Math.ceil((prazo - agora) / 1000)) : null;
+
+  // Pré-carrega a próxima lição para a troca ser instantânea.
+  useEffect(() => { router.prefetch(proximaHref); }, [router, proximaHref]);
+
+  // Relógio da contagem regressiva (só roda enquanto há um prazo).
+  useEffect(() => {
+    if (prazo === null || !auto) return;
+    const t = setInterval(() => setAgora(Date.now()), 250);
+    return () => clearInterval(t);
+  }, [prazo, auto]);
+
+  // Se a pessoa clicar no vídeo (o foco vai para o player), a contagem para: ela escolhe quando seguir.
+  useEffect(() => {
+    if (etapa !== "fim") return;
+    const parar = () => setAuto(false);
+    window.addEventListener("blur", parar);
+    return () => window.removeEventListener("blur", parar);
+  }, [etapa]);
+
+  useEffect(() => {
+    if (resta !== 0 || !auto) return;
+    if (etapa === "jogo") proxima();
+    else if (etapa === "fim") router.push(proximaHref);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [resta]);
 
   function responder(j: number) {
     if (escolha !== null) return;
-    setEscolha(j);
+    setEscolha(j); setPrazo(Date.now() + SEG_PERGUNTA * 1000); setAgora(Date.now());
     if (j === q.c) { setPontos((p) => p + licao.pontos_por_pergunta); setAcertos((a) => a + 1); }
   }
   function proxima() {
     if (ultima) {
       const p = lerProgresso();
       p.concluidas[licao.numero] = { pontos, acertos, em: new Date().toISOString() };
-      salvarProgresso(p); setProg(p); setSalvo(true); setEtapa("fim");
+      salvarProgresso(p); setProg(p); setSalvo(true); setEtapa("fim"); setPrazo(Date.now() + SEG_LICAO * 1000); setAgora(Date.now());
       void fetch("/api/progresso", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ pessoaId: p.pessoaId ?? null, licao: licao.numero, pontos, acertos }) }).catch(() => {});
       return;
     }
-    setI(i + 1); setEscolha(null);
+    setI(i + 1); setEscolha(null); setPrazo(null);
   }
 
   const estilo = { "--c": licao.cor, "--f": licao.fundo } as React.CSSProperties;
@@ -53,7 +93,7 @@ export default function Jogo({ licao, total }: { licao: LicaoJogo; total: number
       {etapa === "inicio" && (
         <section className="mt-5 space-y-5">
           <p className="rounded-2xl rounded-tl-sm bg-white border border-line p-4 text-lg">{licao.gancho}</p>
-          <p className="text-sm text-muted">8 perguntas rápidas. Cada uma termina com um verso. Acertou ou não, avança — ninguém reprova aqui. Vale {licao.pontos_por_pergunta} pontos por acerto.</p>
+          <p className="text-sm text-muted">{licao.perguntas.length} perguntas rápidas. Cada uma termina com um verso. Acertou ou não, avança — ninguém reprova aqui. Vale {licao.pontos_por_pergunta} pontos por acerto.</p>
           <button className="btn-gold w-full" onClick={() => setEtapa("jogo")}>Começar</button>
           <Cvv texto={licao.cvv} />
         </section>
@@ -86,7 +126,14 @@ export default function Jogo({ licao, total }: { licao: LicaoJogo; total: number
           {escolha !== null && (
             <p className="text-sm text-muted">{escolha === q.c ? `✅ Isso. +${licao.pontos_por_pergunta} pontos.` : `A resposta era ${L[q.c]}. Sem problema — o que importa é o verso.`}</p>
           )}
-          <button className="btn-gold w-full" onClick={proxima} disabled={escolha === null}>{ultima ? "Terminar a lição" : "Próxima"}</button>
+          <button className="btn-gold w-full" onClick={proxima} disabled={escolha === null}>
+            {ultima ? "Terminar a lição" : "Próxima"}{escolha !== null && auto && resta !== null ? ` · ${resta}s` : ""}
+          </button>
+          {escolha !== null && (
+            <button type="button" className="block mx-auto text-xs text-muted underline" onClick={() => setAuto((a) => !a)}>
+              {auto ? "Pausar o avanço automático" : "Voltar a avançar sozinho"}
+            </button>
+          )}
         </section>
       )}
 
@@ -99,19 +146,27 @@ export default function Jogo({ licao, total }: { licao: LicaoJogo; total: number
           </div>
           <p className="rounded-2xl rounded-tl-sm bg-white border border-line p-4">🙏 <em>{licao.oracao}</em></p>
           {licao.videos.map((v) => (
-            <a key={v.id} href={v.url} target="_blank" rel="noopener" className="flex gap-4 items-center rounded-2xl border border-line bg-white p-3 hover:border-gold transition">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={v.capa} alt="" className="w-32 aspect-video object-cover rounded-lg bg-line" loading="lazy" />
-              <span className="min-w-0"><small className="block text-[11px] font-bold uppercase tracking-wider text-muted">{v.programa}</small><span className="font-semibold leading-snug">{v.titulo}</span><span className="block text-xs text-muted mt-1">▶ Assistir no YouTube</span></span>
-            </a>
+            <figure key={v.id} className="rounded-2xl border border-line bg-white p-3">
+              <div className="aspect-video overflow-hidden rounded-lg bg-line">
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${v.id}?rel=0&modestbranding=1`}
+                  title={v.titulo} className="h-full w-full" loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen referrerPolicy="strict-origin-when-cross-origin" />
+              </div>
+              <figcaption className="mt-2 min-w-0"><small className="block text-[11px] font-bold uppercase tracking-wider text-muted">{v.programa}</small><span className="font-semibold leading-snug">{v.titulo}</span></figcaption>
+            </figure>
           ))}
           <Cvv texto={licao.cvv} />
           <div className="grid gap-2 sm:grid-cols-2">
             {licao.numero < total
-              ? <Link href={`/curso/${licao.numero + 1}`} className="btn-gold">Lição {licao.numero + 1} →</Link>
-              : <Link href="/curso/certificado" className="btn-gold">🎓 Pegar meu certificado</Link>}
+              ? <Link href={proximaHref} className="btn-gold">Lição {licao.numero + 1} →{auto && resta !== null ? ` · ${resta}s` : ""}</Link>
+              : <Link href={proximaHref} className="btn-gold">🎓 Pegar meu certificado{auto && resta !== null ? ` · ${resta}s` : ""}</Link>}
             <Link href="/oracao" className="btn-outline">Quero que orem por mim</Link>
           </div>
+          {auto && resta !== null && (
+            <button type="button" className="block mx-auto text-xs text-muted underline" onClick={() => setAuto(false)}>Ficar nesta página (não avançar sozinho)</button>
+          )}
           {salvo && <p className="text-xs text-muted text-center">Progresso salvo neste navegador. Para continuar em outro aparelho, use o mesmo navegador ou jogue de novo — não tem problema repetir.</p>}
         </section>
       )}
