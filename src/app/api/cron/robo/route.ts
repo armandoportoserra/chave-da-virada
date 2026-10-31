@@ -15,9 +15,12 @@ export async function GET(req: NextRequest) {
   if (process.env.CRON_SECRET && auth !== `Bearer ${process.env.CRON_SECRET}`) return new NextResponse("Unauthorized", { status: 401 });
   if (!supabaseConfigurado()) return NextResponse.json({ ok: false, erro: "Supabase não configurado" }, { status: 503 });
   const agora = new Date();
-  if (ehSabado(agora)) return NextResponse.json({ ok: true, sabado: true, enviados: 0 });
-
   const db = supabaseAdmin();
+  // Toque diário no banco: mantém o projeto Supabase (plano grátis) ativo — ele pausa após 7 dias sem requisições.
+  const ping = await db.from("pessoas").select("id", { count: "exact", head: true });
+  if (ping.error) return NextResponse.json({ ok: false, erro: "ping: " + ping.error.message }, { status: 500 });
+  if (ehSabado(agora)) return NextResponse.json({ ok: true, sabado: true, enviados: 0, ping: ping.count ?? 0 });
+
   const limite = agora.toISOString();
   const { data: convs, error } = await db
     .from("conversas")
