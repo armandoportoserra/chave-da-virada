@@ -264,8 +264,13 @@ export function processar(estadoAnterior: Estado, entrada: Entrada): Resultado {
       return { estado: { ...e, fase: "nome" }, saidas, acoes };
 
     case "nome": {
-      const nome = texto.trim().split(/\s+/).slice(0, 2).join(" ").replace(/[^\p{L}\s'-]/gu, "").trim();
-      if (!nome || nome.length < 2) { saidas.push({ texto: "Como posso te chamar? Pode ser só o primeiro nome." }); return { estado: e, saidas, acoes }; }
+      // Tira saudações e fórmulas ("oi", "bom dia, me chamo Ana") antes de ler o nome.
+      const limpo = texto
+        .replace(/(?<!\p{L})(oi+|ol[aá]|opa|e[ií]|hey|hi|hello|bom dia|boa tarde|boa noite|tudo bem|tudo bom|beleza|salve|paz|a paz|graça e paz)(?!\p{L})[!,.?\s]*/giu, " ")
+        .replace(/(?<!\p{L})(meu nome [eé]|me chamo|me chamam de|pode me chamar de|eu sou [oa]?|sou [oa]?|aqui [eé] [oa]?|[eé] [oa]?)(?!\p{L})/giu, " ")
+        .trim();
+      const nome = limpo.split(/\s+/).slice(0, 2).join(" ").replace(/[^\p{L}\s'-]/gu, "").trim();
+      if (!nome || nome.length < 2) { saidas.push({ texto: "Oi! Como posso te chamar? Pode ser só o primeiro nome." }); return { estado: e, saidas, acoes }; }
       e = { ...e, nome: nome.charAt(0).toUpperCase() + nome.slice(1), fase: "como_esta" };
       saidas.push(perguntaHumor(e));
       return { estado: e, saidas, acoes };
