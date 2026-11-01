@@ -17,6 +17,7 @@ export default function Cabecalho() {
           <Link href="/curso" className="hover:text-gold">Curso</Link>
           <Link href="/conversar" className="hover:text-gold">Conversar</Link>
           <Link href="/livro" className="hover:text-gold">Livro</Link>
+          <Link href="/perguntas" className="hover:text-gold">Perguntas</Link>
           <Link href="/oracao" className="hover:text-gold">Oração</Link>
           <Link href="/app" className="hover:text-gold">Meu progresso</Link>
         </nav>
