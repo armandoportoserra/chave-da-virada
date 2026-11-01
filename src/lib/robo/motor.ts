@@ -304,6 +304,11 @@ export function processar(estadoAnterior: Estado, entrada: Entrada): Resultado {
     case "licao": {
       const i = escolha(entrada, ["Quero a lição", "Quero que orem por mim", "Quero falar com uma pessoa"], "menu");
       if (i === null && g === null && responderPergunta(texto, saidas, acoes, site)) { saidas.push(menu(e)); return { estado: e, saidas, acoes }; }
+      if (i === null && g === null && /curso ?2|apocalipse/.test(norm(texto))) {
+        acoes.push({ tipo: "evento", nome: "quer_curso2" });
+        saidas.push(site ? { texto: "O Curso 2 — *Apocalipse: Revelações de Esperança* — está aberto: 21 lições no mesmo formato de jogo. Pode fazer na ordem que preferir.", link: { href: "/curso2", rotulo: "📖 Abrir o Curso 2" } } : { texto: "O Curso 2 — *Apocalipse: Revelações de Esperança* — está aberto no site, em *Curso 2*: 21 lições no mesmo formato de jogo." }, menu(e));
+        return { estado: e, saidas, acoes };
+      }
       if (g === "continuar" || i === 0 || /estudo|licao|manda|sim|quero|vamos|ok|pode/.test(norm(texto))) {
         if (site) {
           if (e.concluidas.length >= TOTAL) { saidas.push({ texto: `${nomeOu(e, "Você")}, você já jogou as 20 lições. Seu certificado está a um clique.`, link: { href: "/curso/certificado", rotulo: "🎓 Pegar meu certificado" } }); return { estado: e, saidas, acoes }; }
@@ -396,8 +401,8 @@ export function processar(estadoAnterior: Estado, entrada: Entrada): Resultado {
     case "concluido": {
       const i = escolha(entrada, ["Quero uma visita", "Quero continuar estudando", "Quero o Curso 2"], "pos");
       if (i === 0) return iniciarVisita(e, saidas, acoes, false);
-      if (i === 2 || /curso 2|apocalipse/.test(norm(texto))) { acoes.push({ tipo: "evento", nome: "quer_curso2" }); saidas.push({ texto: "Anotado. O Curso 2 — *Apocalipse: Revelações de Esperança* (21 lições) — está em preparação. Eu te aviso aqui quando abrir." }); }
-      else if (i === 1) { saidas.push(site ? { texto: "Para continuar: as *Perguntas e respostas sobre o amor de Deus* — centenas de perguntas, cada uma com um verso. E o Curso 2 chega em breve.", link: { href: "/perguntas", rotulo: "💛 Perguntas sobre o amor de Deus" } } : { texto: "Para continuar: no site, em *Perguntas*, há centenas de perguntas e respostas sobre o amor de Deus, cada uma com um verso. E o Curso 2 chega em breve." }); }
+      if (i === 2 || /curso 2|apocalipse/.test(norm(texto))) { acoes.push({ tipo: "evento", nome: "quer_curso2" }); saidas.push(site ? { texto: "O Curso 2 — *Apocalipse: Revelações de Esperança* — já está aberto: 21 lições no mesmo formato de jogo, no seu ritmo.", link: { href: "/curso2", rotulo: "📖 Começar o Curso 2" } } : { texto: "O Curso 2 — *Apocalipse: Revelações de Esperança* — já está aberto no site, em *Curso 2*: 21 lições no mesmo formato de jogo, no seu ritmo." }); }
+      else if (i === 1) { saidas.push(site ? { texto: "Para continuar: as *Perguntas e respostas sobre o amor de Deus* — centenas de perguntas, cada uma com um verso. E o Curso 2 (Apocalipse) já está aberto.", link: { href: "/perguntas", rotulo: "💛 Perguntas sobre o amor de Deus" } } : { texto: "Para continuar: no site, em *Perguntas*, há centenas de perguntas e respostas sobre o amor de Deus, cada uma com um verso. E o Curso 2 (Apocalipse) já está aberto." }); }
       else if (g === "pontos" || /certificado/.test(norm(texto))) { saidas.push({ texto: `Seu certificado: ${e.certificado && e.certificado !== "pendente" ? "código *" + e.certificado + "*" : "está sendo emitido"}. Pontos: *${e.pontos}*.` }); }
       else if (responderPergunta(texto, saidas, acoes, site)) { /* respondeu pela FAQ */ }
       else saidas.push({ texto: "Estou aqui. Pode escrever *orem*, *visita* ou *curso 2* — ou me fazer uma pergunta sobre Deus." });
