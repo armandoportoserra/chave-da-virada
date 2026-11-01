@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { supabaseAdmin, supabaseConfigurado } from "@/lib/supabase-server";
 
-const schema = z.object({ pessoaId: z.string().uuid().nullable().optional(), licao: z.number().int().min(1).max(20), pontos: z.number().int().min(0).max(200), acertos: z.number().int().min(0).max(10) });
+const schema = z.object({ pessoaId: z.string().uuid().nullable().optional(), curso: z.union([z.literal(1), z.literal(2)]).optional().default(1), licao: z.number().int().min(1).max(21), pontos: z.number().int().min(0).max(200), acertos: z.number().int().min(0).max(10) });
 
 export async function POST(req: Request) {
   const parsed = schema.safeParse(await req.json().catch(() => null));
@@ -10,8 +10,12 @@ export async function POST(req: Request) {
   const d = parsed.data;
   if (!supabaseConfigurado()) return NextResponse.json({ ok: true, modo: "sem_banco" });
   const db = supabaseAdmin();
-  await db.from("eventos").insert({ pessoa_id: d.pessoaId ?? null, nome: "estudo_concluido_site", dados: { licao: d.licao, pontos: d.pontos, acertos: d.acertos } });
-  if (d.pessoaId) {
+  await db.from("eventos").insert({ pessoa_id: d.pessoaId ?? null, nome: d.curso === 2 ? "estudo2_concluido_site" : "estudo_concluido_site", dados: { curso: d.curso, licao: d.licao, pontos: d.pontos, acertos: d.acertos } });
+  if (d.pessoaId && d.curso === 2) {
+    // Curso 2 (Apocalipse): a tabela progresso só conhece os 20 estudos do Curso 1; pontos e contato ficam registrados.
+    await db.rpc("somar_pontos", { p_pessoa: d.pessoaId, p_delta: d.pontos });
+    await db.from("pessoas").update({ ultimo_contato: new Date().toISOString() }).eq("id", d.pessoaId);
+  } else if (d.pessoaId) {
     await db.from("progresso").upsert({ pessoa_id: d.pessoaId, estudo: d.licao, canal: "site", concluido_em: new Date().toISOString(), nota: Math.round((d.acertos / 8) * 5), tentativas: 1 }, { onConflict: "pessoa_id,estudo" });
     await db.rpc("somar_pontos", { p_pessoa: d.pessoaId, p_delta: d.pontos });
     await db.from("pessoas").update({ estagio: d.licao >= 20 ? "conclusao" : "engajamento", ultimo_contato: new Date().toISOString() }).eq("id", d.pessoaId);
