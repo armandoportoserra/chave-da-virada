@@ -6,11 +6,11 @@ import { supabaseAdmin, supabaseConfigurado } from "@/lib/supabase-server";
 
 export const instant = false;
 
-interface Cert { codigo: string; nome_impresso: string; nota_final: number; avaliacao: string; emitido_em: string; revogado: boolean }
+interface Cert { codigo: string; curso?: number; nome_impresso: string; nota_final: number; avaliacao: string; emitido_em: string; revogado: boolean }
 
 async function buscar(codigo: string): Promise<Cert | null> {
   if (!supabaseConfigurado()) return codigo === "CV-DEMO" ? { codigo, nome_impresso: "Maria Clara", nota_final: 9.3, avaliacao: "Com louvor", emitido_em: new Date().toISOString(), revogado: false } : null;
-  const { data } = await supabaseAdmin().from("certificados").select("codigo, nome_impresso, nota_final, avaliacao, emitido_em, revogado").eq("codigo", codigo).maybeSingle();
+  const { data } = await supabaseAdmin().from("certificados").select("codigo, curso, nome_impresso, nota_final, avaliacao, emitido_em, revogado").eq("codigo", codigo).maybeSingle();
   return (data as Cert | null) ?? null;
 }
 
@@ -37,8 +37,11 @@ export default async function Certificado({ params }: PageProps<"/certificado/[c
         <p className="mt-6 text-ink/80">Certificamos que</p>
         <p className="serif mt-2 text-4xl md:text-5xl font-semibold text-navy-light">{c.nome_impresso}</p>
         <p className="mx-auto mt-6 max-w-2xl text-ink/80 leading-relaxed">
-          concluiu o curso bíblico <strong className="text-navy">A Chave da Virada</strong> — 20 estudos sobre esperança, Jesus e a vida,
-          baseados no curso <em>Jesus, Restaurador da Vida</em> da Igreja Adventista do Sétimo Dia —
+          {c.curso === 2
+            ? <>concluiu o curso bíblico <strong className="text-navy">Apocalipse — Revelações de Esperança</strong> — 21 estudos sobre o último livro da Bíblia,
+              baseados no curso <em>Apocalipse: Revelações de Esperança</em> da Igreja Adventista do Sétimo Dia (Casa Publicadora Brasileira) — </>
+            : <>concluiu o curso bíblico <strong className="text-navy">A Chave da Virada</strong> — 20 estudos sobre esperança, Jesus e a vida,
+              baseados no curso <em>Jesus, Restaurador da Vida</em> da Igreja Adventista do Sétimo Dia — </>}
           com aproveitamento de <strong className="text-navy">{aprov}%</strong>: <strong className="text-gold">{c.avaliacao}</strong>.
         </p>
         <div className="mt-10 grid grid-cols-3 gap-6 text-sm text-ink/70">
