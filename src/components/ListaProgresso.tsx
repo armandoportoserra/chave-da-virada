@@ -1,11 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { lerProgresso, totalPontos, type Progresso } from "@/lib/progresso-local";
+import { lerProgresso, totalPontos, type Curso, type Progresso } from "@/lib/progresso-local";
+import { CURSOS } from "@/lib/jogo";
 
-export default function ListaProgresso({ total }: { total: number }) {
+export default function ListaProgresso({ total, curso = 1 }: { total: number; curso?: Curso }) {
+  const base = CURSOS[curso].base;
   const [p, setP] = useState<Progresso | null>(null);
-  useEffect(() => { setP(lerProgresso()); }, []);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => { const t = setTimeout(() => setP(lerProgresso(curso)), 0); return () => clearTimeout(t); }, []);
   if (!p) return null;
   const feitas = Object.keys(p.concluidas).map(Number);
   if (!feitas.length) return <p className="mt-6 text-sm text-muted">Você ainda não começou. A lição 1 leva 5 minutos.</p>;
@@ -14,7 +17,7 @@ export default function ListaProgresso({ total }: { total: number }) {
   return (
     <div className="mt-6 card flex flex-wrap items-center justify-between gap-4">
       <div><p className="font-semibold text-navy">{feitas.length} de {total} lições · <span className="tabular-nums">{totalPontos(p)} pontos</span></p><p className="text-sm text-muted">{completo ? "Curso concluído. Seu certificado está pronto." : `Continue de onde parou: lição ${prox}.`}</p></div>
-      <Link href={completo ? "/curso/certificado" : `/curso/${prox}`} className="btn-gold">{completo ? "🎓 Certificado" : `Lição ${prox} →`}</Link>
+      <Link href={completo ? `${base}/certificado` : `${base}/${prox}`} className="btn-gold">{completo ? "🎓 Certificado" : `Lição ${prox} →`}</Link>
     </div>
   );
 }

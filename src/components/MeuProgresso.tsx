@@ -6,7 +6,7 @@ import { lerProgresso, totalAcertos, totalPontos, type Progresso } from "@/lib/p
 
 export default function MeuProgresso() {
   const [p, setP] = useState<Progresso | null>(null);
-  useEffect(() => { setP(lerProgresso()); }, []);
+  useEffect(() => { const t = setTimeout(() => setP(lerProgresso()), 0); return () => clearTimeout(t); }, []);
   if (!p) return null;
   const feitas = Object.keys(p.concluidas).map(Number);
   const selos = BLOCOS_JOGO.filter((b) => b.licoes.every((l) => feitas.includes(l.numero)));

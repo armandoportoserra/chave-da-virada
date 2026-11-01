@@ -15,6 +15,7 @@ export default function Cabecalho() {
         <nav className="hidden gap-6 text-sm font-medium md:flex">
           <a href={SITE_VITRINE} className="hover:text-gold">Início</a>
           <Link href="/curso" className="hover:text-gold">Curso</Link>
+          <Link href="/curso2" className="hover:text-gold">Curso 2</Link>
           <Link href="/conversar" className="hover:text-gold">Conversar</Link>
           <Link href="/livro" className="hover:text-gold">Livro</Link>
           <Link href="/perguntas" className="hover:text-gold">Perguntas</Link>

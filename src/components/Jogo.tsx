@@ -6,15 +6,16 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { LicaoJogo } from "@/lib/jogo";
-import { ROM } from "@/lib/jogo";
+import { CURSOS, ROM, type CursoId } from "@/lib/jogo";
 import { lerProgresso, salvarProgresso, totalPontos, type Progresso } from "@/lib/progresso-local";
 
 const L = ["A", "B", "C", "D"];
 const SEG_PERGUNTA = 4;   // segundos lendo o verso antes de seguir
 const SEG_LICAO = 30;     // segundos no fim (oração + vídeo) antes de abrir a próxima lição; clicar no vídeo pausa
 
-export default function Jogo({ licao, total }: { licao: LicaoJogo; total: number }) {
+export default function Jogo({ licao, total, curso = 1 }: { licao: LicaoJogo; total: number; curso?: CursoId }) {
   const router = useRouter();
+  const base = CURSOS[curso].base;
   const [etapa, setEtapa] = useState<"inicio" | "jogo" | "fim">("inicio");
   const [i, setI] = useState(0);
   const [escolha, setEscolha] = useState<number | null>(null);
@@ -27,14 +28,15 @@ export default function Jogo({ licao, total }: { licao: LicaoJogo; total: number
   const [auto, setAuto] = useState(true);                   // a pessoa pode pausar o avanço automático
 
   useEffect(() => {
-    const p = lerProgresso();
+    const p = lerProgresso(curso);
     const t = setTimeout(() => setProg(p), 0);
     return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const q = licao.perguntas[i];
   const ultima = i === licao.perguntas.length - 1;
-  const proximaHref = licao.numero < total ? `/curso/${licao.numero + 1}` : "/curso/certificado";
+  const proximaHref = licao.numero < total ? `${base}/${licao.numero + 1}` : `${base}/certificado`;
   const resta = auto && prazo !== null ? Math.max(0, Math.ceil((prazo - agora) / 1000)) : null;
 
   // Pré-carrega a próxima lição para a troca ser instantânea.
@@ -69,10 +71,10 @@ export default function Jogo({ licao, total }: { licao: LicaoJogo; total: number
   }
   function proxima() {
     if (ultima) {
-      const p = lerProgresso();
+      const p = lerProgresso(curso);
       p.concluidas[licao.numero] = { pontos, acertos, em: new Date().toISOString() };
-      salvarProgresso(p); setProg(p); setSalvo(true); setEtapa("fim"); setPrazo(Date.now() + SEG_LICAO * 1000); setAgora(Date.now());
-      void fetch("/api/progresso", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ pessoaId: p.pessoaId ?? null, licao: licao.numero, pontos, acertos }) }).catch(() => {});
+      salvarProgresso(p, curso); setProg(p); setSalvo(true); setEtapa("fim"); setPrazo(Date.now() + SEG_LICAO * 1000); setAgora(Date.now());
+      void fetch("/api/progresso", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ pessoaId: p.pessoaId ?? null, curso, licao: licao.numero, pontos, acertos }) }).catch(() => {});
       return;
     }
     setI(i + 1); setEscolha(null); setPrazo(null);
@@ -85,7 +87,7 @@ export default function Jogo({ licao, total }: { licao: LicaoJogo; total: number
       <header className="rounded-2xl p-5 flex items-center gap-4" style={{ background: licao.fundo, color: "#22202A" }}>
         <span className="text-4xl leading-none">{licao.figurinha}</span>
         <div className="min-w-0">
-          <p className="text-[11px] font-bold uppercase tracking-widest" style={{ color: licao.cor }}>Lição {licao.numero} de {total} · Bloco {ROM[licao.bloco]} — {licao.bloco_nome}</p>
+          <p className="text-[11px] font-bold uppercase tracking-widest" style={{ color: licao.cor }}>{CURSOS[curso].curto} · Lição {licao.numero} de {total} · Bloco {ROM[licao.bloco]} — {licao.bloco_nome}</p>
           <h1 className="serif text-2xl md:text-3xl font-semibold leading-tight">{licao.titulo}</h1>
         </div>
       </header>
