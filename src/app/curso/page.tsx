@@ -31,10 +31,11 @@ export default function Curso() {
         <section className="mt-14 card bg-navy text-cream border-navy">
           <p className="text-xs font-bold uppercase tracking-widest text-gold">Curso 2 · depois das 20</p>
           <h2 className="serif text-2xl font-semibold mt-1">{CURSO_2.titulo}</h2>
-          <p className="mt-2 text-cream/80">{CURSO_2.descricao} Quem concluir o Curso 1 escolhe se quer continuar.</p>
+          <p className="mt-2 text-cream/80">{CURSO_2.descricao} Já está aberto — quem quiser pode começar agora.</p>
           <ol className="mt-4 grid gap-1 sm:grid-cols-2 md:grid-cols-3 text-sm text-cream/70 list-decimal list-inside">
             {CURSO_2.licoes.map((t) => <li key={t}>{t}</li>)}
           </ol>
+          <Link href="/curso2" className="btn-gold mt-5">Começar o Curso 2 →</Link>
         </section>
       </main>
       <Rodape />
