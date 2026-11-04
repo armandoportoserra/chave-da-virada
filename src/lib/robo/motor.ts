@@ -160,7 +160,7 @@ function avaliacao(aprov: number) {
 
 function emitirCertificado(e: Estado, saidas: Saida[], acoes: Acao[]): Estado {
   if (e.certificado) {
-    saidas.push({ texto: `Seu certificado já foi emitido: código *${e.certificado}*. Se quiser a versão impressa, é só dizer *pessoa*.` });
+    saidas.push({ texto: `Seu certificado já foi emitido: código *${e.certificado}*. Se quiser, escreva *visita* ou *curso 2*.` });
     return { ...e, fase: "concluido", aguardando: null };
   }
   const aprov = e.quizzesFeitos ? Math.round((100 * e.acertosPrimeira) / e.quizzesFeitos) : 100;
@@ -247,7 +247,7 @@ export function processar(estadoAnterior: Estado, entrada: Entrada): Resultado {
   if (g === "livro") {
     const url = LIVRO_URL;
     acoes.push({ tipo: "evento", nome: "pediu_livro" });
-    saidas.push(site ? { texto: `Aqui está o livro *A Chave da Virada*, de graça. Leia no seu ritmo.`, link: { href: url, rotulo: "📖 Baixar o livro (PDF)" } } : { texto: `Aqui está o livro *A Chave da Virada*, de graça, em PDF:\n${url}\n\nLeia no seu ritmo. Se quiser a versão impressa em casa, escreva *visita*.` });
+    saidas.push(site ? { texto: `Aqui está o livro *A Chave da Virada*, de graça. Leia no seu ritmo.`, link: { href: url, rotulo: "📖 Baixar o livro (PDF)" } } : { texto: `Aqui está o livro *A Chave da Virada*, de graça, em PDF:\n${url}\n\nLeia no seu ritmo.` });
     if (e.fase === "menu" || e.fase === "concluido") saidas.push(menu(e));
     return { estado: e, saidas, acoes };
   }
