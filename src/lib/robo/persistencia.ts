@@ -39,8 +39,8 @@ export async function aplicarAcoes(db: SupabaseClient, s: Sessao, acoes: Acao[],
     switch (a.tipo) {
       case "crise":
         estadoConversa = "crise"; prioridade = 9;
-        await db.from("tarefas").insert({ pessoa_id: s.pessoaId, tipo: "crise", prioridade: 9, descricao: `Sinal de crise (robô respondeu com 188/192). Texto: "${a.texto.slice(0, 300)}"` });
-        await avisarIgreja("sinal de crise", `${r.estado.nome ?? "Pessoa"} (${s.whatsapp || "site"}) escreveu algo que indica risco. O robô deu 188/192 e ofereceu visita.`);
+        await db.from("tarefas").insert({ pessoa_id: s.pessoaId, tipo: "crise", prioridade: 9, descricao: `Sinal de crise (robô ofereceu visita). Texto: "${a.texto.slice(0, 300)}"` });
+        await avisarIgreja("sinal de crise", `${r.estado.nome ?? "Pessoa"} (${s.whatsapp || "site"}) escreveu algo que indica risco. O robô ofereceu visita.`);
         await db.from("eventos").insert({ pessoa_id: s.pessoaId, nome: "crise" });
         break;
       case "oracao":

@@ -13,7 +13,7 @@ export const licao = (n: number): Licao => LICOES[n - 1];
 export const TOTAL = LICOES.length;
 
 const LIVRO_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "") + "/livro/livro%20a%20chave%20da%20virada.pdf";
-const CVV = "Se estiver pensando em desistir da vida, ligue *188* (CVV, 24h, gratuito) ou acesse cvv.org.br. E, se quiser que alguém da igreja te visite, escreva *visita*.";
+const FECHO = "Se quiser que alguém da igreja te visite, escreva *visita*. Estou aqui a qualquer hora.";
 const SELO_BLOCO: Record<number, string> = { 1: "bloco1", 2: "bloco2", 3: "bloco3", 4: "bloco4", 5: "bloco5" };
 const NOME_BLOCO: Record<number, string> = { 1: "Esperança", 2: "Você e Deus", 3: "Jesus", 4: "Uma vida inteira", 5: "O futuro" };
 
@@ -122,7 +122,7 @@ function entregarLicao(e: Estado, saidas: Saida[], acoes: Acao[], apartirMsg = 1
     }
     if (m.tipo === "fechamento") {
       saidas.push({ texto });
-      saidas.push({ texto: CVV, botoes: botoes(L.botoes, "final") });
+      saidas.push({ texto: FECHO, botoes: botoes(L.botoes, "final") });
       est = concluirLicao(est, acoes);
       return { ...est, fase: "aguardando", aguardando: "final" };
     }
@@ -212,9 +212,9 @@ export function processar(estadoAnterior: Estado, entrada: Entrada): Resultado {
     return { estado: { ...e, fase: "crise", aguardando: null, proximaLicaoEm: null }, saidas, acoes };
   }
   if (e.fase === "crise") {
-    // sem fluxo, sem pontos: só presença, 188 e a porta da visita
+    // sem fluxo, sem pontos: só presença e a porta da visita
     if (intencaoGlobal(texto) === "visita") return iniciarVisita(e, saidas, acoes, true);
-    saidas.push({ texto: "Estou aqui. Se precisar agora: *188* (CVV, 24h) ou *192* (SAMU). Se quiser que alguém da igreja vá até você, escreva *visita*. Quando quiser continuar as lições, escreva *lição*." });
+    saidas.push({ texto: "Estou aqui. Procure alguém de confiança perto de você. Se quiser que alguém da igreja vá até você, escreva *visita*. Quando quiser continuar as lições, escreva *lição*." });
     if (/\b(licao|continuar|estou bem|melhor|passou)\b/.test(norm(texto))) return { estado: { ...e, fase: "menu" }, saidas: [{ texto: `Que bom, ${nomeOu(e, "amigo(a)")}. Vamos devagar.` }, menu(e)], acoes };
     return { estado: e, saidas, acoes };
   }
@@ -425,7 +425,7 @@ export function tique(estado: Estado, agora: Date): Resultado | null {
   if (e.lembreteEm && new Date(e.lembreteEm) <= agora && e.lembretesEnviados < 2 && e.fase !== "inicio") {
     const saidas: Saida[] = [{ texto: e.lembretesEnviados === 0
       ? `Oi, ${e.nome ?? "amigo(a)"}. Sem cobrança: só passando para dizer que a porta continua aberta. Quando quiser continuar, escreva *lição*. Se quiser receber uma visita, escreva *visita*.`
-      : `${e.nome ?? "Amigo(a)"}, esta é a última vez que eu te escrevo por conta própria — não quero incomodar. Se um dia quiser voltar, é só mandar *lição*; se quiser uma visita, *visita*. Se estiver pensando em desistir da vida, ligue *188*. Fique bem.` }];
+      : `${e.nome ?? "Amigo(a)"}, esta é a última vez que eu te escrevo por conta própria — não quero incomodar. Se um dia quiser voltar, é só mandar *lição*; se quiser uma visita, *visita*. Fique bem.` }];
     return { estado: { ...e, lembreteEm: null, lembretesEnviados: e.lembretesEnviados + 1 }, saidas, acoes: [{ tipo: "evento", nome: "lembrete", dados: { n: e.lembretesEnviados + 1 } }] };
   }
   return null;

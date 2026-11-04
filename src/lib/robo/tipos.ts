@@ -44,7 +44,7 @@ export type Fase =
   | "aguardando"    // aguardando resposta de quiz/exercício/decisão/botões finais
   | "oracao"        // pediu o texto do pedido de oração
   | "visita"        // pediu visita: aguardando bairro/horário/WhatsApp
-  | "crise"         // crise detectada — só 188/192 e a porta da visita
+  | "crise"         // crise detectada — só presença e a porta da visita
   | "concluido"     // terminou as 20
   | "optout";       // pediu para sair
 

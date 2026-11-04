@@ -19,6 +19,6 @@ export function detectarCrise(texto: string): boolean {
 export function mensagemCrise(nome: string | null): string {
   const n = nome ? `${nome}, o` : "O";
   return `${n} que você escreveu importa muito. Eu sou um robô e não quero que você fique só comigo agora. ` +
-    `Por favor, ligue *188* (CVV — gratuito, 24 horas) ou acesse cvv.org.br. Se houver risco imediato, ligue *192* (SAMU). ` +
+    `Procure agora alguém de confiança perto de você e não fique sozinho(a) com isso. ` +
     `Se quiser que alguém da igreja vá até você, escreva *visita*. Você não está sozinho(a).`;
 }
