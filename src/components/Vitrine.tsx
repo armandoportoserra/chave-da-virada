@@ -7,7 +7,7 @@ const ITENS = [
     href: "/livro",
     rotulo: "Livro gratuito",
     titulo: "A Chave da Virada",
-    texto: "Paz interior e saúde emocional. Leia em PDF agora ou peça a versão impressa.",
+    texto: "Paz interior e saúde emocional. Leia em PDF agora, no celular ou no computador.",
     acao: "Abrir o livro",
     capa: "/livro/capa.jpg",
     cor: "#B5343F",
