@@ -3,27 +3,7 @@ import Link from "next/link";
 import Cabecalho from "@/components/Cabecalho";
 import Rodape from "@/components/Rodape";
 import FormCadastro from "@/components/FormCadastro";
-
-const ofertas = [
-  {
-    titulo: "Um livro gratuito",
-    texto: "Sobre paz interior e saúde emocional. Em PDF na hora, ou impresso na sua casa, se preferir.",
-    href: "/livro",
-    icone: "📖",
-  },
-  {
-    titulo: "Estudos sobre esperança, em formato de jogo",
-    texto: "20 lições curtas, 8 perguntas cada, um verso por pergunta. Começa por “Você não está sozinho”. Certificado no final, sem ninguém cobrando presença.",
-    href: "/curso",
-    icone: "🌱",
-  },
-  {
-    titulo: "Alguém orando por você",
-    texto: "Conte o que está passando. A Esperança ora com você na hora, e o pedido é levado à oração da igreja. Se quiser, uma visita.",
-    href: "/oracao",
-    icone: "🙏",
-  },
-];
+import Vitrine from "@/components/Vitrine";
 
 const jornada = [
   ["1", "Você escolhe o que quer receber", "Livro, curso, oração ou uma conversa. Só o que você pedir."],
@@ -72,22 +52,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* OFERTAS */}
-        <section className="mx-auto max-w-6xl px-5 py-16">
-          <h2 className="serif text-center text-4xl font-semibold text-navy">Três portas. Você escolhe qual abrir.</h2>
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
-            {ofertas.map((o) => (
-              <Link key={o.href} href={o.href} className="card transition hover:-translate-y-1 hover:border-gold">
-                <div className="text-4xl" aria-hidden="true">
-                  {o.icone}
-                </div>
-                <h3 className="serif mt-3 text-2xl font-semibold text-navy">{o.titulo}</h3>
-                <p className="mt-2 text-sm text-muted">{o.texto}</p>
-                <span className="mt-4 inline-block text-sm font-semibold text-gold">Saber mais →</span>
-              </Link>
-            ))}
-          </div>
-        </section>
+        {/* VITRINE */}
+        <Vitrine titulo="Três portas. Você escolhe qual abrir." sub="Livro, cursos, oração, conversa e perguntas — um clique e está aberto." />
 
         {/* JORNADA */}
         <section className="bg-cream-dark">
