@@ -2,6 +2,8 @@ import Link from "next/link";
 import Cabecalho from "@/components/Cabecalho";
 import Rodape from "@/components/Rodape";
 import Vitrine from "@/components/Vitrine";
+import Contador from "@/components/Contador";
+import Seta from "@/components/Seta";
 
 const jornada = [
   ["1", "Você escolhe o que quer receber", "Livro, curso, oração ou uma conversa. Só o que você pedir."],
@@ -48,13 +50,25 @@ export default function Home() {
               <Link href="/ofertas" className="btn-outline mt-2">Ver tudo o que oferecemos</Link>
             </div>
           </div>
+          <div className="relative">
+            <Seta texto="Desça: livro, cursos e oração estão logo abaixo" href="#ofertas" clara compacta />
+          </div>
         </section>
 
         {/* VITRINE */}
-        <Vitrine titulo="Três portas. Você escolhe qual abrir." sub="Livro, cursos, oração, conversa e perguntas — um clique e está aberto." />
+        <div id="ofertas">
+          <Vitrine titulo="Três portas. Você escolhe qual abrir." sub="Livro, cursos, oração, conversa e perguntas — um clique e está aberto." />
+        </div>
+        <Seta texto="Continue: veja os números de verdade" href="#contador" compacta />
+
+        {/* CONTADOR REAL */}
+        <div id="contador" className="bg-cream-dark">
+          <Contador />
+        </div>
+        <Seta texto="Continue: como funciona, em 4 passos" href="#como" compacta />
 
         {/* JORNADA */}
-        <section className="bg-cream-dark">
+        <section id="como" className="bg-white">
           <div className="mx-auto max-w-6xl px-5 py-16">
             <h2 className="serif text-center text-4xl font-semibold text-navy">Como funciona</h2>
             <div className="mt-10 grid gap-6 md:grid-cols-4">
@@ -71,8 +85,10 @@ export default function Home() {
           </div>
         </section>
 
+        <Seta texto="Quase no fim: quem está do outro lado" href="#quem" compacta />
+
         {/* QUEM SOMOS */}
-        <section className="mx-auto max-w-3xl px-5 py-16 text-center">
+        <section id="quem" className="mx-auto max-w-3xl px-5 py-16 text-center">
           <h2 className="serif text-4xl font-semibold text-navy">Quem está do outro lado</h2>
           <p className="mt-6 text-lg leading-relaxed text-ink/85">
             Somos a Igreja Adventista do Sétimo Dia Nova Esperança, em Caxias do Sul. Não vamos aparecer na sua porta
