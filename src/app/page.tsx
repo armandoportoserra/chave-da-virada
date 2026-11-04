@@ -61,7 +61,6 @@ export default function Home() {
                   Começar a lição 1
                 </Link>
               </div>
-              <p className="mt-6 text-sm text-cream/70">Se você está pensando em desistir da vida, ligue <a href="tel:188" className="font-bold text-gold-light">188</a> (CVV, gratuito, 24h) ou <Link href="/conversar" className="font-bold text-gold-light">fale com a gente agora</Link>.</p>
             </div>
             <div className="card bg-white text-ink" id="cadastro">
               <h2 className="serif text-2xl font-semibold text-navy">Escolha o que quer receber</h2>
