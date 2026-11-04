@@ -73,3 +73,12 @@ html.embed footer {
 html.embed body {
   background: #fff;
 }
+
+/* Seta que pisca e desce (convite para continuar) */
+@keyframes seta-pisca {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(10px); opacity: 0.35; }
+}
+.seta-pisca { display: inline-block; animation: seta-pisca 1.1s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .seta-pisca { animation: none; } }
+html.transparente, html.transparente body { background: transparent !important; }
