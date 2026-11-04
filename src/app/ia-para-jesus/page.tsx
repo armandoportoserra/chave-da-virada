@@ -6,7 +6,7 @@ const trilhas = [
   ["🤖", "Robôs que acolhem", "Como uma assistente automática pode ouvir, orar e ensinar a Bíblia sem substituir a igreja."],
   ["📬", "A igreja que vai até a caixa de correio", "Folders nos prédios do Centro e da Nova Esperança: por que, como e quando."],
   ["🎮", "Estudar a Bíblia jogando", "O curso de 20 lições em formato de jogo: 8 perguntas, um verso por pergunta, vídeo no fim."],
-  ["🛡️", "Cuidado com quem está no limite", "188, limites do robô e o papel da visita: o que a tecnologia nunca pode fazer sozinha."],
+  ["🛡️", "Cuidado com quem está no limite", "Limites do robô e o papel da visita: o que a tecnologia nunca pode fazer sozinha."],
 ];
 export default function IAParaJesus() {
   return (
