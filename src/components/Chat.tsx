@@ -34,7 +34,7 @@ export default function Chat() {
         setMsgs((m) => [...m, { de: "robo", texto: s.texto, botoes: s.botoes, link: s.link }]);
       }
     } catch (e) {
-      setMsgs((m) => [...m, { de: "robo", texto: e instanceof Error ? e.message : "Não consegui responder agora. Se for urgente: ligue 188." }]);
+      setMsgs((m) => [...m, { de: "robo", texto: e instanceof Error ? e.message : "Não consegui responder agora. Tente de novo em instantes." }]);
     } finally { setOcupado(false); }
   }
 
@@ -68,7 +68,7 @@ export default function Chat() {
         <input id="chat-texto" value={texto} onChange={(e) => setTexto(e.target.value)} placeholder="Escreva aqui…" className="field" autoComplete="off" maxLength={2000} />
         <button className="btn-gold px-5" disabled={ocupado || !texto.trim()}>Enviar</button>
       </form>
-      <p className="mt-3 text-xs text-muted text-center">Se estiver pensando em desistir da vida, ligue <a href="tel:188" className="font-bold text-navy">188</a> (CVV, 24h, gratuito). Conversa automática. Se quiser que alguém da igreja te visite, é só pedir.</p>
+      <p className="mt-3 text-xs text-muted text-center">Conversa automática. Se quiser que alguém da igreja te visite, é só pedir.</p>
     </div>
   );
 }

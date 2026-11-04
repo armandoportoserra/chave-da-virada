@@ -83,7 +83,7 @@ export default function Faq() {
         </div>
       )}
 
-      <p className="mt-10 text-sm text-muted border-t border-dashed border-line pt-4">Não achou a sua pergunta? <Link href="/conversar" className="font-semibold text-navy underline">Converse com a Esperança</Link>, a qualquer hora. Se estiver pensando em desistir da vida, ligue <a href="tel:188" className="font-bold text-navy">188</a> (CVV, 24h, gratuito).</p>
+      <p className="mt-10 text-sm text-muted border-t border-dashed border-line pt-4">Não achou a sua pergunta? <Link href="/conversar" className="font-semibold text-navy underline">Converse com a Esperança</Link>, a qualquer hora.</p>
     </div>
   );
 }

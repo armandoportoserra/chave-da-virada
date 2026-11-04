@@ -1,5 +1,5 @@
 "use client";
-// Uma lição em formato jogo: gancho → 8 perguntas (uma por vez, verso acende) → oração → vídeo → 188 → próxima.
+// Uma lição em formato jogo: gancho → 8 perguntas (uma por vez, verso acende) → oração → vídeo → próxima.
 // Avança sozinho: cada pergunta respondida segue em alguns segundos (o verso fica na tela); no fim, a próxima lição
 // abre com uma contagem regressiva que a pessoa pode cancelar. Nada sai do site: o vídeo toca aqui mesmo.
 import { useEffect, useState } from "react";
@@ -97,7 +97,6 @@ export default function Jogo({ licao, total, curso = 1 }: { licao: LicaoJogo; to
           <p className="rounded-2xl rounded-tl-sm bg-white border border-line p-4 text-lg">{licao.gancho}</p>
           <p className="text-sm text-muted">{licao.perguntas.length} perguntas rápidas. Cada uma termina com um verso. Acertou ou não, avança — ninguém reprova aqui. Vale {licao.pontos_por_pergunta} pontos por acerto.</p>
           <button className="btn-gold w-full" onClick={() => setEtapa("jogo")}>Começar</button>
-          <Cvv texto={licao.cvv} />
         </section>
       )}
 
@@ -159,7 +158,6 @@ export default function Jogo({ licao, total, curso = 1 }: { licao: LicaoJogo; to
               <figcaption className="mt-2 min-w-0"><small className="block text-[11px] font-bold uppercase tracking-wider text-muted">{v.programa}</small><span className="font-semibold leading-snug">{v.titulo}</span></figcaption>
             </figure>
           ))}
-          <Cvv texto={licao.cvv} />
           <div className="grid gap-2 sm:grid-cols-2">
             {licao.numero < total
               ? <Link href={proximaHref} className="btn-gold">Lição {licao.numero + 1} →{auto && resta !== null ? ` · ${resta}s` : ""}</Link>
@@ -174,9 +172,4 @@ export default function Jogo({ licao, total, curso = 1 }: { licao: LicaoJogo; to
       )}
     </div>
   );
-}
-
-function Cvv({ texto }: { texto: string }) {
-  void texto;
-  return <p className="text-xs text-muted border-t border-dashed border-line pt-3">☎️ Se estiver pensando em desistir da vida, ligue <a href="tel:188" className="font-bold text-navy">188</a> (CVV, 24h, gratuito) ou <Link href="/conversar" className="font-bold text-navy">fale com a gente agora</Link>.</p>;
 }

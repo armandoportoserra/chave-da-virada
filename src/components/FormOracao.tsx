@@ -23,7 +23,7 @@ export default function FormOracao() {
     <div className="card border-gold">
       <p className="text-4xl">🤍</p>
       <h2 className="serif text-2xl font-semibold text-navy mt-2">O que você escreveu importa muito.</h2>
-      <p className="mt-2">Recebemos. Mas não fique só esperando: ligue agora para o <a href="tel:188" className="font-bold text-navy">188</a> (CVV, gratuito, 24h) ou acesse <a href="https://cvv.org.br" target="_blank" rel="noopener" className="underline">cvv.org.br</a>. Se houver risco imediato, <a href="tel:192" className="font-bold text-navy">192</a> (SAMU). Você não está sozinho(a).</p>
+      <p className="mt-2">Recebemos. Procure agora alguém de confiança perto de você e não fique sozinho(a) com isso. Você não está sozinho(a).</p>
       <p className="mt-3 text-sm">Se quiser que alguém da igreja vá até você, marque “quero receber uma visita” no pedido, ou escreva <b>visita</b> para a Esperança.</p><Link href="/conversar" className="btn-gold mt-4">Conversar com a Esperança</Link>
     </div>
   );
@@ -48,7 +48,6 @@ export default function FormOracao() {
       <label className="flex items-start gap-3 text-xs text-muted"><input id="ora-consent" type="checkbox" name="consent" required={precisaContato} className="mt-0.5 accent-gold" /><span>{CONSENT_TEXTO} <Link href="/privacidade" className="underline">Política de privacidade</Link>.</span></label>
       {erro && <p role="alert" className="rounded-xl bg-red-50 p-3 text-sm text-red-800">{erro}</p>}
       <button className="btn-gold w-full" disabled={estado === "enviando"}>{estado === "enviando" ? "Enviando…" : "Enviar pedido"}</button>
-      <p className="text-center text-xs text-muted">Se estiver pensando em desistir da vida, ligue <a href="tel:188" className="font-bold text-navy">188</a> (CVV, 24h, gratuito).</p>
     </form>
   );
 }
