@@ -60,7 +60,7 @@ export default function FormCertificado({ curso = 1 }: { curso?: Curso }) {
       <input name="site" className="hidden" tabIndex={-1} autoComplete="off" />
       <label className="block"><span className="text-sm font-semibold">Nome como vai aparecer no certificado</span><input id="cert-nome" name="nome" required minLength={2} className="field mt-1" defaultValue={p.nome ?? ""} /></label>
       <label className="block"><span className="text-sm font-semibold">WhatsApp (para o certificado ficar ligado a você)</span><input id="cert-zap" name="whatsapp" required inputMode="tel" placeholder="(54) 99999-9999" className="field mt-1" defaultValue={p.whatsapp ?? ""} /></label>
-      <label className="flex gap-3 items-start text-sm"><input id="cert-visita" type="checkbox" name="visita" className="mt-1" /> <span>Quero receber uma <b>visita da igreja</b> para entregar o certificado impresso.</span></label>
+      <label className="flex gap-3 items-start text-sm"><input id="cert-visita" type="checkbox" name="visita" className="mt-1" /> <span>Quero receber uma <b>visita da igreja</b>.</span></label>
       <label className="block"><span className="text-sm font-semibold">Bairro e melhor horário (se pediu visita)</span><input id="cert-bairro" name="bairro" className="field mt-1" placeholder="Ex.: Centro, sábado à tarde" /></label>
       {curso === 1 && <label className="flex gap-3 items-start text-sm"><input id="cert-curso2" type="checkbox" name="curso2" className="mt-1" /> <span>Quero continuar no Curso 2 — <b>{CURSO_2.titulo}</b> (21 lições).</span></label>}
       <label className="flex gap-3 items-start text-sm"><input id="cert-consent" type="checkbox" name="consent" required className="mt-1" /> <span>{CONSENT_TEXTO}</span></label>
