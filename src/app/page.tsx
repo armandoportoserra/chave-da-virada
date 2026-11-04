@@ -1,8 +1,6 @@
-import { Suspense } from "react";
 import Link from "next/link";
 import Cabecalho from "@/components/Cabecalho";
 import Rodape from "@/components/Rodape";
-import FormCadastro from "@/components/FormCadastro";
 import Vitrine from "@/components/Vitrine";
 
 const jornada = [
@@ -42,12 +40,12 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="card bg-white text-ink" id="cadastro">
-              <h2 className="serif text-2xl font-semibold text-navy">Escolha o que quer receber</h2>
-              <p className="mb-4 text-sm text-muted">Leva menos de um minuto.</p>
-              <Suspense fallback={null}>
-                <FormCadastro />
-              </Suspense>
+            <div className="card bg-white text-ink" id="visita">
+              <p className="text-xs font-bold uppercase tracking-widest text-gold">Tudo digital</p>
+              <h2 className="serif text-2xl font-semibold text-navy mt-1">Ninguém bate na sua porta</h2>
+              <p className="mt-2 text-sm text-muted">Livro, cursos, oração e perguntas ficam aqui no site, a qualquer hora. O único contato humano é uma visita — e só acontece se você pedir.</p>
+              <Link href="/conversar" className="btn-gold mt-4">Quero uma visita</Link>
+              <Link href="/ofertas" className="btn-outline mt-2">Ver tudo o que oferecemos</Link>
             </div>
           </div>
         </section>
