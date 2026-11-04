@@ -4,6 +4,7 @@ import Rodape from "@/components/Rodape";
 import Vitrine from "@/components/Vitrine";
 import Contador from "@/components/Contador";
 import Seta from "@/components/Seta";
+import { PopupAbra } from "@/components/Abra";
 
 const jornada = [
   ["1", "Você escolhe o que quer receber", "Livro, curso, oração ou uma conversa. Só o que você pedir."],
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <>
       <Cabecalho />
+      <PopupAbra />
       <main>
         {/* HERO */}
         <section className="relative overflow-hidden bg-navy text-cream">
