@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Seta from "@/components/Seta";
 
 // Vitrine: tudo o que o site oferece, um clique para cada coisa. Usada na página inicial e embutida no Framer (/ofertas?embed=1).
 const ITENS = [
@@ -65,7 +66,7 @@ const ITENS = [
   },
 ];
 
-export default function Vitrine({ titulo = "Você escolhe o que quer receber", sub = "Só o que você pedir chega. Um clique e está aberto." }: { titulo?: string; sub?: string }) {
+export default function Vitrine({ titulo = "Você escolhe o que quer receber", sub = "Só o que você pedir chega. Um clique e está aberto.", convite = "Continue descendo: tem mais para você" }: { titulo?: string; sub?: string; convite?: string | null }) {
   return (
     <section className="mx-auto max-w-6xl px-5 py-14">
       <h2 className="serif text-center text-4xl font-semibold text-navy" style={{ textWrap: "balance" }}>{titulo}</h2>
@@ -89,6 +90,7 @@ export default function Vitrine({ titulo = "Você escolhe o que quer receber", s
           </Link>
         ))}
       </div>
+      {convite ? <Seta texto={convite} compacta /> : null}
     </section>
   );
 }
