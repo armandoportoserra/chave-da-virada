@@ -20,6 +20,6 @@ export async function POST(req: NextRequest) {
     return res;
   } catch (e) {
     console.error("[conversar]", e);
-    return NextResponse.json({ erro: "A Esperança está indisponível agora. Se for urgente: 188 (CVV)." }, { status: 500 });
+    return NextResponse.json({ erro: "A Esperança está indisponível agora. Tente de novo em instantes." }, { status: 500 });
   }
 }
