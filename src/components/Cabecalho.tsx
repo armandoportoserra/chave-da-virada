@@ -20,6 +20,9 @@ export default function Cabecalho() {
           <Link href="/livro" className="hover:text-gold">Livro</Link>
           <Link href="/perguntas" className="hover:text-gold">Perguntas</Link>
           <Link href="/oracao" className="hover:text-gold">Oração</Link>
+          <Link href="/musicas" className="hover:text-gold">Músicas</Link>
+          <Link href="/igrejas" className="hover:text-gold">Igrejas</Link>
+          <Link href="/tv" className="hover:text-gold">TV Novo Tempo</Link>
           <Link href="/app" className="hover:text-gold">Meu progresso</Link>
         </nav>
         <Link href="/conversar" className="btn-gold px-4 py-2 text-sm">Quero conversar</Link>
