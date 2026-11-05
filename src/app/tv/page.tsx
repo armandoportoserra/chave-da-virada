@@ -1,8 +1,8 @@
 import Cabecalho from "@/components/Cabecalho";
 import Rodape from "@/components/Rodape";
 export const metadata = { title: "TV Novo Tempo ao vivo — Igreja Adventista Nova Esperança" };
-// Canal oficial da TV Novo Tempo no YouTube (@TVNovoTempo).
-const CANAL = "UCFbCGwTBgfVIH57zepBJekg";
+// Canal oficial da Rede Novo Tempo no YouTube (@novotempo), com a TV ao vivo 24 horas.
+const CANAL = "UC_OaSsAydgSIjUtjYn9qLog";
 export default function Tv() {
   return (
     <>
