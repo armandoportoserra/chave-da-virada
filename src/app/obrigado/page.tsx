@@ -12,7 +12,7 @@ export default function Obrigado() {
         <div className="text-6xl" aria-hidden="true">🌱</div>
         <h1 className="serif mt-4 text-4xl font-semibold text-navy">Recebemos seu pedido.</h1>
         <p className="mt-4 text-lg text-ink/85">
-          Você vai receber uma mensagem no WhatsApp com o que pediu. Enquanto isso, pode começar a lição 1 — leva 5 minutos.
+          Tudo o que você pediu está aqui no site, no automático. Pode começar a lição 1 — leva 5 minutos.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <Link href="/conversar" className="btn-outline">Conversar com a Esperança</Link>
