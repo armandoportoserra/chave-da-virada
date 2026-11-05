@@ -39,8 +39,8 @@ export async function aplicarAcoes(db: SupabaseClient, s: Sessao, acoes: Acao[],
     switch (a.tipo) {
       case "crise":
         estadoConversa = "crise"; prioridade = 9;
-        await db.from("tarefas").insert({ pessoa_id: s.pessoaId, tipo: "crise", prioridade: 9, descricao: `Sinal de crise (robô ofereceu visita). Texto: "${a.texto.slice(0, 300)}"` });
-        await avisarIgreja("sinal de crise", `${r.estado.nome ?? "Pessoa"} (${s.whatsapp || "site"}) escreveu algo que indica risco. O robô ofereceu visita.`);
+        await db.from("tarefas").insert({ pessoa_id: s.pessoaId, tipo: "crise", prioridade: 9, descricao: `Sinal de crise (robô acolheu automaticamente). Texto: "${a.texto.slice(0, 300)}"` });
+        await avisarIgreja("sinal de crise", `${r.estado.nome ?? "Pessoa"} (${s.whatsapp || "site"}) escreveu algo que indica risco. O robô acolheu e indicou procurar alguém de confiança; não há contato.`);
         await db.from("eventos").insert({ pessoa_id: s.pessoaId, nome: "crise" });
         break;
       case "oracao":
@@ -80,6 +80,12 @@ export async function aplicarAcoes(db: SupabaseClient, s: Sessao, acoes: Acao[],
       case "evento":
         await db.from("eventos").insert({ pessoa_id: s.pessoaId, nome: a.nome, dados: a.dados ?? null });
         if (a.nome === "primeiro_contato") await db.from("pessoas").update({ estagio: "interesse" }).eq("id", s.pessoaId);
+        if (a.nome === "apagar_dados") {
+          // LGPD: exclusão automática. Apaga a pessoa (conversas, mensagens, progresso e certificados caem em cascata).
+          await db.from("eventos").insert({ pessoa_id: null, nome: "dados_apagados", dados: null });
+          await db.from("pessoas").delete().eq("id", s.pessoaId);
+          return extras;
+        }
         break;
     }
   }

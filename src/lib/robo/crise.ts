@@ -20,5 +20,5 @@ export function mensagemCrise(nome: string | null): string {
   const n = nome ? `${nome}, o` : "O";
   return `${n} que você escreveu importa muito. Eu sou um robô e não quero que você fique só comigo agora. ` +
     `Procure agora alguém de confiança perto de você e não fique sozinho(a) com isso. ` +
-    `Se quiser que alguém da igreja vá até você, escreva *visita*. Você não está sozinho(a).`;
+    `Se quiser, escreva *música* e eu te mando um hino de esperança. Você não está sozinho(a).`;
 }

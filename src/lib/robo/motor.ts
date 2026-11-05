@@ -2,6 +2,7 @@
 // processar(estado, entrada) => { estado, saidas, acoes }. Sem banco, sem rede: testável.
 
 import licoesJson from "../../content/licoes.json";
+import { musicaDoBloco, musicaPara, linkMusica, urlYoutube } from "@/lib/musicas";
 import jogoJson from "../../content/curso_jogo.json";
 import type { Acao, Aguardando, Entrada, Estado, Licao, MensagemLicao, Resultado, Saida } from "./tipos";
 import { detectarCrise, mensagemCrise } from "./crise";
@@ -13,7 +14,7 @@ export const licao = (n: number): Licao => LICOES[n - 1];
 export const TOTAL = LICOES.length;
 
 const LIVRO_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "") + "/livro/livro%20a%20chave%20da%20virada.pdf";
-const FECHO = "Se quiser que alguém da igreja te visite, escreva *visita*. Estou aqui a qualquer hora.";
+const FECHO = "Estou aqui a qualquer hora. Se quiser, escreva *música* e eu te mando um hino.";
 const SELO_BLOCO: Record<number, string> = { 1: "bloco1", 2: "bloco2", 3: "bloco3", 4: "bloco4", 5: "bloco5" };
 const NOME_BLOCO: Record<number, string> = { 1: "Esperança", 2: "Você e Deus", 3: "Jesus", 4: "Uma vida inteira", 5: "O futuro" };
 
@@ -25,8 +26,7 @@ const norm = (s: string) =>
 export function tituloBotao(label: string): string {
   const mapa: Record<string, string> = {
     "Quero que orem por mim": "Orem por mim",
-    "Quero uma visita": "Quero uma visita",
-    "Quero uma visita do pastor": "Visita do pastor",
+    "Quero uma música": "Quero uma música",
     "Quero me preparar para o batismo": "Preparar batismo",
     "Quero conversar com o pastor antes": "Falar com o pastor",
     "Ainda não, mas quero continuar perto": "Ainda não, continuar",
@@ -65,11 +65,11 @@ function escolha(entrada: Entrada, opcoes: string[], prefixo: string): number | 
 }
 
 // ---------- intenções globais (valem em qualquer fase) -----------------------
-type Intencao = "optout" | "visita" | "oracao" | "menu" | "continuar" | "pontos" | "ajuda" | "livro" | null;
+type Intencao = "optout" | "musica" | "oracao" | "menu" | "continuar" | "pontos" | "ajuda" | "livro" | null;
 function intencaoGlobal(texto: string): Intencao {
   const t = norm(texto);
   if (/^(sair|parar|pare|cancelar|descadastrar|nao quero mais|remover)$/.test(t) || /nao (quero|me mande) mais (mensagem|nada)/.test(t)) return "optout";
-  if (/\b(visita|visitar|me buscar|ir no sabado|conhecer a igreja|falar com (o )?pastor|batismo|quero ser visitad)/.test(t)) return "visita";
+  if (/\b(musica|hino|louvor|cancao|visita|visitar|me buscar|ir no sabado|conhecer a igreja|falar com (o )?pastor|batismo|quero ser visitad)/.test(t)) return "musica";
   if (/\b(orem por mim|ora(cao|r) por mim|pedido de oracao|quero oracao|orem)\b/.test(t)) return "oracao";
   if (/^(menu|opcoes|inicio|oi|ola|bom dia|boa tarde|boa noite)$/.test(t)) return "menu";
   if (/\b(continuar|proxima|proxima licao|licao|estudo|quero a licao|comecar|bloco)\b/.test(t)) return "continuar";
@@ -86,11 +86,11 @@ function menu(e: Estado): Saida {
   const texto = e.concluidas.length === 0
     ? `${n ? n + ", o" : "O"} que você quer agora?`
     : `${n ? n + ", v" : "V"}ocê está na lição ${prox} de ${TOTAL} (${e.pontos} pontos). O que quer agora?`;
-  return { texto, botoes: botoes([prox ? `Quero a lição ${prox}` : "Quero meu certificado", "Quero que orem por mim", "Quero uma visita"], "menu") };
+  return { texto, botoes: botoes([prox ? `Quero a lição ${prox}` : "Quero meu certificado", "Quero que orem por mim", "Quero uma música"], "menu") };
 }
 
 function primeiraMensagem(): Saida {
-  return { texto: "Oi. Eu sou a *Esperança*, assistente da igreja Nova Esperança, em Caxias do Sul. Sou automática: respondo a qualquer hora, de madrugada também. Se um dia quiser receber a visita de alguém da igreja, é só escrever *visita*.\n\nComo posso te chamar?" };
+  return { texto: "Oi. Eu sou a *Esperança*, assistente da igreja Nova Esperança, em Caxias do Sul. Sou automática: respondo a qualquer hora, de madrugada também. Tudo aqui é digital e automático: ninguém vai te ligar nem bater na sua porta.\n\nComo posso te chamar?" };
 }
 
 const HUMORES = ["Cansado(a), sem forças", "Sozinho(a)", "Com uma dor que não passa", "Curioso(a), só quero conhecer", "Prefiro não dizer agora"];
@@ -160,14 +160,14 @@ function avaliacao(aprov: number) {
 
 function emitirCertificado(e: Estado, saidas: Saida[], acoes: Acao[]): Estado {
   if (e.certificado) {
-    saidas.push({ texto: `Seu certificado já foi emitido: código *${e.certificado}*. Se quiser, escreva *visita* ou *curso 2*.` });
+    saidas.push({ texto: `Seu certificado já foi emitido: código *${e.certificado}*. Se quiser, escreva *música* ou *curso 2*.` });
     return { ...e, fase: "concluido", aguardando: null };
   }
   const aprov = e.quizzesFeitos ? Math.round((100 * e.acertosPrimeira) / e.quizzesFeitos) : 100;
   const av = avaliacao(aprov);
   acoes.push({ tipo: "certificado", nome: nomeOu(e, "Participante"), aproveitamento: aprov, avaliacao: av });
-  saidas.push({ texto: `🎓 *${nomeOu(e, "Você")}, você concluiu o curso A Chave da Virada.*\n\nPontos: *${e.pontos}* · Selos: ${e.selos.length}/5 · Aproveitamento: *${aprov}%* — ${av}.\n\nSeu certificado chega em instantes com um link para ver e imprimir. Se quiser a versão impressa entregue em casa, escolha a visita.` });
-  saidas.push({ texto: "E agora? A porta não fecha.", botoes: botoes(["Quero uma visita", "Quero continuar estudando", "Quero o Curso 2"], "pos") });
+  saidas.push({ texto: `🎓 *${nomeOu(e, "Você")}, você concluiu o curso A Chave da Virada.*\n\nPontos: *${e.pontos}* · Selos: ${e.selos.length}/5 · Aproveitamento: *${aprov}%* — ${av}.\n\nSeu certificado chega em instantes com um link para ver e imprimir.` });
+  saidas.push({ texto: "E agora? A porta não fecha.", botoes: botoes(["Quero uma música", "Quero continuar estudando", "Quero o Curso 2"], "pos") });
   return { ...e, fase: "concluido", aguardando: null, certificado: "pendente" };
 }
 
@@ -184,12 +184,15 @@ function responderPergunta(texto: string, saidas: Saida[], acoes: Acao[], site: 
   return true;
 }
 
-/** Único ponto de contato humano: a pessoa pede uma visita. */
-function iniciarVisita(e: Estado, saidas: Saida[], acoes: Acao[], emCrise: boolean, tipo: "visita" | "pastor" | "batismo" = "visita"): Resultado {
-  const motivo = tipo === "batismo" ? "para combinar o preparo para o batismo" : tipo === "pastor" ? "do pastor" : "";
-  saidas.push({ texto: `${emCrise ? "Que bom que você pediu. " : ""}Para a igreja Nova Esperança combinar a visita${motivo ? " " + motivo : ""}: me diga o *bairro*, o *melhor horário* e, se ainda não tiver dito, um *WhatsApp* para contato. Pode ser tudo numa mensagem só.` });
-  acoes.push({ tipo: "evento", nome: "visita_iniciada", dados: { tipo, emCrise } });
-  return { estado: { ...e, fase: "visita", aguardando: null }, saidas, acoes };
+/** Antes era "pedir visita". Agora tudo é automático: a Esperança envia uma música temática. */
+function enviarMusica(e: Estado, saidas: Saida[], acoes: Acao[], site: boolean, tema?: string): Resultado {
+  const semente = e.pontos + e.concluidas.length;
+  const m = tema ? musicaPara(tema, semente) : musicaDoBloco(licao(e.licaoAtual).bloco, semente);
+  acoes.push({ tipo: "evento", nome: "musica", dados: { id: m.id, tema: m.tema } });
+  saidas.push(site
+    ? { texto: `🎵 *${m.titulo}* — ${m.autor}. Uma música para este momento.`, link: { href: linkMusica(m), rotulo: `🎵 Ouvir ${m.titulo}` } }
+    : { texto: `🎵 *${m.titulo}* — ${m.autor}. Uma música para este momento:\n${urlYoutube(m)}` });
+  return { estado: e, saidas, acoes };
 }
 
 // ---------- processamento principal -----------------------------------------
@@ -212,22 +215,13 @@ export function processar(estadoAnterior: Estado, entrada: Entrada): Resultado {
     return { estado: { ...e, fase: "crise", aguardando: null, proximaLicaoEm: null }, saidas, acoes };
   }
   if (e.fase === "crise") {
-    // sem fluxo, sem pontos: só presença e a porta da visita
-    if (intencaoGlobal(texto) === "visita") return iniciarVisita(e, saidas, acoes, true);
-    saidas.push({ texto: "Estou aqui. Procure alguém de confiança perto de você. Se quiser que alguém da igreja vá até você, escreva *visita*. Quando quiser continuar as lições, escreva *lição*." });
+    // sem fluxo, sem pontos: só presença e uma música de esperança
+    if (intencaoGlobal(texto) === "musica") return enviarMusica(e, saidas, acoes, site, "esperanca");
+    saidas.push({ texto: "Estou aqui. Procure alguém de confiança perto de você. Se quiser, escreva *música* e eu te mando um hino de esperança. Quando quiser continuar as lições, escreva *lição*." });
     if (/\b(licao|continuar|estou bem|melhor|passou)\b/.test(norm(texto))) return { estado: { ...e, fase: "menu" }, saidas: [{ texto: `Que bom, ${nomeOu(e, "amigo(a)")}. Vamos devagar.` }, menu(e)], acoes };
     return { estado: e, saidas, acoes };
   }
-  if (e.fase === "visita") {
-    const dados = texto.trim();
-    if (dados.length < 5) { saidas.push({ texto: "Me diga o bairro e o melhor horário (e o WhatsApp, se ainda não tiver dito)." }); return { estado: e, saidas, acoes }; }
-    acoes.push({ tipo: "tarefa", subtipo: "visita", descricao: `${nomeOu(e, "Pessoa")} quer uma visita — ${dados.slice(0, 300)}` });
-    acoes.push({ tipo: "evento", nome: "pediu_visita" });
-    saidas.push({ texto: `Anotado, ${nomeOu(e, "amigo(a)")}. A igreja Nova Esperança vai entrar em contato para combinar a visita. Não precisa preparar nada.` });
-    const volta = e.concluidas.length >= TOTAL ? "concluido" : "menu";
-    if (volta === "menu") saidas.push(menu(e));
-    return { estado: { ...e, fase: volta }, saidas, acoes };
-  }
+  if (e.fase === "visita") { e = { ...e, fase: e.concluidas.length >= TOTAL ? "concluido" : "menu" }; }
   if (e.fase === "optout") {
     if (/^(voltar|quero voltar|continuar)$/.test(norm(texto))) {
       saidas.push({ texto: `Que bom te ver de novo, ${nomeOu(e, "amigo(a)")}. Continuamos de onde parou.` }, menu(e));
@@ -238,12 +232,17 @@ export function processar(estadoAnterior: Estado, entrada: Entrada): Resultado {
 
   // 1. Intenções globais
   const g = intencaoGlobal(texto);
+  if (/\b(apagar|excluir|deletar|apague|exclua)\b.*\bdados\b/.test(norm(texto))) {
+    saidas.push({ texto: "Pronto. Seus dados foram apagados do nosso banco, de forma automática, como garante a LGPD. Se voltar a escrever, começamos do zero. Fique bem." });
+    acoes.push({ tipo: "evento", nome: "apagar_dados" });
+    return { estado: { ...e, fase: "optout", aguardando: null, proximaLicaoEm: null, nome: null }, saidas, acoes };
+  }
   if (g === "optout") {
     saidas.push({ texto: `Tudo bem, ${nomeOu(e, "amigo(a)")}. Não vou mais te escrever. Se um dia quiser voltar, é só mandar *voltar* — a porta não fecha. Fique bem.` });
     acoes.push({ tipo: "optout" });
     return { estado: { ...e, fase: "optout", aguardando: null, proximaLicaoEm: null }, saidas, acoes };
   }
-  if (g === "visita") return iniciarVisita(e, saidas, acoes, false);
+  if (g === "musica") { if (!/musica|hino|louvor|cancao/.test(norm(texto))) saidas.push({ texto: "Aqui tudo é digital e automático: não fazemos visitas nem ligações. Mas tenho uma música para você:" }); return enviarMusica(e, saidas, acoes, site); }
   if (g === "livro") {
     const url = LIVRO_URL;
     acoes.push({ tipo: "evento", nome: "pediu_livro" });
@@ -360,7 +359,7 @@ export function processar(estadoAnterior: Estado, entrada: Entrada): Resultado {
         } else {
           e = { ...e, decisaoFinal: resposta };
           acoes.push({ tipo: "evento", nome: "decisao_final", dados: { resposta } });
-          saidas.push({ texto: /ainda n/i.test(resposta) ? "Tudo bem. Continuar perto já é muito. A porta fica aberta." : "Que alegria. No fim desta lição eu te pergunto onde e quando a igreja pode te visitar para combinar o próximo passo." });
+          saidas.push({ texto: /ainda n/i.test(resposta) ? "Tudo bem. Continuar perto já é muito. A porta fica aberta." : "Que alegria. Siga no seu ritmo — eu estou aqui." });
         }
         return { estado: entregarLicao(e, saidas, acoes, m.n + 1), saidas, acoes };
       }
@@ -369,13 +368,13 @@ export function processar(estadoAnterior: Estado, entrada: Entrada): Resultado {
         const label = i !== null ? L.botoes[i] : "";
         if (/aceitei/i.test(label) || /aceitei|aceito jesus/.test(norm(texto))) {
           acoes.push({ tipo: "evento", nome: "aceitou_jesus" });
-          saidas.push({ texto: `${nomeOu(e, "Amigo(a)")}, isso é a melhor notícia que eu poderia receber hoje. 🙏 Se quiser que alguém da igreja te visite para orar junto, escreva *visita*.` });
+          saidas.push({ texto: `${nomeOu(e, "Amigo(a)")}, isso é a melhor notícia que eu poderia receber hoje. 🙏 Quer uma música para celebrar? Escreva *música*.` });
           e = avancar(e, saidas, acoes);
           saidas.push(menu(e));
           return { estado: e, saidas, acoes };
         }
         if (/orem/i.test(label)) { saidas.push({ texto: "Pode contar o que está pesando. Escreva do seu jeito. Eu oro com você aqui mesmo." }); return { estado: { ...avancar(e, saidas, acoes), fase: "oracao" }, saidas, acoes }; }
-        if (/visita|pastor|igreja|sábado|sabado|batismo/i.test(label)) { e = avancar(e, saidas, acoes); return iniciarVisita(e, saidas, acoes, false, /batismo/i.test(label) ? "batismo" : /pastor/i.test(label) ? "pastor" : "visita"); }
+        if (/m[uú]sica|visita|pastor|igreja|sábado|sabado|batismo/i.test(label)) { const bl = L.bloco; e = avancar(e, saidas, acoes); const r = enviarMusica(e, saidas, acoes, site, ["", "esperanca", "deus", "jesus", "vida", "futuro"][bl]); saidas.push(menu(e)); return r; }
         if (/certificado/i.test(label)) { e = avancar(e, saidas, acoes); return { estado: e, saidas, acoes }; }
         // "Quero a lição N amanhã" → agenda; "Quero a lição N" / "começar o Bloco" → agora
         if (/amanh/i.test(label)) {
@@ -399,13 +398,13 @@ export function processar(estadoAnterior: Estado, entrada: Entrada): Resultado {
     }
 
     case "concluido": {
-      const i = escolha(entrada, ["Quero uma visita", "Quero continuar estudando", "Quero o Curso 2"], "pos");
-      if (i === 0) return iniciarVisita(e, saidas, acoes, false);
+      const i = escolha(entrada, ["Quero uma música", "Quero continuar estudando", "Quero o Curso 2"], "pos");
+      if (i === 0) return enviarMusica(e, saidas, acoes, site, "futuro");
       if (i === 2 || /curso 2|apocalipse/.test(norm(texto))) { acoes.push({ tipo: "evento", nome: "quer_curso2" }); saidas.push(site ? { texto: "O Curso 2 — *Apocalipse: Revelações de Esperança* — já está aberto: 21 lições no mesmo formato de jogo, no seu ritmo.", link: { href: "/curso2", rotulo: "📖 Começar o Curso 2" } } : { texto: "O Curso 2 — *Apocalipse: Revelações de Esperança* — já está aberto no site, em *Curso 2*: 21 lições no mesmo formato de jogo, no seu ritmo." }); }
       else if (i === 1) { saidas.push(site ? { texto: "Para continuar: as *Perguntas e respostas sobre o amor de Deus* — centenas de perguntas, cada uma com um verso. E o Curso 2 (Apocalipse) já está aberto.", link: { href: "/perguntas", rotulo: "💛 Perguntas sobre o amor de Deus" } } : { texto: "Para continuar: no site, em *Perguntas*, há centenas de perguntas e respostas sobre o amor de Deus, cada uma com um verso. E o Curso 2 (Apocalipse) já está aberto." }); }
       else if (g === "pontos" || /certificado/.test(norm(texto))) { saidas.push({ texto: `Seu certificado: ${e.certificado && e.certificado !== "pendente" ? "código *" + e.certificado + "*" : "está sendo emitido"}. Pontos: *${e.pontos}*.` }); }
       else if (responderPergunta(texto, saidas, acoes, site)) { /* respondeu pela FAQ */ }
-      else saidas.push({ texto: "Estou aqui. Pode escrever *orem*, *visita* ou *curso 2* — ou me fazer uma pergunta sobre Deus." });
+      else saidas.push({ texto: "Estou aqui. Pode escrever *orem*, *música* ou *curso 2* — ou me fazer uma pergunta sobre Deus." });
       return { estado: e, saidas, acoes };
     }
   }
@@ -424,8 +423,8 @@ export function tique(estado: Estado, agora: Date): Resultado | null {
   }
   if (e.lembreteEm && new Date(e.lembreteEm) <= agora && e.lembretesEnviados < 2 && e.fase !== "inicio") {
     const saidas: Saida[] = [{ texto: e.lembretesEnviados === 0
-      ? `Oi, ${e.nome ?? "amigo(a)"}. Sem cobrança: só passando para dizer que a porta continua aberta. Quando quiser continuar, escreva *lição*. Se quiser receber uma visita, escreva *visita*.`
-      : `${e.nome ?? "Amigo(a)"}, esta é a última vez que eu te escrevo por conta própria — não quero incomodar. Se um dia quiser voltar, é só mandar *lição*; se quiser uma visita, *visita*. Fique bem.` }];
+      ? `Oi, ${e.nome ?? "amigo(a)"}. Sem cobrança: só passando para dizer que a porta continua aberta. Quando quiser continuar, escreva *lição*. Se quiser uma música, escreva *música*.`
+      : `${e.nome ?? "Amigo(a)"}, esta é a última vez que eu te escrevo por conta própria — não quero incomodar. Se um dia quiser voltar, é só mandar *lição*; se quiser uma música, *música*. Fique bem.` }];
     return { estado: { ...e, lembreteEm: null, lembretesEnviados: e.lembretesEnviados + 1 }, saidas, acoes: [{ tipo: "evento", nome: "lembrete", dados: { n: e.lembretesEnviados + 1 } }] };
   }
   return null;
