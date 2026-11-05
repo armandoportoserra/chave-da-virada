@@ -10,10 +10,10 @@
         "p": "O filho mais novo pediu o quê ao pai?",
         "o": [
           "Um conselho",
-          "A herança",
-          "Um emprego"
+          "Um emprego",
+          "A herança"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Pai, dá-me a parte dos bens que me cabe.",
         "r": "Lucas 15:12"
       },
@@ -31,11 +31,11 @@
       {
         "p": "O que ele planejou dizer ao voltar?",
         "o": [
-          "Me dá mais",
           "Já não sou digno de ser teu filho",
+          "Me dá mais",
           "A culpa foi sua"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Já não sou digno de ser chamado teu filho.",
         "r": "Lucas 15:19"
       },
@@ -53,11 +53,11 @@
       {
         "p": "O que o pai fez?",
         "o": [
-          "Esperou na porta",
           "Correu e o abraçou",
+          "Esperou na porta",
           "Mandou um recado"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Compadecido dele, correndo, o abraçou e o beijou.",
         "r": "Lucas 15:20"
       },
@@ -65,10 +65,10 @@
         "p": "O pai deixou o filho terminar o discurso?",
         "o": [
           "Sim",
-          "Não — mandou trazer a melhor roupa",
-          "Pediu explicações"
+          "Pediu explicações",
+          "Não — mandou trazer a melhor roupa"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Trazei depressa a melhor roupa, vesti-o.",
         "r": "Lucas 15:22"
       },
@@ -76,10 +76,10 @@
         "p": "Como Deus se compadece de você?",
         "o": [
           "Como um juiz",
-          "Como um pai",
-          "Como um patrão"
+          "Como um patrão",
+          "Como um pai"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Como um pai se compadece de seus filhos, assim o Senhor se compadece.",
         "r": "Salmo 103:13"
       },
@@ -87,10 +87,10 @@
         "p": "O que pode te separar do amor de Deus?",
         "o": [
           "Seus erros",
-          "O que você sente",
-          "Nada"
+          "Nada",
+          "O que você sente"
         ],
-        "c": 2,
+        "c": 1,
         "v": "Nem a morte, nem a vida… poderá separar-nos do amor de Deus.",
         "r": "Romanos 8:38-39"
       }
@@ -121,22 +121,22 @@
       {
         "p": "Deus amou o mundo 'de tal maneira' que…",
         "o": [
-          "Mandou regras",
           "Deu o seu Filho",
+          "Mandou regras",
           "Ficou assistindo"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Deus amou ao mundo de tal maneira que deu o seu Filho unigênito.",
         "r": "João 3:16"
       },
       {
         "p": "Para quem é essa promessa?",
         "o": [
-          "Para os religiosos",
           "Para todo o que nele crê",
+          "Para os religiosos",
           "Para os perfeitos"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Para que todo o que nele crê não pereça, mas tenha a vida eterna.",
         "r": "João 3:16"
       },
@@ -155,10 +155,10 @@
         "p": "Se pais imperfeitos dão boas coisas, o Pai do céu dá…",
         "o": [
           "Menos",
-          "Quanto mais",
-          "Igual"
+          "Igual",
+          "Quanto mais"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Quanto mais vosso Pai, que está nos céus, dará boas coisas aos que lhe pedirem?",
         "r": "Mateus 7:11"
       },
@@ -188,10 +188,10 @@
         "p": "Salário se ganha. Dom se…",
         "o": [
           "Compra",
-          "Recebe de graça",
-          "Merece"
+          "Merece",
+          "Recebe de graça"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Isto não vem de vós; é dom de Deus.",
         "r": "Efésios 2:8"
       },
@@ -234,21 +234,21 @@
         "p": "Na parábola, quem semeou o joio?",
         "o": [
           "O fazendeiro",
-          "Um inimigo",
-          "A chuva"
+          "A chuva",
+          "Um inimigo"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Um inimigo fez isso.",
         "r": "Mateus 13:28"
       },
       {
         "p": "Quando o inimigo semeou?",
         "o": [
-          "De dia",
           "Enquanto os homens dormiam",
+          "De dia",
           "Na colheita"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Enquanto os homens dormiam, veio o inimigo dele, semeou o joio.",
         "r": "Mateus 13:25"
       },
@@ -266,11 +266,11 @@
       {
         "p": "Quem foi expulso do céu?",
         "o": [
-          "Miguel",
           "O dragão, Satanás",
+          "Miguel",
           "Adão"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Foi expulso o grande dragão, a antiga serpente, que se chama diabo e Satanás.",
         "r": "Apocalipse 12:9"
       },
@@ -278,10 +278,10 @@
         "p": "Jesus é chamado de…",
         "o": [
           "Homem de vitórias",
-          "Homem de dores",
-          "Homem de festas"
+          "Homem de festas",
+          "Homem de dores"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Homem de dores e que sabe o que é padecer.",
         "r": "Isaías 53:3"
       },
@@ -289,10 +289,10 @@
         "p": "O que Jesus tomou sobre si?",
         "o": [
           "Nossas riquezas",
-          "Nossas dores",
-          "Nossas férias"
+          "Nossas férias",
+          "Nossas dores"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Ele tomou sobre si as nossas enfermidades e as nossas dores levou sobre si.",
         "r": "Isaías 53:4"
       },
@@ -310,11 +310,11 @@
       {
         "p": "Jesus prometeu vida sem aflição?",
         "o": [
-          "Sim",
           "Não — mas Ele venceu o mundo",
+          "Sim",
           "Só aos fortes"
         ],
-        "c": 1,
+        "c": 0,
         "v": "No mundo, passais por aflições; mas tende bom ânimo; eu venci o mundo.",
         "r": "João 16:33"
       }
@@ -346,10 +346,10 @@
         "p": "O Salmo manda fazer o quê com o coração?",
         "o": [
           "Esconder",
-          "Derramar diante de Deus",
-          "Endurecer"
+          "Endurecer",
+          "Derramar diante de Deus"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Derramai perante ele o vosso coração; Deus é o nosso refúgio.",
         "r": "Salmo 62:8"
       },
@@ -367,11 +367,11 @@
       {
         "p": "'Não andeis ansiosos de…'",
         "o": [
-          "Algumas coisas",
           "Coisa alguma",
+          "Algumas coisas",
           "Dinheiro"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Não andeis ansiosos de coisa alguma.",
         "r": "Filipenses 4:6"
       },
@@ -379,10 +379,10 @@
         "p": "O que guarda o coração e a mente?",
         "o": [
           "O silêncio",
-          "A paz de Deus",
-          "O sono"
+          "O sono",
+          "A paz de Deus"
         ],
-        "c": 1,
+        "c": 2,
         "v": "A paz de Deus… guardará o vosso coração e a vossa mente.",
         "r": "Filipenses 4:7"
       },
@@ -400,22 +400,22 @@
       {
         "p": "Quem Jesus convida a vir a Ele?",
         "o": [
-          "Os descansados",
           "Os cansados e sobrecarregados",
+          "Os descansados",
           "Os perfeitos"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Vinde a mim, todos os que estais cansados e sobrecarregados.",
         "r": "Mateus 11:28"
       },
       {
         "p": "E o que Ele promete?",
         "o": [
-          "Mais tarefas",
           "Alívio",
+          "Mais tarefas",
           "Silêncio"
         ],
-        "c": 1,
+        "c": 0,
         "v": "E eu vos aliviarei.",
         "r": "Mateus 11:28"
       },
@@ -458,10 +458,10 @@
         "p": "'Chamei-te pelo teu…'",
         "o": [
           "Número",
-          "Nome",
-          "Apelido"
+          "Apelido",
+          "Nome"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Chamei-te pelo teu nome, tu és meu.",
         "r": "Isaías 43:1"
       },
@@ -469,10 +469,10 @@
         "p": "Deus conhece a palavra antes de ela…",
         "o": [
           "Ser escrita",
-          "Chegar à sua língua",
-          "Ser pensada"
+          "Ser pensada",
+          "Chegar à sua língua"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Ainda a palavra me não chegou à língua, e tu, Senhor, já a conheces toda.",
         "r": "Salmo 139:4"
       },
@@ -490,22 +490,22 @@
       {
         "p": "Deus sabe que somos…",
         "o": [
-          "Ferro",
           "Pó",
+          "Ferro",
           "Pedra"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Ele conhece a nossa estrutura e sabe que somos pó.",
         "r": "Salmo 103:14"
       },
       {
         "p": "Quem amou primeiro?",
         "o": [
-          "Nós",
           "Ele",
+          "Nós",
           "Ninguém"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Nós amamos porque ele nos amou primeiro.",
         "r": "1 João 4:19"
       },
@@ -513,32 +513,32 @@
         "p": "Os cabelos da sua cabeça estão…",
         "o": [
           "Soltos",
-          "Todos contados",
-          "Esquecidos"
+          "Esquecidos",
+          "Todos contados"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Até os cabelos todos da cabeça estão contados.",
         "r": "Mateus 10:30"
       },
       {
         "p": "Você vale mais que…",
         "o": [
-          "Muitos pardais",
           "Um pardal",
+          "Muitos pardais",
           "Nada"
         ],
-        "c": 0,
+        "c": 1,
         "v": "Bem mais valeis vós do que muitos pardais.",
         "r": "Mateus 10:31"
       },
       {
         "p": "O amor de Deus por você é…",
         "o": [
-          "Temporário",
           "Eterno",
+          "Temporário",
           "Condicional"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Com amor eterno eu te amei.",
         "r": "Jeremias 31:3"
       }
@@ -570,10 +570,10 @@
         "p": "Dos dois homens no templo, quem voltou em paz com Deus?",
         "o": [
           "O fariseu",
-          "O publicano",
-          "Os dois"
+          "Os dois",
+          "O publicano"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Este desceu justificado para sua casa, e não aquele.",
         "r": "Lucas 18:14"
       },
@@ -602,11 +602,11 @@
       {
         "p": "Jesus orou com medo no Getsêmani?",
         "o": [
-          "Não",
           "Sim — pediu para passar o cálice",
+          "Não",
           "Só cantou"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Aba, Pai… passa de mim este cálice; contudo, não seja o que eu quero.",
         "r": "Marcos 14:36"
       },
@@ -614,21 +614,21 @@
         "p": "Como Jesus chamou o Pai ali?",
         "o": [
           "Senhor",
-          "Aba (papai)",
-          "Mestre"
+          "Mestre",
+          "Aba (papai)"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Aba, Pai, tudo te é possível.",
         "r": "Marcos 14:36"
       },
       {
         "p": "'Pedi, e…'",
         "o": [
-          "Esperem",
           "Dar-se-vos-á",
+          "Esperem",
           "Talvez"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Pedi, e dar-se-vos-á; buscai e achareis; batei, e abrir-se-vos-á.",
         "r": "Mateus 7:7"
       },
@@ -647,10 +647,10 @@
         "p": "Deus responde quando?",
         "o": [
           "Só depois",
-          "Antes mesmo de terminarmos",
-          "Nunca"
+          "Nunca",
+          "Antes mesmo de terminarmos"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Antes que clamem, eu responderei.",
         "r": "Isaías 65:24"
       }
@@ -682,10 +682,10 @@
         "p": "O etíope entendia o que lia?",
         "o": [
           "Sim",
-          "Não — precisava de alguém para explicar",
-          "Fingia"
+          "Fingia",
+          "Não — precisava de alguém para explicar"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Como poderei entender, se alguém não me explicar?",
         "r": "Atos 8:31"
       },
@@ -703,22 +703,22 @@
       {
         "p": "'Toda a Escritura é…'",
         "o": [
-          "Antiga",
           "Inspirada por Deus",
+          "Antiga",
           "Difícil"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Toda a Escritura é inspirada por Deus e útil para o ensino.",
         "r": "2 Timóteo 3:16"
       },
       {
         "p": "Quem moveu os profetas?",
         "o": [
-          "Reis",
           "O Espírito Santo",
+          "Reis",
           "O povo"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Homens santos falaram da parte de Deus, movidos pelo Espírito Santo.",
         "r": "2 Pedro 1:21"
       },
@@ -726,10 +726,10 @@
         "p": "A Bíblia inteira fala de quem?",
         "o": [
           "De Israel",
-          "De Jesus",
-          "De Moisés"
+          "De Moisés",
+          "De Jesus"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Expunha-lhes o que a seu respeito constava em todas as Escrituras.",
         "r": "Lucas 24:27"
       },
@@ -748,10 +748,10 @@
         "p": "A Palavra é o quê para os meus pés?",
         "o": [
           "Pedra",
-          "Lâmpada",
-          "Muro"
+          "Muro",
+          "Lâmpada"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Lâmpada para os meus pés é a tua palavra e luz para os meus caminhos.",
         "r": "Salmo 119:105"
       },
@@ -793,11 +793,11 @@
       {
         "p": "Se confessarmos, Deus é…",
         "o": [
-          "Lento",
           "Fiel e justo para perdoar",
+          "Lento",
           "Indeciso"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Ele é fiel e justo para nos perdoar os pecados.",
         "r": "1 João 1:9"
       },
@@ -805,10 +805,10 @@
         "p": "Se pecarmos, temos um … junto ao Pai",
         "o": [
           "Juiz",
-          "Advogado",
-          "Fiscal"
+          "Fiscal",
+          "Advogado"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Temos Advogado junto ao Pai, Jesus Cristo, o Justo.",
         "r": "1 João 2:1"
       },
@@ -826,22 +826,22 @@
       {
         "p": "Perdoar quantas vezes?",
         "o": [
-          "Sete",
           "Setenta vezes sete",
+          "Sete",
           "Uma"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Não te digo que até sete vezes, mas até setenta vezes sete.",
         "r": "Mateus 18:22"
       },
       {
         "p": "Perdoem 'como também Deus, em Cristo…'",
         "o": [
-          "Exigiu",
           "Vos perdoou",
+          "Exigiu",
           "Cobrou"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Perdoando-vos uns aos outros, como também Deus, em Cristo, vos perdoou.",
         "r": "Efésios 4:32"
       },
@@ -849,10 +849,10 @@
         "p": "Para onde Deus lança nossos pecados?",
         "o": [
           "Numa lista",
-          "Nas profundezas do mar",
-          "Num arquivo"
+          "Num arquivo",
+          "Nas profundezas do mar"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Lançará todos os nossos pecados nas profundezas do mar.",
         "r": "Miqueias 7:19"
       },
@@ -871,10 +871,10 @@
         "p": "Pecados vermelhos como escarlate ficam…",
         "o": [
           "Rosa",
-          "Brancos como a neve",
-          "Iguais"
+          "Iguais",
+          "Brancos como a neve"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Ainda que os vossos pecados sejam como a escarlata, eles se tornarão brancos como a neve.",
         "r": "Isaías 1:18"
       }
@@ -905,11 +905,11 @@
       {
         "p": "'No princípio era o…'",
         "o": [
-          "Mundo",
           "Verbo",
+          "Mundo",
           "Templo"
         ],
-        "c": 1,
+        "c": 0,
         "v": "No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.",
         "r": "João 1:1"
       },
@@ -927,11 +927,11 @@
       {
         "p": "Jesus foi tentado como nós?",
         "o": [
-          "Não",
           "Sim, em tudo, mas sem pecado",
+          "Não",
           "Só uma vez"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Foi ele tentado em todas as coisas, à nossa semelhança, mas sem pecado.",
         "r": "Hebreus 4:15"
       },
@@ -939,10 +939,10 @@
         "p": "O pastor deixa 99 ovelhas para buscar…",
         "o": [
           "Dez",
-          "Uma",
-          "Nenhuma"
+          "Nenhuma",
+          "Uma"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Não deixa no deserto as noventa e nove e vai em busca da que se perdeu?",
         "r": "Lucas 15:4"
       },
@@ -961,10 +961,10 @@
         "p": "A paz de Jesus é igual à do mundo?",
         "o": [
           "Igual",
-          "Não — é outra",
-          "Menor"
+          "Menor",
+          "Não — é outra"
         ],
-        "c": 1,
+        "c": 2,
         "v": "A minha paz vos dou; não vo-la dou como a dá o mundo.",
         "r": "João 14:27"
       },
@@ -982,11 +982,11 @@
       {
         "p": "Jesus veio buscar e salvar…",
         "o": [
-          "Os bons",
           "O que se havia perdido",
+          "Os bons",
           "Os religiosos"
         ],
-        "c": 1,
+        "c": 0,
         "v": "O Filho do Homem veio buscar e salvar o perdido.",
         "r": "Lucas 19:10"
       }
@@ -1017,11 +1017,11 @@
       {
         "p": "Quantos pecaram?",
         "o": [
-          "Alguns",
           "Todos",
+          "Alguns",
           "Ninguém"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Todos pecaram e carecem da glória de Deus.",
         "r": "Romanos 3:23"
       },
@@ -1040,21 +1040,21 @@
         "p": "Por 'um só ato de justiça' veio…",
         "o": [
           "Castigo",
-          "Graça para todos",
-          "Mais lei"
+          "Mais lei",
+          "Graça para todos"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Por um só ato de justiça, veio a graça sobre todos os homens.",
         "r": "Romanos 5:18"
       },
       {
         "p": "Somos salvos pela graça, mediante…",
         "o": [
-          "Obras",
           "Fé",
+          "Obras",
           "Dinheiro"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Pela graça sois salvos, mediante a fé.",
         "r": "Efésios 2:8"
       },
@@ -1062,10 +1062,10 @@
         "p": "'Isto não vem de vós; é…'",
         "o": [
           "Salário",
-          "Dom de Deus",
-          "Sorte"
+          "Sorte",
+          "Dom de Deus"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Isto não vem de vós; é dom de Deus.",
         "r": "Efésios 2:8"
       },
@@ -1083,11 +1083,11 @@
       {
         "p": "Quem está em Cristo é…",
         "o": [
-          "O mesmo",
           "Nova criatura",
+          "O mesmo",
           "Melhorado"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Se alguém está em Cristo, é nova criatura.",
         "r": "2 Coríntios 5:17"
       },
@@ -1095,10 +1095,10 @@
         "p": "Cristo morreu por nós sendo nós ainda…",
         "o": [
           "Bons",
-          "Pecadores",
-          "Santos"
+          "Santos",
+          "Pecadores"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Cristo morreu por nós, sendo nós ainda pecadores.",
         "r": "Romanos 5:8"
       }
@@ -1151,11 +1151,11 @@
       {
         "p": "Há quantos dias Lázaro estava morto?",
         "o": [
-          "Um",
           "Quatro",
+          "Um",
           "Dez"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Já cheira mal, porque já é de quatro dias.",
         "r": "João 11:39"
       },
@@ -1163,10 +1163,10 @@
         "p": "Jesus chamou Lázaro…",
         "o": [
           "Baixinho",
-          "Em alta voz, pelo nome",
-          "Por bilhete"
+          "Por bilhete",
+          "Em alta voz, pelo nome"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Clamou em alta voz: Lázaro, vem para fora!",
         "r": "João 11:43"
       },
@@ -1184,22 +1184,22 @@
       {
         "p": "Em Cristo todos serão…",
         "o": [
-          "Apenas julgados",
           "Vivificados",
+          "Apenas julgados",
           "Esquecidos"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Assim também todos serão vivificados em Cristo.",
         "r": "1 Coríntios 15:22"
       },
       {
         "p": "Quem guarda a Palavra 'nunca verá…'",
         "o": [
-          "A morte",
+          "O templo",
           "A luz",
-          "O templo"
+          "A morte"
         ],
-        "c": 0,
+        "c": 2,
         "v": "Se alguém guardar a minha palavra, nunca verá a morte.",
         "r": "João 8:51"
       },
@@ -1242,21 +1242,21 @@
         "p": "'Eu sou a videira, vós…'",
         "o": [
           "Os frutos",
-          "Os ramos",
-          "O jardineiro"
+          "O jardineiro",
+          "Os ramos"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Eu sou a videira, vós, os ramos.",
         "r": "João 15:5"
       },
       {
         "p": "Sem Ele podemos fazer…",
         "o": [
-          "Pouco",
           "Nada",
+          "Pouco",
           "Tudo"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Sem mim nada podeis fazer.",
         "r": "João 15:5"
       },
@@ -1274,11 +1274,11 @@
       {
         "p": "O primeiro fruto do Espírito é…",
         "o": [
-          "Força",
           "Amor",
+          "Força",
           "Riqueza"
         ],
-        "c": 1,
+        "c": 0,
         "v": "O fruto do Espírito é: amor, alegria, paz…",
         "r": "Gálatas 5:22"
       },
@@ -1286,21 +1286,21 @@
         "p": "Nossa luta é contra…",
         "o": [
           "Pessoas",
-          "Forças espirituais do mal",
-          "Vizinhos"
+          "Vizinhos",
+          "Forças espirituais do mal"
         ],
-        "c": 1,
+        "c": 2,
         "v": "A nossa luta não é contra o sangue e a carne.",
         "r": "Efésios 6:12"
       },
       {
         "p": "A 'espada do Espírito' é…",
         "o": [
-          "A fé",
           "A Palavra de Deus",
+          "A fé",
           "A oração"
         ],
-        "c": 1,
+        "c": 0,
         "v": "A espada do Espírito, que é a palavra de Deus.",
         "r": "Efésios 6:17"
       },
@@ -1319,10 +1319,10 @@
         "p": "Somos transformados 'de glória em glória' por…",
         "o": [
           "Esforço",
-          "O Espírito do Senhor",
-          "O tempo"
+          "O tempo",
+          "O Espírito do Senhor"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Somos transformados, de glória em glória… como pelo Senhor, o Espírito.",
         "r": "2 Coríntios 3:18"
       }
@@ -1354,32 +1354,32 @@
         "p": "Seu corpo é…",
         "o": [
           "Descartável",
-          "Santuário do Espírito Santo",
-          "Só biologia"
+          "Só biologia",
+          "Santuário do Espírito Santo"
         ],
-        "c": 1,
+        "c": 2,
         "v": "O vosso corpo é santuário do Espírito Santo.",
         "r": "1 Coríntios 6:19"
       },
       {
         "p": "'Olhai para as…'",
         "o": [
-          "Estrelas",
           "Aves do céu",
+          "Estrelas",
           "Cidades"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Olhai para as aves do céu… vosso Pai celeste as sustenta.",
         "r": "Mateus 6:26"
       },
       {
         "p": "Você vale mais que…",
         "o": [
-          "As aves",
           "Nada",
+          "As aves",
           "Só os lírios"
         ],
-        "c": 0,
+        "c": 1,
         "v": "Porventura não valeis vós muito mais do que as aves?",
         "r": "Mateus 6:26"
       },
@@ -1387,21 +1387,21 @@
         "p": "Ocupe o pensamento com o que é…",
         "o": [
           "Urgente",
-          "Verdadeiro, justo, puro, amável",
-          "Viral"
+          "Viral",
+          "Verdadeiro, justo, puro, amável"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Tudo o que é verdadeiro… seja isso o que ocupe o vosso pensamento.",
         "r": "Filipenses 4:8"
       },
       {
         "p": "Alimento original dado por Deus:",
         "o": [
-          "Carne",
           "Ervas e frutos",
+          "Carne",
           "Pão"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Dou-vos todas as ervas que dão semente… e todas as árvores em que há fruto.",
         "r": "Gênesis 1:29"
       },
@@ -1420,10 +1420,10 @@
         "p": "'Fazei tudo para…'",
         "o": [
           "Vocês",
-          "A glória de Deus",
-          "O patrão"
+          "O patrão",
+          "A glória de Deus"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Fazei tudo para a glória de Deus.",
         "r": "1 Coríntios 10:31"
       },
@@ -1472,22 +1472,22 @@
       {
         "p": "Deus 'descansou' no dia…",
         "o": [
-          "Primeiro",
           "Sétimo",
+          "Primeiro",
           "Décimo"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Havendo Deus terminado no dia sétimo a sua obra… descansou.",
         "r": "Gênesis 2:2"
       },
       {
         "p": "O que Deus fez com o sétimo dia?",
         "o": [
-          "Esqueceu",
           "Abençoou e santificou",
+          "Esqueceu",
           "Vendeu"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Abençoou Deus o dia sétimo e o santificou.",
         "r": "Gênesis 2:3"
       },
@@ -1506,21 +1506,21 @@
         "p": "No sábado 'é lícito…'",
         "o": [
           "Nada",
-          "Fazer o bem",
-          "Só dormir"
+          "Só dormir",
+          "Fazer o bem"
         ],
-        "c": 1,
+        "c": 2,
         "v": "É lícito, nos sábados, fazer o bem.",
         "r": "Mateus 12:12"
       },
       {
         "p": "Costume de Jesus no sábado:",
         "o": [
-          "Pescar",
           "Ir à sinagoga",
+          "Pescar",
           "Viajar"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Entrou, num sábado, na sinagoga, segundo o seu costume.",
         "r": "Lucas 4:16"
       },
@@ -1539,21 +1539,21 @@
         "p": "Depois da cruz, no sábado, as mulheres…",
         "o": [
           "Trabalharam",
-          "Descansaram segundo o mandamento",
-          "Viajaram"
+          "Viajaram",
+          "Descansaram segundo o mandamento"
         ],
-        "c": 1,
+        "c": 2,
         "v": "No sábado, descansaram, segundo o mandamento.",
         "r": "Lucas 23:56"
       },
       {
         "p": "Na nova terra, 'de um sábado a outro…'",
         "o": [
-          "Ninguém vem",
           "Toda carne virá adorar",
+          "Ninguém vem",
           "Acaba"
         ],
-        "c": 1,
+        "c": 0,
         "v": "De um sábado a outro, virá toda a carne a adorar perante mim.",
         "r": "Isaías 66:23"
       }
@@ -1603,21 +1603,21 @@
         "p": "Corrigir quem erra com…",
         "o": [
           "Dureza",
-          "Espírito de brandura",
-          "Silêncio"
+          "Silêncio",
+          "Espírito de brandura"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Corrigi-o com espírito de brandura.",
         "r": "Gálatas 6:1"
       },
       {
         "p": "Maridos, amai como Cristo amou…",
         "o": [
-          "A lei",
           "A igreja",
+          "A lei",
           "O templo"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Maridos, amai vossa mulher, como também Cristo amou a igreja.",
         "r": "Efésios 5:25"
       },
@@ -1636,21 +1636,21 @@
         "p": "Quem dá força para adquirir riquezas?",
         "o": [
           "A sorte",
-          "O Senhor, teu Deus",
-          "O banco"
+          "O banco",
+          "O Senhor, teu Deus"
         ],
-        "c": 1,
+        "c": 2,
         "v": "É o Senhor, teu Deus, que te dá força para adquirires riquezas.",
         "r": "Deuteronômio 8:18"
       },
       {
         "p": "'Trazei todos os dízimos…' e Deus diz:",
         "o": [
-          "Esqueçam",
           "Provai-me nisto",
+          "Esqueçam",
           "Depois"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Trazei todos os dízimos à casa do Tesouro… e provai-me nisto.",
         "r": "Malaquias 3:10"
       },
@@ -1669,10 +1669,10 @@
         "p": "A viúva deu duas moedas, e Jesus disse que ela deu…",
         "o": [
           "Pouco",
-          "Mais que todos",
-          "Igual"
+          "Igual",
+          "Mais que todos"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Esta viúva pobre depositou mais do que todos.",
         "r": "Marcos 12:43"
       }
@@ -1703,11 +1703,11 @@
       {
         "p": "'Já não sois estrangeiros… mas…'",
         "o": [
-          "Clientes",
           "Da família de Deus",
+          "Clientes",
           "Visitantes"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Sois concidadãos dos santos, e sois da família de Deus.",
         "r": "Efésios 2:19"
       },
@@ -1715,10 +1715,10 @@
         "p": "O fundamento da igreja é…",
         "o": [
           "O prédio",
-          "Cristo",
-          "O pastor"
+          "O pastor",
+          "Cristo"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Sendo ele mesmo, Cristo Jesus, a pedra angular.",
         "r": "Efésios 2:20"
       },
@@ -1737,10 +1737,10 @@
         "p": "Para que Deus chamou seu povo?",
         "o": [
           "Para se isolar",
-          "Para proclamar as virtudes dEle",
-          "Para julgar"
+          "Para julgar",
+          "Para proclamar as virtudes dEle"
         ],
-        "c": 1,
+        "c": 2,
         "v": "A fim de proclamardes as virtudes daquele que vos chamou das trevas.",
         "r": "1 Pedro 2:9"
       },
@@ -1758,11 +1758,11 @@
       {
         "p": "'Não deixemos de…'",
         "o": [
-          "Discutir",
           "Congregar-nos",
+          "Discutir",
           "Viajar"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Não deixemos de congregar-nos, como é costume de alguns.",
         "r": "Hebreus 10:25"
       },
@@ -1770,21 +1770,21 @@
         "p": "Missão: 'Ide, fazei…'",
         "o": [
           "Prédios",
-          "Discípulos de todas as nações",
-          "Regras"
+          "Regras",
+          "Discípulos de todas as nações"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Ide, portanto, fazei discípulos de todas as nações.",
         "r": "Mateus 28:19"
       },
       {
         "p": "Marca do povo de Deus no fim:",
         "o": [
-          "Fama",
           "Guardam os mandamentos e a fé em Jesus",
+          "Fama",
           "Riqueza"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Os que guardam os mandamentos de Deus e a fé em Jesus.",
         "r": "Apocalipse 14:12"
       }
@@ -1838,32 +1838,32 @@
         "p": "O segundo: amar o próximo como…",
         "o": [
           "Um estranho",
-          "A ti mesmo",
-          "Um chefe"
+          "Um chefe",
+          "A ti mesmo"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Amarás o teu próximo como a ti mesmo.",
         "r": "Mateus 22:39"
       },
       {
         "p": "Jesus aboliu a lei?",
         "o": [
-          "Sim",
           "Não — nem um til passará",
+          "Sim",
           "Metade"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Nem um i ou um til jamais passará da Lei.",
         "r": "Mateus 5:18"
       },
       {
         "p": "'Se me amais…'",
         "o": [
-          "Pagai",
           "Guardareis os meus mandamentos",
+          "Pagai",
           "Cantai"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Se me amais, guardareis os meus mandamentos.",
         "r": "João 14:15"
       },
@@ -1882,21 +1882,21 @@
         "p": "A lei nos conduz a…",
         "o": [
           "Roma",
-          "Cristo",
-          "Moisés"
+          "Moisés",
+          "Cristo"
         ],
-        "c": 1,
+        "c": 2,
         "v": "A lei nos serviu de aio para nos conduzir a Cristo.",
         "r": "Gálatas 3:24"
       },
       {
         "p": "Somos justificados…",
         "o": [
-          "Pela lei",
           "Gratuitamente, pela graça",
+          "Pela lei",
           "Por esforço"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Sendo justificados gratuitamente, por sua graça.",
         "r": "Romanos 3:24"
       }
@@ -1939,10 +1939,10 @@
         "p": "Na morte, o pó volta à terra e o fôlego…",
         "o": [
           "Vaga por aí",
-          "Volta a Deus",
-          "Fica no corpo"
+          "Fica no corpo",
+          "Volta a Deus"
         ],
-        "c": 1,
+        "c": 2,
         "v": "O pó volte à terra… e o espírito volte a Deus, que o deu.",
         "r": "Eclesiastes 12:7"
       },
@@ -1950,21 +1950,21 @@
         "p": "Os mortos sabem…",
         "o": [
           "Tudo",
-          "Coisa nenhuma",
-          "Um pouco"
+          "Um pouco",
+          "Coisa nenhuma"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Os mortos não sabem coisa nenhuma.",
         "r": "Eclesiastes 9:5"
       },
       {
         "p": "Jesus chamou a morte de Lázaro de…",
         "o": [
-          "Fim",
           "Sono",
+          "Fim",
           "Viagem"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Lázaro, o nosso amigo, adormeceu.",
         "r": "João 11:11"
       },
@@ -1982,11 +1982,11 @@
       {
         "p": "'Os mortos em Cristo ressuscitarão…'",
         "o": [
-          "Nunca",
           "Primeiro",
+          "Nunca",
           "Por último"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Os mortos em Cristo ressuscitarão primeiro.",
         "r": "1 Tessalonicenses 4:16"
       },
@@ -1994,10 +1994,10 @@
         "p": "A quem o Pai confiou o julgamento?",
         "o": [
           "Aos anjos",
-          "Ao Filho",
-          "Ao povo"
+          "Ao povo",
+          "Ao Filho"
         ],
-        "c": 1,
+        "c": 2,
         "v": "O Pai… ao Filho confiou todo julgamento.",
         "r": "João 5:22"
       },
@@ -2039,11 +2039,11 @@
       {
         "p": "'Voltarei e vos…'",
         "o": [
-          "Julgarei",
           "Receberei para mim mesmo",
+          "Julgarei",
           "Esquecerei"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Voltarei e vos receberei para mim mesmo.",
         "r": "João 14:3"
       },
@@ -2051,10 +2051,10 @@
         "p": "Quantos verão a volta de Jesus?",
         "o": [
           "Poucos",
-          "Todo olho",
-          "Só os bons"
+          "Só os bons",
+          "Todo olho"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Eis que vem com as nuvens, e todo olho o verá.",
         "r": "Apocalipse 1:7"
       },
@@ -2073,21 +2073,21 @@
         "p": "Nos últimos dias os homens serão…",
         "o": [
           "Melhores",
-          "Egoístas, sem afeição natural",
-          "Iguais"
+          "Iguais",
+          "Egoístas, sem afeição natural"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Os homens serão egoístas, avarentos… sem afeição natural.",
         "r": "2 Timóteo 3:2-3"
       },
       {
         "p": "Quando isso começar, 'erguei a cabeça' porque…",
         "o": [
-          "Acabou tudo",
           "A redenção se aproxima",
+          "Acabou tudo",
           "Devem fugir"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Exultai e erguei a vossa cabeça; porque a vossa redenção se aproxima.",
         "r": "Lucas 21:28"
       },
@@ -2105,11 +2105,11 @@
       {
         "p": "'Julgai todas as coisas, retende…'",
         "o": [
-          "Tudo",
           "O que é bom",
+          "Tudo",
           "O novo"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Julgai todas as coisas, retende o que é bom.",
         "r": "1 Tessalonicenses 5:21"
       },
@@ -2117,10 +2117,10 @@
         "p": "O testemunho de Jesus é…",
         "o": [
           "Um livro",
-          "O espírito da profecia",
-          "Um sonho"
+          "Um sonho",
+          "O espírito da profecia"
         ],
-        "c": 1,
+        "c": 2,
         "v": "O testemunho de Jesus é o espírito da profecia.",
         "r": "Apocalipse 19:10"
       }
@@ -2170,21 +2170,21 @@
         "p": "'Quem não nascer de novo não pode…'",
         "o": [
           "Ler",
-          "Ver o reino de Deus",
-          "Orar"
+          "Orar",
+          "Ver o reino de Deus"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Se alguém não nascer de novo, não pode ver o reino de Deus.",
         "r": "João 3:3"
       },
       {
         "p": "Jesus foi batizado e 'saiu logo da…'",
         "o": [
-          "Cidade",
           "Água",
+          "Cidade",
           "Barca"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Batizado Jesus, saiu logo da água.",
         "r": "Mateus 3:16"
       },
@@ -2202,11 +2202,11 @@
       {
         "p": "Batizados em Cristo, 'de Cristo vos…'",
         "o": [
-          "Esquecestes",
           "Revestistes",
+          "Esquecestes",
           "Afastastes"
         ],
-        "c": 1,
+        "c": 0,
         "v": "Todos quantos fostes batizados em Cristo de Cristo vos revestistes.",
         "r": "Gálatas 3:27"
       },
@@ -2214,10 +2214,10 @@
         "p": "O Consolador prometido é…",
         "o": [
           "Um anjo",
-          "O Espírito da verdade",
-          "Pedro"
+          "Pedro",
+          "O Espírito da verdade"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Ele vos dará outro Consolador… o Espírito da verdade.",
         "r": "João 14:16-17"
       },
@@ -2236,10 +2236,10 @@
         "p": "'Eis, agora, o dia da…'",
         "o": [
           "Dúvida",
-          "Salvação",
-          "Festa"
+          "Festa",
+          "Salvação"
         ],
-        "c": 1,
+        "c": 2,
         "v": "Eis, agora, o dia da salvação.",
         "r": "2 Coríntios 6:2"
       }
