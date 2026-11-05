@@ -68,7 +68,7 @@ export default function Chat() {
         <input id="chat-texto" value={texto} onChange={(e) => setTexto(e.target.value)} placeholder="Escreva aqui…" className="field" autoComplete="off" maxLength={2000} />
         <button className="btn-gold px-5" disabled={ocupado || !texto.trim()}>Enviar</button>
       </form>
-      <p className="mt-3 text-xs text-muted text-center">Conversa automática. Se quiser que alguém da igreja te visite, é só pedir.</p>
+      <p className="mt-3 text-xs text-muted text-center">Conversa 100% automática. Ninguém liga, ninguém visita. Escreva música para ouvir um hino.</p>
     </div>
   );
 }

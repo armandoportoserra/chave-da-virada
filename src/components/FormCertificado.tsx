@@ -24,11 +24,11 @@ export default function FormCertificado({ curso = 1 }: { curso?: Curso }) {
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault(); setEstado("enviando"); setErro(null);
     const f = new FormData(e.currentTarget);
-    const payload = { curso, nome: String(f.get("nome") ?? ""), whatsapp: String(f.get("whatsapp") ?? ""), consent: f.get("consent") === "on", concluidas: feitas, pontos: totalPontos(p!), acertos: totalAcertos(p!), quer_curso2: f.get("curso2") === "on", quer_visita: f.get("visita") === "on", bairro: String(f.get("bairro") ?? ""), site: String(f.get("site") ?? "") };
+    const payload = { curso, nome: String(f.get("nome") ?? ""), consent: f.get("consent") === "on", concluidas: feitas, pontos: totalPontos(p!), acertos: totalAcertos(p!), quer_curso2: f.get("curso2") === "on", site: String(f.get("site") ?? "") };
     try {
       const r = await fetch("/api/certificado", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
       const j = await r.json(); if (!r.ok) throw new Error(j.erro ?? "Erro.");
-      const np = { ...p!, nome: payload.nome, whatsapp: payload.whatsapp, certificado: j.codigo, pessoaId: j.pessoaId }; salvarProgresso(np, curso); setP(np);
+      const np = { ...p!, nome: payload.nome, certificado: j.codigo, pessoaId: j.pessoaId }; salvarProgresso(np, curso); setP(np);
       setRes(j); setEstado("ok");
     } catch (err) { setEstado("erro"); setErro(err instanceof Error ? err.message : "Erro."); }
   }
@@ -47,7 +47,7 @@ export default function FormCertificado({ curso = 1 }: { curso?: Curso }) {
           <Link href="/curso2" className="btn-gold mt-4">Começar o Curso 2 →</Link>
         </>) : (<>
           <p className="serif text-xl font-semibold mt-1">Você concluiu os dois cursos</p>
-          <p className="text-sm text-cream/80 mt-1">Continue conversando com a Esperança, veja as perguntas sobre o amor de Deus ou peça uma visita.</p>
+          <p className="text-sm text-cream/80 mt-1">Continue conversando com a Esperança, veja as perguntas sobre o amor de Deus ou ouça uma música.</p>
           <Link href="/conversar" className="btn-outline mt-4">Falar com a Esperança</Link>
         </>)}
       </div>
@@ -56,12 +56,9 @@ export default function FormCertificado({ curso = 1 }: { curso?: Curso }) {
   return (
     <form onSubmit={onSubmit} className="card space-y-4">
       <h1 className="serif text-3xl font-semibold text-navy">Você concluiu as {N} lições 🎉</h1>
-      <p>{info.titulo} · {totalPontos(p)} pontos · {totalAcertos(p)} acertos de {MAX}. Para emitir o certificado com seu nome, precisamos de duas coisas:</p>
+      <p>{info.titulo} · {totalPontos(p)} pontos · {totalAcertos(p)} acertos de {MAX}. Para emitir o certificado, só precisamos do nome que vai aparecer nele:</p>
       <input name="site" className="hidden" tabIndex={-1} autoComplete="off" />
       <label className="block"><span className="text-sm font-semibold">Nome como vai aparecer no certificado</span><input id="cert-nome" name="nome" required minLength={2} className="field mt-1" defaultValue={p.nome ?? ""} /></label>
-      <label className="block"><span className="text-sm font-semibold">WhatsApp (para o certificado ficar ligado a você)</span><input id="cert-zap" name="whatsapp" required inputMode="tel" placeholder="(54) 99999-9999" className="field mt-1" defaultValue={p.whatsapp ?? ""} /></label>
-      <label className="flex gap-3 items-start text-sm"><input id="cert-visita" type="checkbox" name="visita" className="mt-1" /> <span>Quero receber uma <b>visita da igreja</b>.</span></label>
-      <label className="block"><span className="text-sm font-semibold">Bairro e melhor horário (se pediu visita)</span><input id="cert-bairro" name="bairro" className="field mt-1" placeholder="Ex.: Centro, sábado à tarde" /></label>
       {curso === 1 && <label className="flex gap-3 items-start text-sm"><input id="cert-curso2" type="checkbox" name="curso2" className="mt-1" /> <span>Quero continuar no Curso 2 — <b>{CURSO_2.titulo}</b> (21 lições).</span></label>}
       <label className="flex gap-3 items-start text-sm"><input id="cert-consent" type="checkbox" name="consent" required className="mt-1" /> <span>{CONSENT_TEXTO}</span></label>
       {erro && <p className="text-sm text-red-700">{erro}</p>}
