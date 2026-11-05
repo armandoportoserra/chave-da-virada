@@ -76,9 +76,9 @@ const ITENS = [
   },
   {
     href: "/tv",
-    rotulo: "Ao vivo",
-    titulo: "TV Novo Tempo",
-    texto: "A TV da Igreja Adventista ao vivo, aqui no site: programas, Bíblia e música, 24 horas.",
+    rotulo: "🔴 Ao vivo · 24 horas",
+    titulo: "Assista aqui a TV Novo Tempo, 24 horas por dia",
+    texto: "A TV da Igreja Adventista ao vivo, sem sair do site: programas, Bíblia e música.",
     acao: "Assistir agora",
     emoji: "📺",
     cor: "#C0392B",
