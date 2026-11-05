@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import AvisoLgpd from "@/components/AvisoLgpd";
 
 // Fontes carregadas por <link> (não por next/font) para o build funcionar em redes restritas.
 const GOOGLE_FONTS =
@@ -32,7 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">{children}<AvisoLgpd /></body>
     </html>
   );
 }

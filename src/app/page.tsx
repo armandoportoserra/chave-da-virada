@@ -10,7 +10,7 @@ const jornada = [
   ["1", "Você escolhe o que quer receber", "Livro, curso, oração ou uma conversa. Só o que você pedir."],
   ["2", "Fala quando precisar", "A Esperança, nossa assistente, responde aqui no site a qualquer hora — de madrugada também."],
   ["3", "Você caminha no seu tempo", "Sem prazo, sem cobrança. Pode parar e voltar quando quiser."],
-  ["4", "A porta fica aberta", "Se um dia quiser uma visita ou conhecer a igreja, é só pedir. Se não, tudo bem também."],
+  ["4", "Tudo no automático", "Ninguém liga, ninguém visita. Quer uma música para o momento? Um clique."],
 ];
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
               </h1>
               <p className="mt-6 max-w-lg text-lg text-cream/85">
                 Talvez a vida esteja pesada demais. Talvez ninguém saiba o quanto. Aqui tem um lugar para desabafar,
-                orar e caminhar — no seu tempo, sem ninguém bater na sua porta. Só se você pedir.
+                orar e caminhar — no seu tempo, tudo digital e automático.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link href="/conversar" className="btn-gold">
@@ -44,11 +44,11 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="card bg-white text-ink" id="visita">
+            <div className="card bg-white text-ink" id="digital">
               <p className="text-xs font-bold uppercase tracking-widest text-gold">Tudo digital</p>
               <h2 className="serif text-2xl font-semibold text-navy mt-1">Ninguém bate na sua porta</h2>
-              <p className="mt-2 text-sm text-muted">Livro, cursos, oração e perguntas ficam aqui no site, a qualquer hora. O único contato humano é uma visita — e só acontece se você pedir.</p>
-              <Link href="/conversar" className="btn-gold mt-4">Quero uma visita</Link>
+              <p className="mt-2 text-sm text-muted">Livro, cursos, oração, músicas e perguntas ficam aqui no site, a qualquer hora. Ninguém liga, ninguém manda mensagem por conta própria, ninguém faz visitas.</p>
+              <Link href="/musicas" className="btn-gold mt-4">🎵 Quero uma música</Link>
               <Link href="/ofertas" className="btn-outline mt-2">Ver tudo o que oferecemos</Link>
             </div>
           </div>
