@@ -52,7 +52,7 @@
         "opcoes": [
           "Quero a lição 2 amanhã",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -65,7 +65,7 @@
     "botoes": [
       "Quero a lição 2 amanhã",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 0,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -123,7 +123,7 @@
         "opcoes": [
           "Quero a lição 3",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -136,7 +136,7 @@
     "botoes": [
       "Quero a lição 3",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 0,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -194,7 +194,7 @@
         "opcoes": [
           "Quero a lição 4",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -216,7 +216,7 @@
     "botoes": [
       "Quero a lição 4",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -279,7 +279,7 @@
         "opcoes": [
           "Quero começar o Bloco II",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -292,7 +292,7 @@
     "botoes": [
       "Quero começar o Bloco II",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -350,7 +350,7 @@
         "opcoes": [
           "Quero a lição 6 amanhã",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -372,7 +372,7 @@
     "botoes": [
       "Quero a lição 6 amanhã",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -430,7 +430,7 @@
         "opcoes": [
           "Quero a lição 7",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -452,7 +452,7 @@
     "botoes": [
       "Quero a lição 7",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -510,7 +510,7 @@
         "opcoes": [
           "Quero a lição 8",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -532,7 +532,7 @@
     "botoes": [
       "Quero a lição 8",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -590,7 +590,7 @@
         "opcoes": [
           "Quero começar o Bloco III",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -612,7 +612,7 @@
     "botoes": [
       "Quero começar o Bloco III",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -670,7 +670,7 @@
         "opcoes": [
           "Quero a lição 10",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -692,7 +692,7 @@
     "botoes": [
       "Quero a lição 10",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -750,7 +750,7 @@
         "opcoes": [
           "Eu aceitei",
           "Quero a lição 11",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -772,7 +772,7 @@
     "botoes": [
       "Eu aceitei",
       "Quero a lição 11",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -830,7 +830,7 @@
         "opcoes": [
           "Quero a lição 12",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -852,7 +852,7 @@
     "botoes": [
       "Quero a lição 12",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -910,7 +910,7 @@
         "opcoes": [
           "Quero começar o Bloco IV",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -932,7 +932,7 @@
     "botoes": [
       "Quero começar o Bloco IV",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -992,11 +992,11 @@
         "n": 7,
         "tipo": "fechamento",
         "rotulo": "vídeo e fechamento",
-        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Cuidado com o Corpo\":\nhttps://www.youtube.com/watch?v=vTXkFycYxao\n🎥 Consultório de Família — \"Superando uma doença emocional\":\nhttps://www.youtube.com/watch?v=swPyOIc-DxE\n\nSe você luta com álcool ou outra dependência, não está sozinho(a) nisso também: me escreva e escreva *visita* que a igreja te procura.",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Cuidado com o Corpo\":\nhttps://www.youtube.com/watch?v=vTXkFycYxao\n🎥 Consultório de Família — \"Superando uma doença emocional\":\nhttps://www.youtube.com/watch?v=swPyOIc-DxE\n\nSe você luta com álcool ou outra dependência, não está sozinho(a) nisso também: me escreva a qualquer hora, eu estou aqui.",
         "opcoes": [
           "Quero a lição 14",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -1010,7 +1010,7 @@
     "botoes": [
       "Quero a lição 14",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -1064,11 +1064,10 @@
         "n": 7,
         "tipo": "fechamento",
         "rotulo": "vídeo e fechamento",
-        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Sábado\":\nhttps://www.youtube.com/watch?v=_XTfOtCGsFg\n🎧 Rádio Novo Tempo — \"O que Jesus ensinou sobre o sábado\":\nhttps://www.youtube.com/watch?v=rWAj1u7ZoAs\n\nConvite sem pressão: a igreja Nova Esperança se reúne aos sábados pela manhã. Se um dia quiser conhecer, escreva *visita* e a gente te busca. Se não quiser, continua aqui comigo.",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Sábado\":\nhttps://www.youtube.com/watch?v=_XTfOtCGsFg\n🎧 Rádio Novo Tempo — \"O que Jesus ensinou sobre o sábado\":\nhttps://www.youtube.com/watch?v=rWAj1u7ZoAs\n\nConvite sem pressão: a igreja Nova Esperança se reúne aos sábados pela manhã. Se um dia quiser conhecer, a porta está aberta. E eu continuo aqui com você.",
         "opcoes": [
           "Quero a lição 15",
-          "Quero conhecer a igreja",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -1090,8 +1089,7 @@
     ],
     "botoes": [
       "Quero a lição 15",
-      "Quero conhecer a igreja",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -1145,11 +1143,11 @@
         "n": 7,
         "tipo": "fechamento",
         "rotulo": "vídeo e fechamento",
-        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Dinheiro\":\nhttps://www.youtube.com/watch?v=NozIcqBLWPs\n🎧 Consultório de Família (rádio Novo Tempo) — programa diário sobre casamento, filhos e relacionamentos, com psicólogos e pastores:\nhttps://www.novotempo.com/programa/consultoriodefamiliaradio/\n\nSe a sua casa está em crise, me conta. Se quiser uma visita, é só escrever *visita*.",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Dinheiro\":\nhttps://www.youtube.com/watch?v=NozIcqBLWPs\n🎧 Consultório de Família (rádio Novo Tempo) — programa diário sobre casamento, filhos e relacionamentos, com psicólogos e pastores:\nhttps://www.novotempo.com/programa/consultoriodefamiliaradio/\n\nSe a sua casa está em crise, me conta. Se quiser uma música para este momento, escreva *música*.",
         "opcoes": [
           "Quero a lição 16",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -1172,7 +1170,7 @@
     "botoes": [
       "Quero a lição 16",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -1226,11 +1224,10 @@
         "n": 7,
         "tipo": "fechamento",
         "rotulo": "vídeo e fechamento",
-        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Igreja\":\nhttps://www.youtube.com/watch?v=N-pRH0PHZB4\n\nVocê concluiu o Bloco IV — *Uma vida inteira*. 🌱 Selo \"Vida Inteira\" + 400 pontos. Último bloco: \"O futuro\" — os Dez Mandamentos, a morte, a volta de Jesus e a decisão.\n\nConvite: no próximo sábado tem culto na Nova Esperança. Se quiser ir, escreva *visita* e a igreja combina de te buscar. Sem ter que fazer nada.",
+        "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Igreja\":\nhttps://www.youtube.com/watch?v=N-pRH0PHZB4\n\nVocê concluiu o Bloco IV — *Uma vida inteira*. 🌱 Selo \"Vida Inteira\" + 400 pontos. Último bloco: \"O futuro\" — os Dez Mandamentos, a morte, a volta de Jesus e a decisão.\n\nConvite: no próximo sábado tem culto na Nova Esperança. Se um dia quiser ir, a porta está aberta.",
         "opcoes": [
           "Quero começar o Bloco V",
-          "Quero ir no sábado",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -1251,8 +1248,7 @@
     ],
     "botoes": [
       "Quero começar o Bloco V",
-      "Quero ir no sábado",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -1310,7 +1306,7 @@
         "opcoes": [
           "Quero a lição 18",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -1332,7 +1328,7 @@
     "botoes": [
       "Quero a lição 18",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -1390,7 +1386,7 @@
         "opcoes": [
           "Quero a lição 19",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -1412,7 +1408,7 @@
     "botoes": [
       "Quero a lição 19",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -1470,7 +1466,7 @@
         "opcoes": [
           "Quero a última lição",
           "Quero que orem por mim",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -1493,7 +1489,7 @@
     "botoes": [
       "Quero a última lição",
       "Quero que orem por mim",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 100,
     "cvv": "Se precisar, me escreva a qualquer hora."
@@ -1543,8 +1539,7 @@
         "rotulo": "a decisão (sem pontos; é sua)",
         "texto": "A Bíblia diz: *\"Eis, agora, o tempo sobremodo oportuno, eis, agora, o dia da salvação.\"* (2 Coríntios 6:2) Quando Pedro viu pessoas crendo, perguntou: quem pode impedir que sejam batizadas? (Atos 10:47). Então eu pergunto, sem pressão:",
         "opcoes": [
-          "Quero me preparar para o batismo",
-          "Quero uma visita do pastor",
+          "Quero uma música",
           "Ainda não, mas quero continuar perto"
         ]
       },
@@ -1555,8 +1550,7 @@
         "texto": "🎥 Bíblia Fácil (Novo Tempo) — Ensinos de Jesus, tema \"Batismo\":\nhttps://www.youtube.com/watch?v=I2Jhrvy_w5E\n🎥 Escola Bíblica NT — \"A Nova Terra\":\nhttps://www.youtube.com/watch?v=u1ZM0Ixo6Kg\n\n🎓 *Você concluiu o curso A Chave da Virada.* Selo \"O Futuro\" + 400 pontos. Seu certificado, com seu nome e aproveitamento, chega em instantes aqui no WhatsApp.\n\nOração final: \"Deus, eu comecei sem esperança. O Senhor me chamou pelo nome, correu na minha direção, pagou meu preço e prometeu voltar. Eu aceito. Faz novas todas as coisas em mim.\"",
         "opcoes": [
           "Quero meu certificado",
-          "Quero me preparar para o batismo",
-          "Quero uma visita"
+          "Quero uma música"
         ]
       }
     ],
@@ -1569,8 +1563,7 @@
     ],
     "botoes": [
       "Quero meu certificado",
-      "Quero me preparar para o batismo",
-      "Quero uma visita"
+      "Quero uma música"
     ],
     "pontos": 0,
     "cvv": "Se precisar, me escreva a qualquer hora."
